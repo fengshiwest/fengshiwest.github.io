@@ -1,11 +1,11 @@
 # Basic
-title: JoannWu's Blog
-subtitle: The road to Computer Science
-#welcome_message: <a href="https://github.com/JoanWu5/JoanWu5.github.io" target="_blank">My blog</a>
-description: JoannWu is a student from Wuhan University, majoring in Computer Science.
-creator: <a href="https://github.com/JoanWu5/">@joannwu</a>
+title: Fengshiwest's GitHub Homepage
+subtitle: 山水一程 三生有幸
+#welcome_message: <a href="https://github.com/fengshiwest/fengshiwest.github.io" target="_blank">My blog</a>
+description: fengshiwest is a student from Wuhan University, majoring in Software Engineering.
+creator: <a href="https://github.com/fengshiwest/">@fengshiwest</a>
 
-url: "https://github.com/JoanWu5/JoanWu5.github.io"
+url: "https://github.com/fengshiwest/fengshiwest.github.io"
 comments: true
 permalink: /:year/:month/:title/
 
@@ -22,7 +22,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'https://github.com/JoanWu5/'}
+    - {title: Projects, description: My Projects, url: 'https://github.com/fengshiwest/'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
@@ -32,14 +32,14 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: JoannWu
+    disqus: fengshiwest
     # duoshuo: 
     
 # Social
 social:
     #weibo: JoanWood
-    github: JoanWu5
-    mail: joanndmw@outlook.com
+    github: fengshiwest
+    mail: fengshiwest@gmail.com
 
 # Google Analytics
 ga:
