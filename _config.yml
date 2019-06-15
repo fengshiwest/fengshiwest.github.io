@@ -1,1 +1,47 @@
-theme: jekyll-theme-minimal
+# Basic
+title: JoannWu's Blog
+subtitle: The road to Computer Science
+#welcome_message: <a href="https://github.com/JoanWu5/JoanWu5.github.io" target="_blank">My blog</a>
+description: JoannWu is a student from Wuhan University, majoring in Computer Science.
+creator: <a href="https://github.com/JoanWu5/">@joannwu</a>
+
+url: "https://github.com/JoanWu5/JoanWu5.github.io"
+comments: true
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: blue
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Projects, description: My Projects, url: 'https://github.com/JoanWu5/'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+plugins: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: JoannWu
+    # duoshuo: 
+    
+# Social
+social:
+    #weibo: JoanWood
+    github: JoanWu5
+    mail: joanndmw@outlook.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
