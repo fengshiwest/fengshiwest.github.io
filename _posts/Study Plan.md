@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Study Plan
-date: 2020-02-26 15:32:24.000000000 +09:00
+date: 2020-02-26
 ---
 
-### **CLASS SCHEDULE**
+### CLASS SCHEDULE**
 
 #### Monday 
 
@@ -61,7 +61,7 @@ From my perspective, this film is
 3. Cloud Computing Unit 1 & 2 ✔
 4. Movie《Roman Holiday》✔ 
 
-<img src="img\1581514509840.png" style="zoom:67%;" />
+<img src="C:\Users\west\AppData\Roaming\Typora\typora-user-images\1581514529644.png" alt="1581514529644" style="zoom: 67%;" />
 
 **How about Roman Holiday？**
 
@@ -91,7 +91,7 @@ Generally, I feel sleepy when the film come to an end, but what is no doubt that
 5. MCM Problems ✘
 6. Movie 《Schindler's List》✔
 
-<img src="img\1581944398689.png" alt="1581944398689" style="zoom: 50%;" />
+<img src="C:\Users\west\AppData\Roaming\Typora\typora-user-images\1581944398689.png" alt="1581944398689" style="zoom: 50%;" />
 
 ****
 
@@ -99,7 +99,7 @@ Generally, I feel sleepy when the film come to an end, but what is no doubt that
 
 1. Movie 《Chungking Express》
 
-   <img src="img\1581944655220.png" alt="1581944655220" style="zoom: 50%;" />
+   <img src="C:\Users\west\AppData\Roaming\Typora\typora-user-images\1581944655220.png" alt="1581944655220" style="zoom: 50%;" />
 
 ****
 
@@ -119,7 +119,7 @@ MCM
 
 1. Movie 《Parasite》
 
-<img src="img\1581945295391.png" alt="1581945295391" style="zoom:50%;" />
+<img src="C:\Users\west\AppData\Roaming\Typora\typora-user-images\1581945295391.png" alt="1581945295391" style="zoom:50%;" />
 
 ****
 
@@ -181,7 +181,7 @@ The  day to start school class
 
 For last three days, I read the book 《我心归处是敦煌》, which mainly tell about the outstanding person, Fan Jinshi. 
 
-<img src="img\1582444886408.png" alt="1582444886408" style="zoom:33%;" />
+<img src="C:\Users\west\AppData\Roaming\Typora\typora-user-images\1582444886408.png" alt="1582444886408" style="zoom:33%;" />
 
 ****
 
