@@ -200,11 +200,38 @@ For last three days, I read the book 《我心归处是敦煌》, which mainly t
 2. China From Above
 3. Book 《明朝那些事儿》✔
 
+****
+
 #### 2.25 *Tuesday*
+
+1. Web Project ✔
+1. Computational Geometry ✔
+2.IELTS Unit6 ✘
+3.Oxford Learning & TED ✔
+4.Movie《功夫》✔
+
+****
 
 #### 2.26 *Wednesday*
 
+1. Software Engineering ✔
+2. Computer Graphics ✔
+3. Resume Writing ✔
+4. Book 《明朝那些事儿》✔
+
+****
+
 #### 2.27 *Thursday*
+
+1. Web Project PPT Group Discussion
+2. Chinese Yue
+3. IELTS Unit6
+4. Oxford Learning & TED
+4. Bulid ALi Cloud
+5. A Problem of Leetcode & CCF
+6. Computational Geometry
+
+****
 
 #### 2.28 *Friday*
 
