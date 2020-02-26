@@ -206,9 +206,9 @@ For last three days, I read the book 《我心归处是敦煌》, which mainly t
 
 1. Web Project ✔
 2. Computational Geometry ✔
-3.IELTS Unit6 ✘
-4.Oxford Learning & TED ✔
-5.Movie《功夫》✔
+3. IELTS Unit6 ✘
+4. Oxford Learning & TED ✔
+5. Movie《功夫》✔
 
 ****
 
