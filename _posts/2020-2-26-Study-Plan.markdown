@@ -223,17 +223,25 @@ For last three days, I read the book 《我心归处是敦煌》, which mainly t
 
 #### 2.27 *Thursday*
 
-1. Web Project PPT Group Discussion
-2. Chinese Yue
-3. IELTS Unit6
-4. Oxford Learning & TED
-4. Bulid ALi Cloud
-5. A Problem of Leetcode & CCF
-6. Computational Geometry
+1. Web Project PPT Group Discussion ✔
+2. Chinese Yue ✔
+3. IELTS Unit6 ✔
+4. Oxford Learning & TED ✘
+4. Build A Li Cloud ✔
+5. A Problem of LeetCode & CCF ✘
+6. Computational Geometry ✘
 
 ****
 
 #### 2.28 *Friday*
+
+1. Computer Network
+2. IELTS Unit 7
+3. Our Planet episode 2
+4. Computational Geometry
+5. Write a blog for your building A Li Cloud ECS
+
+****
 
 #### 2.29 *Saturday*
 
