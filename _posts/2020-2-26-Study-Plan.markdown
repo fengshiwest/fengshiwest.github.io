@@ -235,15 +235,25 @@ For last three days, I read the book 《我心归处是敦煌》, which mainly t
 
 #### 2.28 *Friday*
 
-1. Computer Network
-2. IELTS Unit 7
-3. Our Planet episode 2
+1. Computer Network ✔
+2. IELTS Unit 7 ✔
+3. Our Planet episode 2 ✔
 4. Computational Geometry
-5. Write a blog for your building A Li Cloud ECS
+5. Write a blog for your building A Li Cloud ECS ✔
+6. Movie 《少林足球》
 
 ****
 
 #### 2.29 *Saturday*
+
+1. Computational Geometry
+2. MCM
+3. CS224 NLP
+4. A Problem of LeetCode & CCF
+5. IELTS Unit 8
+6. Oxford Learning & TED
+
+****
 
 #### 3.1 *Sunday*
 
