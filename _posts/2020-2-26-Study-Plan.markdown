@@ -161,6 +161,8 @@ The  day to start school class
 6. Book 《我心归处是敦煌》✔
 7. Movie 《误杀》✔
 
+<img src="img\1583077236240.png" alt="1583077236240" style="zoom: 50%;" />
+
 ****
 
 #### 2.21 *Friday*
@@ -210,6 +212,8 @@ For last three days, I read the book 《我心归处是敦煌》, which mainly t
 4. Oxford Learning & TED ✔
 5. Movie《功夫》✔
 
+<img src="img\Kungfu.png" alt="1583076345934" style="zoom: 50%;" />
+
 ****
 
 #### 2.26 *Wednesday*
@@ -238,26 +242,44 @@ For last three days, I read the book 《我心归处是敦煌》, which mainly t
 1. Computer Network ✔
 2. IELTS Unit 7 ✔
 3. Our Planet episode 2 ✔
-4. Computational Geometry
+4. Computational Geometry ✘
 5. Write a blog for your building A Li Cloud ECS ✔
-6. Movie 《少林足球》
+6. Movie 《少林足球》✔
+
+<img src="img\ShaoLin Soccer.png" alt="1583076070353" style="zoom:50%;" />
 
 ****
 
 #### 2.29 *Saturday*
 
-1. Computational Geometry
-2. MCM
-3. CS224 NLP
-4. A Problem of LeetCode & CCF
-5. IELTS Unit 8
-6. Oxford Learning & TED
+1. Computational Geometry ✘
+2. MCM ✘
+3. CS224 NLP ✘
+4. A Problem of LeetCode & CCF ✘
+5. IELTS Unit 8 ✔
+6. Oxford Learning & TED ✔
 
 ****
 
 #### 3.1 *Sunday*
 
+1. Our Planet Episode 3 ✔
+2. Change Resume ✔
+3. Computer Network Note ✔
+4. LeetCode Weekly Contest ✔
+
+****
+
 #### 3.2 *Monday*
+
+1. Software Testing
+2. Computer Network Homework
+3. LeetCode & CCF
+4. IELTS Unit 8
+5. Oxford Learning & TED
+6. MCM
+
+****
 
 #### 3.3 *Tuesday*
 
