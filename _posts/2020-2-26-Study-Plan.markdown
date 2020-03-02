@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Study Plan
-date: 2020-02-26 15:32:24.000000000 +09:00
+date: 2020-02-26 10:07:21.000000000 +09:00
 ---
 
 ### **CLASS SCHEDULE**
@@ -16,6 +16,7 @@ date: 2020-02-26 15:32:24.000000000 +09:00
 
 - **Web Project 3-4 From 9:50 To 11:25**
 - **Xi Jinping's Spirit 6-8 From 14:05 To 16:30**
+- **Photograph 11-13 From 18:30 To 20:55**
 
 #### Wednesday
 
@@ -272,16 +273,24 @@ For last three days, I read the book 《我心归处是敦煌》, which mainly t
 
 #### 3.2 *Monday*
 
-1. Software Testing
-2. Computer Network Homework
-3. LeetCode & CCF
-4. IELTS Unit 8
-5. Oxford Learning & TED
-6. MCM
+1. Software Testing ✔
+2. Computer Network Homework ✔
+3. LeetCode & CCF ✔
+4. IELTS Unit 8 ✘
+5. Oxford Learning & TED ✔
+6. MCM ✘
 
 ****
 
 #### 3.3 *Tuesday*
+
+1. Web Project
+2. Xi‘s Spirit
+3. Photograph
+4. LeetCode
+5. IELTS Unit 8
+
+****
 
 #### 3.4 *Wednesday*
 
