@@ -294,16 +294,24 @@ For last three days, I read the book 《我心归处是敦煌》, which mainly t
 
 #### 3.4 *Wednesday*
 
-1. Software Engineering
-2. Computer Graphics
-3. Computational Geometry
-4. LeetCode
-5. Online Bookstore
-6. Our Planet episode 4
+1. Software Engineering ✔
+2. Computer Graphics ✔
+3. Computational Geometry ✘
+4. LeetCode ✔
+5. Online Bookstore ✘
+6. Our Planet episode 4 ✘
 
 ****
 
 #### 3.5 *Thursday* 
+
+1. Chinese Yue ✔
+2. LeetCode ✔
+3. MCM ✔
+4. Computer Network Experiment ✔
+5. Software Testing
+
+****
 
 ###                          **WHAT TO STUDY**
 
