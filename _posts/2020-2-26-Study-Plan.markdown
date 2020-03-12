@@ -313,6 +313,70 @@ For last three days, I read the book 《我心归处是敦煌》, which mainly t
 
 ****
 
+#### **3.6 *Friday***
+
+1. Computer Network Practice
+2. MCM
+
+****
+
+#### 3.7 *Saturday*
+
+MCM
+
+****
+
+#### 3.8 *Sunday*
+
+MCM
+
+****
+
+#### 3.9 *Monday*
+
+MCM
+
+****
+
+#### 3.10 *Tuesday*
+
+1. Web Project ✔
+2. LeetCode ✔
+3. Xin's Spirit ✔
+4. Movie 《Night at the Museum》✔
+
+![Night at the Museum](C:\Users\west\Desktop\fengshiwest.github.io\_posts\img\1583924454443.png)
+
+****
+
+#### 3.11 *Wednesday*
+
+1. Software Engineering ✔
+2. Computer Graphics ✔
+3. LeetCode ✔
+4. IELTS Unit 9 ✔
+
+****
+
+#### 3.12 *Thursday*
+
+1. IELTS Unit 10 ✔
+2. Our Planet episode 4 ✘
+3. Computer Graphics Lesson 1 & 2 ✔
+4. LeetCode
+
+****
+
+
+
+
+
+
+
+
+
+
+
 ###                          **WHAT TO STUDY**
 
 1.  [沟通心理学慕课](https://next.xuetangx.com/learn/HIT10011000095/HIT10011000095/1073569/video/584577)
