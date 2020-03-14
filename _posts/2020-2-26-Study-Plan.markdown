@@ -367,11 +367,24 @@ MCM
 
 ****
 
+#### 3.13 Friday
 
+1. IELTS Unit 1 ✔
+2. Our Planet episode 4 ✔
+3. Computer Network ✔
+4. LeetCode ✔
+5. Movie 《New Dragon Inn》
 
+<img src="img\NewDragonInn.png" alt="1584194321937" style="zoom:67%;" />
 
+****
 
+#### 3.14 Saturday
 
+1. Computer Network Homework ✔
+2. IELTS Unit 2 ✔
+3. Our Planet episode 5 ✔
+4. LeetCode ✔ 
 
 
 
