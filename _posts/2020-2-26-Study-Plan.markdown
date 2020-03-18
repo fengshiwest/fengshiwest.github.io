@@ -385,8 +385,49 @@ MCM
 2. IELTS Unit 2 ✔
 3. Our Planet episode 5 ✔
 4. LeetCode ✔ 
+5. Movie《Flying Swords of Dragon Gate》✔
 
+<img src="C:\Users\west\Desktop\fengshiwest.github.io\_posts\img\1584286976627.png" alt="1584286976627" style="zoom:50%;" />
 
+****
+
+#### 3.15 Sunday
+
+1. LeetCode ✔
+2. Weekly Contest ✔
+3. Our Planet Episode 6 ✔
+4. 《Algorithms》Unit 1 ✔
+
+****
+
+#### 3.16 *Monday*
+
+1. Software Testing ✔
+3. 《Algorithms》 Unit 2 ✘
+4. Computational Geometry ✔
+5. Our Planet Episode 7 ✔
+6. IELTS Unit 2 ✔
+6. LeetCode ✔
+
+****
+
+#### 3.17 *Tuesday*
+
+1. Web ✔
+2. Photograph ✔
+3. LeetCode ✔
+4. Bookstore Online ✔
+
+****
+
+#### 3.18 *Wednesday*
+
+1. Software Engineering
+2. Computer Graphics
+3. LeetCode
+4. IELTS Unit 3 & 4
+5. Our Planet Episode 8
+6. Bookstore Online
 
 
 
