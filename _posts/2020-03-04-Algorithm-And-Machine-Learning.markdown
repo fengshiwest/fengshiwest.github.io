@@ -153,3 +153,17 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
 }
 ```
 
+
+
+#### 排序算法
+
+选择排序
+
+1. 从未排序数组中选择最小者依次放入已排序序列
+
+2. 需要N^2/2次比较和N次交换
+
+3. 交换次数是最少的
+
+插入排序
+

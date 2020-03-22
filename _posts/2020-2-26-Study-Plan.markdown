@@ -422,12 +422,58 @@ MCM
 
 #### 3.18 *Wednesday*
 
-1. Software Engineering
-2. Computer Graphics
-3. LeetCode
-4. IELTS Unit 3 & 4
-5. Our Planet Episode 8
-6. Bookstore Online
+1. Software Engineering ✔
+
+2. Computer Graphics ✔
+
+3. LeetCode ✔
+
+4. IELTS Unit 3 & 4 ✔
+
+5. Our Planet Episode 8 ✔
+
+6. Bookstore Online ✔
+
+****
+
+#### 3.19 *Thursday*
+
+1. Chinese Yue ✔
+2. Software Engineering ✔
+
+****
+
+#### 3.20 *Friday*
+
+1. Computer Network ✔
+2. LeetCode ✔
+
+****
+
+#### 3.21 *Saturday*
+
+1. Software Engineering ✔
+2. LeetCode ✘
+
+****
+
+#### 3.22 *Sunday*
+
+1. Computer Network Homework ✔
+2. Software Test Homework ✔
+3. IELTS Unit 8 ✔
+4. CET-6 Vocabulary ✔
+5. Our Planet Episode 9 ✔
+6. LeetCode ✔
+
+****
+
+#### 3.23 *Monday*
+
+1. 9 Photographs
+2. Computational Geometry
+3. Algorithms Unit 2
+4. IELTS Unit 9
 
 
 
