@@ -470,10 +470,57 @@ MCM
 
 #### 3.23 *Monday*
 
-1. 9 Photographs
-2. Computational Geometry
-3. Algorithms Unit 2
-4. IELTS Unit 9
+1. 9 Photographs ✔
+2. Software Test ✔
+3. Computational Geometry
+4. Algorithms Unit 2
+5. IELTS Unit 9
+
+****
+
+#### 3.24 *Tuesday*
+
+1. HTML CSS
+
+****
+
+#### 3.25 *Wednesday*
+
+1. JavaScript
+
+****
+
+#### 3.26 *Thursday*
+
+1. Vue NodeJS AJAX
+
+****
+
+#### 3.27 *Friday*
+
+1. Data Structure
+
+****
+
+#### 3.28 *Saturday*
+
+1. Design Pattern
+
+****
+
+#### 3.29 *Sunday*
+
+1. Sort Algorithm
+2. Baidu Interview Test
+
+****
+
+#### 3.30 *Monday*
+
+1. Software Testing
+2. Computer Network
+3. Online Bookstore
+4. Mini Program
 
 
 
