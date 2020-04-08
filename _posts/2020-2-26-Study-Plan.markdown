@@ -36,6 +36,7 @@ date: 2020-02-26 10:07:21.000000000 +09:00
 > ##### 你背单词时，阿拉斯加的鳕鱼正跃出水面；你算数学时，大平洋彼岸的海鸥振翅掠过城市上空；你晚自习时，极圈上的夜空散漫了五彩斑斓；但是少年你别着急，在你为自己未来踏踏实实地努力时，那些你感觉从来不会看到的景色，那些你觉得终生不会再遇到的人，正一步步向你走来。
 >
 
+
 #### 2.9 *Sunday*
 
 1. Communication Psychology Unit 3 & 4  ✔
@@ -522,6 +523,76 @@ MCM
 3. Online Bookstore
 4. Mini Program
 
+****
+
+#### 3.31 *Tuesday*
+
+
+
+****
+
+#### 4.1 *Wednesday*
+
+
+
+****
+
+#### 4.2 *Thursday*
+
+
+
+****
+
+#### 4.3 *Friday*
+
+
+
+****
+
+#### 4.4 *Saturday*
+
+
+
+****
+
+#### 4.5 *Sunday*
+
+
+
+****
+
+#### 4.6 *Monday*
+
+
+
+****
+
+#### 4.7 *Tuesday*
+
+1. 
+
+
+
+****
+
+#### 4.8 *Wednesday*
+
+1. Software Engineer
+
+   The last class about SE, 
+
+2. Computer Graphics
+
+3. Bookstore Online
+
+****
+
+#### 4.9 *Thursday*
+
+1. Computer Network Review
+2. Front End & Algorithm
+3. Mei Tuan Test
+
 
 
 ###                          **WHAT TO STUDY**
@@ -538,36 +609,4 @@ MCM
 10.  [MongoDB](https://edu.aliyun.com/course/1996/learn#lesson/)
 11.  [Python爬虫](https://edu.aliyun.com/course/1994/learn#lesson)
 12.  
-
-
-
-### **WHAT TO WATCH**
-
-#### Classic movies
-
-1. 这个杀手不太冷
-2. 阿甘正传
-4. 楚门的世界
-5. 教父
-6. 乱世佳人
-7. 无间道
-8. 搏击俱乐部
-9. 罗马假日 ✔
-10. 飞越疯人院
-11. 闻香识女人
-12. 海豚湾
-13. 辩护人
-14. 指环王
-15. 美国往事
-16. 天使爱美丽
-17. 七宗罪
-18. 心灵捕手
-19. 阳光灿烂的日子
-20. 重庆森林 ✔
-21. 布达佩斯大饭店
-22. 猫鼠游戏
-23. 穿条纹睡衣的男孩 ✔
-24. 
-
-### **WHAT TO STUDY**
 
