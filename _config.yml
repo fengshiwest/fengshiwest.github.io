@@ -151,9 +151,9 @@ pageview:
 
   ## Leancloud
   leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
+    app_id    : H8OEdj9njBUNWW9A8IB9Fb8W-gzGzoHsz # LeanCloud App id
+    app_key   : rwQ2gYYMOeG7HebgVA4Ad1xv # LeanCloud App key
+    app_class : GithubPage # LeanCloud App class
 
 
 ## => Search
@@ -169,11 +169,11 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: google # false (default), "google", "custom"
 
   ## Google Analytics
   google:
-    tracking_id : # Google Analytics id for the site
+    tracking_id : UA-188055897-1 # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
