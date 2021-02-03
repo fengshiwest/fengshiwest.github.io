@@ -1,14 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-01-25T20:58:40+08:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
-</subtitle><author><name>Wan Yu</name></author><entry><title type="html">Welcome</title><link href="/2018/07/01/welcome.html" rel="alternate" type="text/html" title="Welcome" /><published>2018-07-01T00:00:00+08:00</published><updated>2018-07-01T00:00:00+08:00</updated><id>/2018/07/01/welcome</id><content type="html" xml:base="/2018/07/01/welcome.html">&lt;p&gt;If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-02-03T20:42:41+08:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
+</subtitle><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><entry><title type="html">Get Start</title><link href="/2021/02/03/get-start.html" rel="alternate" type="text/html" title="Get Start" /><published>2021-02-03T00:00:00+08:00</published><updated>2021-02-03T00:00:00+08:00</updated><id>/2021/02/03/get-start</id><content type="html" xml:base="/2021/02/03/get-start.html">&lt;blockquote&gt;
+  &lt;p&gt;此篇博客作为 Fengshiwest’s Homepage 的第一篇正式文章，用于记录搭建该网站的步骤。&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;You may want to &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration&quot;&gt;config the site&lt;/a&gt; or &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts&quot;&gt;writing a post&lt;/a&gt; next. Please feel free to &lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme/issues&quot;&gt;create an issue&lt;/a&gt; or &lt;a href=&quot;mailto:kitian616@outlook.com&quot;&gt;send me email&lt;/a&gt; if you have any questions.&lt;/p&gt;
+&lt;h3 id=&quot;模版&quot;&gt;模版&lt;/h3&gt;
 
-&lt;!--more--&gt;
+&lt;p&gt;博客模版基于 &lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme&quot;&gt;jekyll-TeXt-theme&lt;/a&gt;，在该模版的基础上做一些改动，模版 &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/test/&quot;&gt;Demo 演示地址&lt;/a&gt;。&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;h4 id=&quot;本地环境及预览&quot;&gt;本地环境及预览&lt;/h4&gt;
 
-&lt;p&gt;If you like TeXt, don’t forget to give me a star. :star2:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;安装 Ruby 依赖包: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install --path vendor/bundle&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;本地预览: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme/&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?label=Stars&amp;amp;style=social&quot; alt=&quot;Star This Project&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Wan Yu</name></author><category term="TeXt" /><summary type="html">If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost: You may want to config the site or writing a post next. Please feel free to create an issue or send me email if you have any questions.</summary></entry><entry><title type="html">Post with Header Image</title><link href="/2018/06/01/header-image.html" rel="alternate" type="text/html" title="Post with Header Image" /><published>2018-06-01T00:00:00+08:00</published><updated>2018-06-01T00:00:00+08:00</updated><id>/2018/06/01/header-image</id><content type="html" xml:base="/2018/06/01/header-image.html">&lt;p&gt;A Post with Header Image, See &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/samples.html#page-layout&quot;&gt;Page layout&lt;/a&gt; for more examples.&lt;/p&gt;
+&lt;h3 id=&quot;布局&quot;&gt;布局&lt;/h3&gt;
 
-&lt;!--more--&gt;</content><author><name>Wan Yu</name></author><category term="TeXt" /><summary type="html">A Post with Header Image, See Page layout for more examples.</summary></entry></feed>
+&lt;p&gt;Homepage 主要分为以下模块:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Blog: 记录技术方面的文章、实践等。&lt;/li&gt;
+  &lt;li&gt;Book: 记录想读、正在读、已读过的书籍，以及读后感和摘录。&lt;/li&gt;
+  &lt;li&gt;Movie: 同上，想看的、看过的影视。&lt;/li&gt;
+  &lt;li&gt;Photo: 摄影和喜欢的照片。&lt;/li&gt;
+  &lt;li&gt;Life: 生活的小感悟和记录。&lt;/li&gt;
+  &lt;li&gt;Archive: 博客的归档。&lt;/li&gt;
+  &lt;li&gt;About: 自我介绍和个人简历。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;todo&quot;&gt;TODO&lt;/h3&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;支持中英文切换，且英文作为主要语言。&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Book、Movie 板块改造，支持格式化。&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;样式更加自定义一些。&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Homepage" /><summary type="html">此篇博客作为 Fengshiwest’s Homepage 的第一篇正式文章，用于记录搭建该网站的步骤。 模版 博客模版基于 jekyll-TeXt-theme，在该模版的基础上做一些改动，模版 Demo 演示地址。 本地环境及预览 安装 Ruby 依赖包: bundle install --path vendor/bundle 本地预览: bundle exec jekyll serve 布局 Homepage 主要分为以下模块: Blog: 记录技术方面的文章、实践等。 Book: 记录想读、正在读、已读过的书籍，以及读后感和摘录。 Movie: 同上，想看的、看过的影视。 Photo: 摄影和喜欢的照片。 Life: 生活的小感悟和记录。 Archive: 博客的归档。 About: 自我介绍和个人简历。 TODO 支持中英文切换，且英文作为主要语言。 Book、Movie 板块改造，支持格式化。 样式更加自定义一些。</summary></entry><entry><title type="html">Post with Header Image</title><link href="/2018/06/01/header-image.html" rel="alternate" type="text/html" title="Post with Header Image" /><published>2018-06-01T00:00:00+08:00</published><updated>2018-06-01T00:00:00+08:00</updated><id>/2018/06/01/header-image</id><content type="html" xml:base="/2018/06/01/header-image.html">&lt;p&gt;A Post with Header Image, See &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/samples.html#page-layout&quot;&gt;Page layout&lt;/a&gt; for more examples.&lt;/p&gt;
+
+&lt;!--more--&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="TeXt" /><summary type="html">A Post with Header Image, See Page layout for more examples.</summary></entry></feed>

@@ -1,0 +1,37 @@
+I"�<blockquote>
+  <p>此篇博客作为 Fengshiwest’s Homepage 的第一篇正式文章，用于记录搭建该网站的步骤。</p>
+</blockquote>
+
+<h3 id="模版">模版</h3>
+
+<p>博客模版基于 <a href="https://github.com/kitian616/jekyll-TeXt-theme">jekyll-TeXt-theme</a>，在该模版的基础上做一些改动，模版 <a href="https://tianqi.name/jekyll-TeXt-theme/test/">Demo 演示地址</a>。</p>
+
+<h4 id="本地环境及预览">本地环境及预览</h4>
+
+<ol>
+  <li>安装 Ruby 依赖包: <code class="language-plaintext highlighter-rouge">bundle install --path vendor/bundle</code></li>
+  <li>本地预览: <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code></li>
+</ol>
+
+<h3 id="布局">布局</h3>
+
+<p>Homepage 主要分为以下模块:</p>
+
+<ul>
+  <li>Blog: 记录技术方面的文章、实践等。</li>
+  <li>Book: 记录想读、正在读、已读过的书籍，以及读后感和摘录。</li>
+  <li>Movie: 同上，想看的、看过的影视。</li>
+  <li>Photo: 摄影和喜欢的照片。</li>
+  <li>Life: 生活的小感悟和记录。</li>
+  <li>Archive: 博客的归档。</li>
+  <li>About: 自我介绍和个人简历。</li>
+</ul>
+
+<h3 id="todo">TODO</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />支持中英文切换，且英文作为主要语言。</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Book、Movie 板块改造，支持格式化。</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />样式更加自定义一些。</li>
+</ul>
+:ET
