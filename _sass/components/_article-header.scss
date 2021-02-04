@@ -45,6 +45,11 @@
   }
 }
 
-.article__header--cover {
-  width: 100%;
+.article__header--cover-container {
+  max-width: 950px;
+  margin: 0 auto;
+
+  .article__header--cover {
+    width: 100%;
+  }
 }

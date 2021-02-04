@@ -1676,7 +1676,9 @@ a > .item__header.disabled, a > .item__header:disabled, a.item__header.disabled,
 
 .article__header--overlay .article__header { margin-top: 0; }
 
-.article__header--cover { width: 100%; }
+.article__header--cover-container { max-width: 950px; margin: 0 auto; }
+
+.article__header--cover-container .article__header--cover { width: 100%; }
 
 .article__content { line-height: 1.8; word-wrap: break-word; }
 
