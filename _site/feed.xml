@@ -1,5 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-02-04T21:04:33+08:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
-</subtitle><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><entry><title type="html">Get Start</title><link href="/2021/02/03/get-start.html" rel="alternate" type="text/html" title="Get Start" /><published>2021-02-03T00:00:00+08:00</published><updated>2021-02-03T00:00:00+08:00</updated><id>/2021/02/03/get-start</id><content type="html" xml:base="/2021/02/03/get-start.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-02-10T15:56:50+08:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
+</subtitle><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><entry><title type="html">Useful Tools &amp;amp; Tips</title><link href="/2021/02/06/tool-tip.html" rel="alternate" type="text/html" title="Useful Tools &amp;amp; Tips" /><published>2021-02-06T00:00:00+08:00</published><updated>2021-02-06T00:00:00+08:00</updated><id>/2021/02/06/tool-tip</id><content type="html" xml:base="/2021/02/06/tool-tip.html">&lt;h3 id=&quot;websites&quot;&gt;Websites&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-buy-me-a-coffee&quot;&gt;1. Buy Me a Coffee&lt;/h4&gt;
+
+&lt;p&gt;Fund your creative work. &lt;a href=&quot;https://www.buymeacoffee.com/&quot;&gt;Homepage&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2-emoji&quot;&gt;2. Emoji&lt;/h4&gt;
+
+&lt;p&gt;Search for Emoji. &lt;a href=&quot;https://emojipedia.org/&quot;&gt;Homepage&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tips&quot;&gt;Tips&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-download-single-file-floder-from-github&quot;&gt;1. Download Single File Floder from Github&lt;/h4&gt;
+
+&lt;p&gt;Download by SVN, replace &lt;strong&gt;tree/master&lt;/strong&gt; with &lt;strong&gt;trunk&lt;/strong&gt; in the file path.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How to Install SVN？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;mac → &lt;a href=&quot;https://www.jianshu.com/p/b3fd26cbef46&quot;&gt;https://www.jianshu.com/p/b3fd26cbef46&lt;/a&gt;&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Tool" /><summary type="html">Websites 1. Buy Me a Coffee Fund your creative work. Homepage 2. Emoji Search for Emoji. Homepage Tips 1. Download Single File Floder from Github Download by SVN, replace tree/master with trunk in the file path. How to Install SVN？ mac → https://www.jianshu.com/p/b3fd26cbef46</summary></entry><entry><title type="html">Template for Taking Notes on Research Articles</title><link href="/2021/02/05/note-template.html" rel="alternate" type="text/html" title="Template for Taking Notes on Research Articles" /><published>2021-02-05T00:00:00+08:00</published><updated>2021-02-05T00:00:00+08:00</updated><id>/2021/02/05/note-template</id><content type="html" xml:base="/2021/02/05/note-template.html">&lt;blockquote&gt;
+  &lt;p&gt;研究论文笔记模版，来自 Rice University&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Whenever you read an article, pertinent book chapter, or research on the web, use the following format (or something similar) to make an electronic record of your notes for later easy access. Put quotation marks around any exact wording you write down so that you can avoid accidental plagiarism when you later cite the article.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Complete citation/完整引文信息&lt;/strong&gt;: Author(s), Date of publication, Title (book or article), Journal, Volume #, Issue #, pages:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If web access&lt;/strong&gt;: url; date accessed&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key words/关键词&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;General subject/一般主题&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specific subject/特定主题&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hypothesis/假设&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Methodology/方法&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Result(s)/结果&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary of key points/要点总结&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Context/背景&lt;/strong&gt; (how this article relates to other work in the field; how it ties in with key issues and findings by others, including yourself):&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Significance/意义&lt;/strong&gt; (to the field; in relation to your own work):&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Figures and Tables/重要图表&lt;/strong&gt; (brief description; page number):&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cited References to follow up on/引用的可供你跟进的参考文献&lt;/strong&gt; (cite those obviously related to your topic and any papers frequently cited by others because those works may well prove to be essential as you develop your own work):&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Other Comments/其他评论&lt;/strong&gt;:&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Research" /><summary type="html">研究论文笔记模版，来自 Rice University Whenever you read an article, pertinent book chapter, or research on the web, use the following format (or something similar) to make an electronic record of your notes for later easy access. Put quotation marks around any exact wording you write down so that you can avoid accidental plagiarism when you later cite the article. Complete citation/完整引文信息: Author(s), Date of publication, Title (book or article), Journal, Volume #, Issue #, pages: If web access: url; date accessed Key words/关键词: General subject/一般主题: Specific subject/特定主题: Hypothesis/假设: Methodology/方法: Result(s)/结果: Summary of key points/要点总结: Context/背景 (how this article relates to other work in the field; how it ties in with key issues and findings by others, including yourself): Significance/意义 (to the field; in relation to your own work): Important Figures and Tables/重要图表 (brief description; page number): Cited References to follow up on/引用的可供你跟进的参考文献 (cite those obviously related to your topic and any papers frequently cited by others because those works may well prove to be essential as you develop your own work): Other Comments/其他评论:</summary></entry><entry><title type="html">Get Start</title><link href="/2021/02/03/get-start.html" rel="alternate" type="text/html" title="Get Start" /><published>2021-02-03T00:00:00+08:00</published><updated>2021-02-03T00:00:00+08:00</updated><id>/2021/02/03/get-start</id><content type="html" xml:base="/2021/02/03/get-start.html">&lt;blockquote&gt;
   &lt;p&gt;此篇博客作为 Fengshiwest’s Homepage 的第一篇正式文章，用于记录搭建该网站的步骤。&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -22,8 +72,6 @@
   &lt;li&gt;Blog: 记录技术方面的文章、实践等。&lt;/li&gt;
   &lt;li&gt;Book: 记录想读、正在读、已读过的书籍，以及读后感和摘录。&lt;/li&gt;
   &lt;li&gt;Movie: 同上，想看的、看过的影视。&lt;/li&gt;
-  &lt;li&gt;Photo: 摄影和喜欢的照片。&lt;/li&gt;
-  &lt;li&gt;Life: 生活的小感悟和记录。&lt;/li&gt;
   &lt;li&gt;Archive: 博客的归档。&lt;/li&gt;
   &lt;li&gt;About: 自我介绍和个人简历。&lt;/li&gt;
 &lt;/ul&gt;
@@ -31,9 +79,7 @@
 &lt;h3 id=&quot;todo&quot;&gt;TODO&lt;/h3&gt;
 
 &lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;支持中英文切换，且英文作为主要语言。&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;支持中英文切换，且英文作为主要语言。&lt;/li&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Book、Movie 板块改造，支持格式化。&lt;/li&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;样式更加自定义一些。&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Homepage" /><summary type="html">此篇博客作为 Fengshiwest’s Homepage 的第一篇正式文章，用于记录搭建该网站的步骤。 模版 博客模版基于 jekyll-TeXt-theme，在该模版的基础上做一些改动，模版 Demo 演示地址。 本地环境及预览 安装 Ruby 依赖包: bundle install --path vendor/bundle 本地预览: bundle exec jekyll serve 布局 Homepage 主要分为以下模块: Blog: 记录技术方面的文章、实践等。 Book: 记录想读、正在读、已读过的书籍，以及读后感和摘录。 Movie: 同上，想看的、看过的影视。 Photo: 摄影和喜欢的照片。 Life: 生活的小感悟和记录。 Archive: 博客的归档。 About: 自我介绍和个人简历。 TODO 支持中英文切换，且英文作为主要语言。 Book、Movie 板块改造，支持格式化。 样式更加自定义一些。</summary></entry><entry><title type="html">Post with Header Image</title><link href="/2018/06/01/header-image.html" rel="alternate" type="text/html" title="Post with Header Image" /><published>2018-06-01T00:00:00+08:00</published><updated>2018-06-01T00:00:00+08:00</updated><id>/2018/06/01/header-image</id><content type="html" xml:base="/2018/06/01/header-image.html">&lt;p&gt;A Post with Header Image, See &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/samples.html#page-layout&quot;&gt;Page layout&lt;/a&gt; for more examples.&lt;/p&gt;
-
-&lt;!--more--&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="TeXt" /><summary type="html">A Post with Header Image, See Page layout for more examples.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Homepage" /><summary type="html">此篇博客作为 Fengshiwest’s Homepage 的第一篇正式文章，用于记录搭建该网站的步骤。 模版 博客模版基于 jekyll-TeXt-theme，在该模版的基础上做一些改动，模版 Demo 演示地址。 本地环境及预览 安装 Ruby 依赖包: bundle install --path vendor/bundle 本地预览: bundle exec jekyll serve 布局 Homepage 主要分为以下模块: Blog: 记录技术方面的文章、实践等。 Book: 记录想读、正在读、已读过的书籍，以及读后感和摘录。 Movie: 同上，想看的、看过的影视。 Archive: 博客的归档。 About: 自我介绍和个人简历。 TODO 支持中英文切换，且英文作为主要语言。 Book、Movie 板块改造，支持格式化。 样式更加自定义一些。</summary></entry></feed>
