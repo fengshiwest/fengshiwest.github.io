@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-02-10T15:56:50+08:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-02-20T16:14:44+08:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
 </subtitle><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><entry><title type="html">Useful Tools &amp;amp; Tips</title><link href="/2021/02/06/tool-tip.html" rel="alternate" type="text/html" title="Useful Tools &amp;amp; Tips" /><published>2021-02-06T00:00:00+08:00</published><updated>2021-02-06T00:00:00+08:00</updated><id>/2021/02/06/tool-tip</id><content type="html" xml:base="/2021/02/06/tool-tip.html">&lt;h3 id=&quot;websites&quot;&gt;Websites&lt;/h3&gt;
 
 &lt;h4 id=&quot;1-buy-me-a-coffee&quot;&gt;1. Buy Me a Coffee&lt;/h4&gt;
@@ -80,6 +80,155 @@
 
 &lt;ul class=&quot;task-list&quot;&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;支持中英文切换，且英文作为主要语言。&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Book、Movie 板块改造，支持格式化。&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Book、Movie 板块改造，支持格式化。&lt;/li&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;样式更加自定义一些。&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Homepage" /><summary type="html">此篇博客作为 Fengshiwest’s Homepage 的第一篇正式文章，用于记录搭建该网站的步骤。 模版 博客模版基于 jekyll-TeXt-theme，在该模版的基础上做一些改动，模版 Demo 演示地址。 本地环境及预览 安装 Ruby 依赖包: bundle install --path vendor/bundle 本地预览: bundle exec jekyll serve 布局 Homepage 主要分为以下模块: Blog: 记录技术方面的文章、实践等。 Book: 记录想读、正在读、已读过的书籍，以及读后感和摘录。 Movie: 同上，想看的、看过的影视。 Archive: 博客的归档。 About: 自我介绍和个人简历。 TODO 支持中英文切换，且英文作为主要语言。 Book、Movie 板块改造，支持格式化。 样式更加自定义一些。</summary></entry></feed>
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;change-log&quot;&gt;Change Log&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-增加-feature_row&quot;&gt;1. 增加 feature_row&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;参考 https://mmistakes.github.io/minimal-mistakes/&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Designed to compliment the &lt;a href=&quot;/docs/layouts/#splash-page-layout&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;splash&lt;/code&gt;&lt;/a&gt; page layout as a way of arranging and aligning “feature blocks” containing text or image.&lt;/p&gt;
+
+&lt;p&gt;To add a feature row containing three content blocks with text and image, add the following YAML Front Matter&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Required&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+      &lt;th&gt;Default&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;image_path&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Required&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Full path to image eg: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/assets/images/filename.jpg&lt;/code&gt;. Use absolute URLS for those hosted externally.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;image_caption&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Optional&lt;/td&gt;
+      &lt;td&gt;Caption for image, Markdown is supported eg: `“Image from &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;”&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;alt&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Optional&lt;/td&gt;
+      &lt;td&gt;Alternate text for image.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;title&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Optional&lt;/td&gt;
+      &lt;td&gt;Content block title.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;excerpt&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Optional&lt;/td&gt;
+      &lt;td&gt;Content block excerpt text. Markdown is allowed.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;url&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Optional&lt;/td&gt;
+      &lt;td&gt;URL that the button should link to.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;btn_label&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Optional&lt;/td&gt;
+      &lt;td&gt;Button text label.&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;more_label&lt;/code&gt; in UI Text data file.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;btn_class&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Optional&lt;/td&gt;
+      &lt;td&gt;Button style. See &lt;a href=&quot;/docs/utility-classes/#buttons&quot;&gt;utility classes&lt;/a&gt; for options.&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;btn&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;feature_row&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-1-th.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;1&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;1&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;excerpt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;This&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;some&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;goes&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;here&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;**Markdown**&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;formatting.&quot;&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-2-th.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;2&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;2&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;excerpt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;This&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;some&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;goes&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;here&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;**Markdown**&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;formatting.&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;#test-link&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;btn_label&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Read&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;More&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;btn_class&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;btn--inverse&quot;&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-3-th.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;excerpt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;This&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;some&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;goes&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;here&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;**Markdown**&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;formatting.&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And then drop-in the feature row include in the body where you’d like it to appear.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Include Parameter&lt;/th&gt;
+      &lt;th&gt;Required&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+      &lt;th&gt;Default&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;id&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Optional&lt;/td&gt;
+      &lt;td&gt;To add multiple rows to a document uniquely name them in the YAML Front Matter and reference in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% include feature_row id=&quot;row2&quot; %}&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feature_row&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;type&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Optional&lt;/td&gt;
+      &lt;td&gt;Alignment of the featured blocks in the row. Options include: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;left&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;center&lt;/code&gt;, or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;right&lt;/code&gt; aligned.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;feature_row.html&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;feature__wrapper&quot;&gt;
+  
+
+&lt;/div&gt;
+
+&lt;style&gt;
+  .feature__wrapper {
+    display: grid;
+    grid-template-columns: minmax(90px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr); 
+  }
+  .feature__item {
+    margin: 20px;
+    /* flex: 1; */
+  }
+
+  .archive__item-teaser {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+
+  .archive__item-teaser img {
+    width: 100%;
+    height: 100%;
+  }
+
+&lt;/style&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;More Feature Row Goodness:&lt;/strong&gt; A &lt;a href=&quot;/splash-page/&quot;&gt;few more examples&lt;/a&gt; and &lt;a href=&quot;https://github.com/fengshiwest/fengshiwest.github.io/blob/master/docs/\_pages/splash-page.md&quot;&gt;source code&lt;/a&gt; can be seen in the demo site.&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Homepage" /><summary type="html">此篇博客作为 Fengshiwest’s Homepage 的第一篇正式文章，用于记录搭建该网站的步骤。 模版 博客模版基于 jekyll-TeXt-theme，在该模版的基础上做一些改动，模版 Demo 演示地址。 本地环境及预览 安装 Ruby 依赖包: bundle install --path vendor/bundle 本地预览: bundle exec jekyll serve 布局 Homepage 主要分为以下模块: Blog: 记录技术方面的文章、实践等。 Book: 记录想读、正在读、已读过的书籍，以及读后感和摘录。 Movie: 同上，想看的、看过的影视。 Archive: 博客的归档。 About: 自我介绍和个人简历。 TODO 支持中英文切换，且英文作为主要语言。 Book、Movie 板块改造，支持格式化。 样式更加自定义一些。 Change Log 1. 增加 feature_row 参考 https://mmistakes.github.io/minimal-mistakes/ Designed to compliment the splash page layout as a way of arranging and aligning “feature blocks” containing text or image. To add a feature row containing three content blocks with text and image, add the following YAML Front Matter Name Required Description Default image_path Required Full path to image eg: /assets/images/filename.jpg. Use absolute URLS for those hosted externally.   image_caption Optional Caption for image, Markdown is supported eg: `“Image from Unsplash”   alt Optional Alternate text for image.   title Optional Content block title.   excerpt Optional Content block excerpt text. Markdown is allowed.   url Optional URL that the button should link to.   btn_label Optional Button text label. more_label in UI Text data file. btn_class Optional Button style. See utility classes for options. btn feature_row: - image_path: /assets/images/unsplash-gallery-image-1-th.jpg alt: &quot;placeholder image 1&quot; title: &quot;Placeholder 1&quot; excerpt: &quot;This is some sample content that goes here with **Markdown** formatting.&quot; - image_path: /assets/images/unsplash-gallery-image-2-th.jpg alt: &quot;placeholder image 2&quot; title: &quot;Placeholder 2&quot; excerpt: &quot;This is some sample content that goes here with **Markdown** formatting.&quot; url: &quot;#test-link&quot; btn_label: &quot;Read More&quot; btn_class: &quot;btn--inverse&quot; - image_path: /assets/images/unsplash-gallery-image-3-th.jpg title: &quot;Placeholder 3&quot; excerpt: &quot;This is some sample content that goes here with **Markdown** formatting.&quot; And then drop-in the feature row include in the body where you’d like it to appear. Include Parameter Required Description Default id Optional To add multiple rows to a document uniquely name them in the YAML Front Matter and reference in {% include feature_row id=&quot;row2&quot; %} feature_row type Optional Alignment of the featured blocks in the row. Options include: left, center, or right aligned.   {% include feature_row.html %} More Feature Row Goodness: A few more examples and source code can be seen in the demo site.</summary></entry></feed>

@@ -3355,9 +3355,158 @@ MDhfMThfWzBdajFegwAAAABJRU5ErkJggg==" ></image>
 
 <ul class="task-list">
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />支持中英文切换，且英文作为主要语言。</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Book、Movie 板块改造，支持格式化。</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Book、Movie 板块改造，支持格式化。</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />样式更加自定义一些。</li>
 </ul>
+
+<h3 id="change-log">Change Log</h3>
+
+<h4 id="1-增加-feature_row">1. 增加 feature_row</h4>
+
+<blockquote>
+  <p>参考 https://mmistakes.github.io/minimal-mistakes/</p>
+</blockquote>
+
+<p>Designed to compliment the <a href="/docs/layouts/#splash-page-layout"><code class="language-plaintext highlighter-rouge">splash</code></a> page layout as a way of arranging and aligning “feature blocks” containing text or image.</p>
+
+<p>To add a feature row containing three content blocks with text and image, add the following YAML Front Matter</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Required</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>image_path</strong></td>
+      <td><strong>Required</strong></td>
+      <td>Full path to image eg: <code class="language-plaintext highlighter-rouge">/assets/images/filename.jpg</code>. Use absolute URLS for those hosted externally.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>image_caption</strong></td>
+      <td>Optional</td>
+      <td>Caption for image, Markdown is supported eg: `“Image from <a href="https://unsplash.com">Unsplash</a>”</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>alt</strong></td>
+      <td>Optional</td>
+      <td>Alternate text for image.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>title</strong></td>
+      <td>Optional</td>
+      <td>Content block title.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>excerpt</strong></td>
+      <td>Optional</td>
+      <td>Content block excerpt text. Markdown is allowed.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>url</strong></td>
+      <td>Optional</td>
+      <td>URL that the button should link to.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>btn_label</strong></td>
+      <td>Optional</td>
+      <td>Button text label.</td>
+      <td><code class="language-plaintext highlighter-rouge">more_label</code> in UI Text data file.</td>
+    </tr>
+    <tr>
+      <td><strong>btn_class</strong></td>
+      <td>Optional</td>
+      <td>Button style. See <a href="/docs/utility-classes/#buttons">utility classes</a> for options.</td>
+      <td><code class="language-plaintext highlighter-rouge">btn</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">feature_row</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">image_path</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-1-th.jpg</span>
+    <span class="na">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">placeholder</span><span class="nv"> </span><span class="s">image</span><span class="nv"> </span><span class="s">1"</span>
+    <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Placeholder</span><span class="nv"> </span><span class="s">1"</span>
+    <span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">This</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">some</span><span class="nv"> </span><span class="s">sample</span><span class="nv"> </span><span class="s">content</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">goes</span><span class="nv"> </span><span class="s">here</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">**Markdown**</span><span class="nv"> </span><span class="s">formatting."</span>
+  <span class="pi">-</span> <span class="na">image_path</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-2-th.jpg</span>
+    <span class="na">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">placeholder</span><span class="nv"> </span><span class="s">image</span><span class="nv"> </span><span class="s">2"</span>
+    <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Placeholder</span><span class="nv"> </span><span class="s">2"</span>
+    <span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">This</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">some</span><span class="nv"> </span><span class="s">sample</span><span class="nv"> </span><span class="s">content</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">goes</span><span class="nv"> </span><span class="s">here</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">**Markdown**</span><span class="nv"> </span><span class="s">formatting."</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s2">"</span><span class="s">#test-link"</span>
+    <span class="na">btn_label</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Read</span><span class="nv"> </span><span class="s">More"</span>
+    <span class="na">btn_class</span><span class="pi">:</span> <span class="s2">"</span><span class="s">btn--inverse"</span>
+  <span class="pi">-</span> <span class="na">image_path</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-3-th.jpg</span>
+    <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Placeholder</span><span class="nv"> </span><span class="s">3"</span>
+    <span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">This</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">some</span><span class="nv"> </span><span class="s">sample</span><span class="nv"> </span><span class="s">content</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">goes</span><span class="nv"> </span><span class="s">here</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">**Markdown**</span><span class="nv"> </span><span class="s">formatting."</span>
+</code></pre></div></div>
+
+<p>And then drop-in the feature row include in the body where you’d like it to appear.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Include Parameter</th>
+      <th>Required</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>id</strong></td>
+      <td>Optional</td>
+      <td>To add multiple rows to a document uniquely name them in the YAML Front Matter and reference in <code class="language-plaintext highlighter-rouge">{% include feature_row id="row2" %}</code></td>
+      <td><code class="language-plaintext highlighter-rouge">feature_row</code></td>
+    </tr>
+    <tr>
+      <td><strong>type</strong></td>
+      <td>Optional</td>
+      <td>Alignment of the featured blocks in the row. Options include: <code class="language-plaintext highlighter-rouge">left</code>, <code class="language-plaintext highlighter-rouge">center</code>, or <code class="language-plaintext highlighter-rouge">right</code> aligned.</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>feature_row.html<span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<div class="feature__wrapper">
+  
+
+</div>
+
+<style>
+  .feature__wrapper {
+    display: grid;
+    grid-template-columns: minmax(90px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr); 
+  }
+  .feature__item {
+    margin: 20px;
+    /* flex: 1; */
+  }
+
+  .archive__item-teaser {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+
+  .archive__item-teaser img {
+    width: 100%;
+    height: 100%;
+  }
+
+</style>
+
+<p class="notice--info"><strong>More Feature Row Goodness:</strong> A <a href="/splash-page/">few more examples</a> and <a href="https://github.com/fengshiwest/fengshiwest.github.io/blob/master/docs/\_pages/splash-page.md">source code</a> can be seen in the demo site.</p>
 </div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2021-02-03T00:00:00+08:00"><!-- start custom article footer snippet -->
 
 <!-- end custom article footer snippet -->
