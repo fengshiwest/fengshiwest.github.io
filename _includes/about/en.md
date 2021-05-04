@@ -72,4 +72,4 @@ Waiting...
 
 - Third prize of "Mathorcup" Mathematical Modeling Challenge
 
-[My Resume](https://github.com/fengshiwest/fengshiwest.github.io/tree/master/_includes/about/resume_en.pdf)
+[My Resume](https://github.com/fengshiwest/fengshiwest.github.io/raw/master/_includes/about/resume_en.pdf)

@@ -65,4 +65,4 @@ Waiting...
 - MathorCup高校数学建模挑战赛三等奖
 
 
-[获取简历](https://github.com/fengshiwest/fengshiwest.github.io/tree/master/_includes/about/resume_zh.pdf)
+[获取简历](https://github.com/fengshiwest/fengshiwest.github.io/raw/master/_includes/about/resume_zh.pdf)
