@@ -1,23 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-05-04T08:56:25+00:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
-</subtitle><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><entry><title type="html">Useful Tools &amp;amp; Tips</title><link href="/2021/02/06/tool-tip.html" rel="alternate" type="text/html" title="Useful Tools &amp;amp; Tips" /><published>2021-02-06T00:00:00+00:00</published><updated>2021-02-06T00:00:00+00:00</updated><id>/2021/02/06/tool-tip</id><content type="html" xml:base="/2021/02/06/tool-tip.html">&lt;h3 id=&quot;websites&quot;&gt;Websites&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-05-04T12:27:55+00:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
+</subtitle><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><entry><title type="html">Useful Tools &amp;amp; Tips</title><link href="/2021/02/06/tool-tip.html" rel="alternate" type="text/html" title="Useful Tools &amp;amp; Tips" /><published>2021-02-06T00:00:00+00:00</published><updated>2021-02-06T00:00:00+00:00</updated><id>/2021/02/06/tool-tip</id><content type="html" xml:base="/2021/02/06/tool-tip.html">&lt;h2 id=&quot;websites&quot;&gt;Websites&lt;/h2&gt;
 
-&lt;h4 id=&quot;1-buy-me-a-coffee&quot;&gt;1. Buy Me a Coffee&lt;/h4&gt;
+&lt;h3 id=&quot;获取小额捐助&quot;&gt;获取小额捐助&lt;/h3&gt;
 
-&lt;p&gt;Fund your creative work. &lt;a href=&quot;https://www.buymeacoffee.com/&quot;&gt;Homepage&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fund your creative work. &lt;a href=&quot;https://www.buymeacoffee.com/&quot;&gt;Buy Me a Coffee&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;2-emoji&quot;&gt;2. Emoji&lt;/h4&gt;
+&lt;h3 id=&quot;emoji&quot;&gt;Emoji&lt;/h3&gt;
 
 &lt;p&gt;Search for Emoji. &lt;a href=&quot;https://emojipedia.org/&quot;&gt;Homepage&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;tips&quot;&gt;Tips&lt;/h3&gt;
+&lt;h3 id=&quot;pdf2docx&quot;&gt;Pdf2docx&lt;/h3&gt;
 
-&lt;h4 id=&quot;1-download-single-file-floder-from-github&quot;&gt;1. Download Single File Floder from Github&lt;/h4&gt;
+&lt;p&gt;两个转换较好的网站，也支持其他格式相互转换。&lt;/p&gt;
+
+&lt;p&gt;准确度⭐⭐⭐⭐：&lt;a href=&quot;https://online2pdf.com/pdf2docx&quot;&gt;Online2pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;准确度⭐⭐⭐：&lt;a href=&quot;https://pdf2docx.com/&quot;&gt;Pdf2docx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;caj2pdf&quot;&gt;Caj2pdf&lt;/h3&gt;
+
+&lt;p&gt;caj阅读器十分不友好，转换成pdf阅读吧！&lt;a href=&quot;https://www.easeconvert.com/caj-to-pdf/&quot;&gt;Caj2pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;latex公式&quot;&gt;Latex公式&lt;/h3&gt;
+
+&lt;p&gt;方便书写Latex公式，同时支持粘贴到Word&lt;/p&gt;
+
+&lt;p&gt;支持多种格式转化：&lt;a href=&quot;https://www.latexlive.com/&quot;&gt;Latexlive&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;支持图片识别，但有时服务器会开小差：&lt;a href=&quot;https://mathf.itewqq.cn/&quot;&gt;Mathf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;下载英文杂志&quot;&gt;下载英文杂志&lt;/h3&gt;
+
+&lt;p&gt;齐全度⭐⭐⭐⭐：&lt;a href=&quot;https://freemagazines.top/&quot;&gt;Freemagazines&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;齐全度⭐⭐⭐：&lt;a href=&quot;https://magazinelib.com/&quot;&gt;Magazinelib&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
+
+&lt;h3 id=&quot;download-single-file-floder-from-github&quot;&gt;Download Single File Floder from Github&lt;/h3&gt;
 
 &lt;p&gt;Download by SVN, replace &lt;strong&gt;tree/master&lt;/strong&gt; with &lt;strong&gt;trunk&lt;/strong&gt; in the file path.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;How to Install SVN？&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;mac → &lt;a href=&quot;https://www.jianshu.com/p/b3fd26cbef46&quot;&gt;https://www.jianshu.com/p/b3fd26cbef46&lt;/a&gt;&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Tool" /><summary type="html">Websites 1. Buy Me a Coffee Fund your creative work. Homepage 2. Emoji Search for Emoji. Homepage Tips 1. Download Single File Floder from Github Download by SVN, replace tree/master with trunk in the file path. How to Install SVN？ mac → https://www.jianshu.com/p/b3fd26cbef46</summary></entry><entry><title type="html">Template for Taking Notes on Research Articles</title><link href="/2021/02/05/note-template.html" rel="alternate" type="text/html" title="Template for Taking Notes on Research Articles" /><published>2021-02-05T00:00:00+00:00</published><updated>2021-02-05T00:00:00+00:00</updated><id>/2021/02/05/note-template</id><content type="html" xml:base="/2021/02/05/note-template.html">&lt;blockquote&gt;
+&lt;p&gt;mac → &lt;a href=&quot;https://www.jianshu.com/p/b3fd26cbef46&quot;&gt;https://www.jianshu.com/p/b3fd26cbef46&lt;/a&gt;&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Tool" /><summary type="html">Websites 获取小额捐助 Fund your creative work. Buy Me a Coffee Emoji Search for Emoji. Homepage Pdf2docx 两个转换较好的网站，也支持其他格式相互转换。 准确度⭐⭐⭐⭐：Online2pdf 准确度⭐⭐⭐：Pdf2docx Caj2pdf caj阅读器十分不友好，转换成pdf阅读吧！Caj2pdf Latex公式 方便书写Latex公式，同时支持粘贴到Word 支持多种格式转化：Latexlive 支持图片识别，但有时服务器会开小差：Mathf 下载英文杂志 齐全度⭐⭐⭐⭐：Freemagazines 齐全度⭐⭐⭐：Magazinelib Tips Download Single File Floder from Github Download by SVN, replace tree/master with trunk in the file path. How to Install SVN？ mac → https://www.jianshu.com/p/b3fd26cbef46</summary></entry><entry><title type="html">Template for Taking Notes on Research Articles</title><link href="/2021/02/05/note-template.html" rel="alternate" type="text/html" title="Template for Taking Notes on Research Articles" /><published>2021-02-05T00:00:00+00:00</published><updated>2021-02-05T00:00:00+00:00</updated><id>/2021/02/05/note-template</id><content type="html" xml:base="/2021/02/05/note-template.html">&lt;blockquote&gt;
   &lt;p&gt;研究论文笔记模版，来自 Rice University&lt;/p&gt;
 &lt;/blockquote&gt;
 
