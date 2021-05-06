@@ -1,0 +1,51 @@
+I"<h2 id="websites">Websites</h2>
+
+<h3 id="获取小额捐助">获取小额捐助</h3>
+
+<p>Fund your creative work. <a href="https://www.buymeacoffee.com/">Buy Me a Coffee</a></p>
+
+<h3 id="emoji">Emoji</h3>
+
+<p>Search for Emoji. <a href="https://emojipedia.org/">Homepage</a></p>
+
+<h3 id="pdf2docx">Pdf2docx</h3>
+
+<p>两个转换较好的网站，也支持其他格式相互转换。</p>
+
+<p>准确度⭐⭐⭐⭐：<a href="https://online2pdf.com/pdf2docx">Online2pdf</a></p>
+
+<p>准确度⭐⭐⭐：<a href="https://pdf2docx.com/">Pdf2docx</a></p>
+
+<h3 id="caj2pdf">Caj2pdf</h3>
+
+<p>caj阅读器十分不友好，转换成pdf阅读吧！<a href="https://www.easeconvert.com/caj-to-pdf/">Caj2pdf</a></p>
+
+<h3 id="latex公式">Latex公式</h3>
+
+<p>方便书写Latex公式，同时支持粘贴到Word</p>
+
+<p>支持多种格式转化：<a href="https://www.latexlive.com/">Latexlive</a></p>
+
+<p>支持图片识别，但有时服务器会开小差：<a href="https://mathf.itewqq.cn/">Mathf</a></p>
+
+<h3 id="下载英文杂志">下载英文杂志</h3>
+
+<p>齐全度⭐⭐⭐⭐：<a href="https://freemagazines.top/">Freemagazines</a></p>
+
+<p>齐全度⭐⭐⭐：<a href="https://magazinelib.com/">Magazinelib</a></p>
+
+<h2 id="tips">Tips</h2>
+
+<h3 id="download-single-file-floder-from-github">Download Single File Floder from Github</h3>
+
+<p>Download by SVN, replace <strong>tree/master</strong> with <strong>trunk</strong> in the file path.</p>
+
+<p><strong>How to Install SVN？</strong></p>
+
+<p>mac → <a href="https://www.jianshu.com/p/b3fd26cbef46">https://www.jianshu.com/p/b3fd26cbef46</a></p>
+
+<div><div class="extensions extensions--demo">
+<iframe src="//codepen.io/kitian616/embed/aQmWZG/?theme-id=0&amp;default-tab=html,result" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+</div>
+</div>
+:ET
