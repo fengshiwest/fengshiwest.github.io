@@ -1,5 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-05-04T14:11:53+00:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
-</subtitle><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><entry><title type="html">Useful Tools &amp;amp; Tips</title><link href="/2021/02/06/tool-tip.html" rel="alternate" type="text/html" title="Useful Tools &amp;amp; Tips" /><published>2021-02-06T00:00:00+00:00</published><updated>2021-02-06T00:00:00+00:00</updated><id>/2021/02/06/tool-tip</id><content type="html" xml:base="/2021/02/06/tool-tip.html">&lt;h2 id=&quot;websites&quot;&gt;Websites&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-05-07T09:03:08+00:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
+</subtitle><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><entry><title type="html">CNN可视化</title><link href="/2021/05/07/CNN-Visualization.html" rel="alternate" type="text/html" title="CNN可视化" /><published>2021-05-07T00:00:00+00:00</published><updated>2021-05-07T00:00:00+00:00</updated><id>/2021/05/07/CNN-Visualization</id><content type="html" xml:base="/2021/05/07/CNN-Visualization.html">&lt;h2 id=&quot;cnn-explainer&quot;&gt;CNN Explainer&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://poloclub.github.io/cnn-explainer/&quot;&gt;演示地址&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/poloclub/cnn-explainer&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;对cnn各层作用的理解&quot;&gt;对CNN各层作用的理解&lt;/h2&gt;
+
+&lt;h3 id=&quot;输入层&quot;&gt;输入层&lt;/h3&gt;
+
+&lt;p&gt;对于RGB图像，输入层有R、G、B三个通道；对于灰度图像，输入层只有单通道。&lt;/p&gt;
+
+&lt;h3 id=&quot;卷积层&quot;&gt;卷积层&lt;/h3&gt;
+
+&lt;p&gt;参数：&lt;/p&gt;
+
+&lt;p&gt;Padding: 补充图像的边缘部分，一般补0&lt;/p&gt;
+
+&lt;p&gt;Kernel Size: 卷积核大小&lt;/p&gt;
+
+&lt;p&gt;Stride: 卷积核滑动步长&lt;/p&gt;
+
+&lt;h3 id=&quot;激活函数&quot;&gt;激活函数&lt;/h3&gt;
+
+&lt;p&gt;ReLU:&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><summary type="html">CNN Explainer 演示地址 Github 对CNN各层作用的理解 输入层 对于RGB图像，输入层有R、G、B三个通道；对于灰度图像，输入层只有单通道。 卷积层 参数： Padding: 补充图像的边缘部分，一般补0 Kernel Size: 卷积核大小 Stride: 卷积核滑动步长 激活函数 ReLU:</summary></entry><entry><title type="html">Pytorch学习(1)</title><link href="/2021/05/06/pytorch-study-1.html" rel="alternate" type="text/html" title="Pytorch学习(1)" /><published>2021-05-06T00:00:00+00:00</published><updated>2021-05-06T00:00:00+00:00</updated><id>/2021/05/06/pytorch-study-1</id><content type="html" xml:base="/2021/05/06/pytorch-study-1.html"></content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Pytorch" /><summary type="html"></summary></entry><entry><title type="html">论文笔记-Object Detection in 20 Years A Survey</title><link href="/2021/04/28/object-detection.html" rel="alternate" type="text/html" title="论文笔记-Object Detection in 20 Years A Survey" /><published>2021-04-28T00:00:00+00:00</published><updated>2021-04-28T00:00:00+00:00</updated><id>/2021/04/28/object-detection</id><content type="html" xml:base="/2021/04/28/object-detection.html">&lt;h2 id=&quot;参考文献&quot;&gt;参考文献&lt;/h2&gt;
+
+&lt;p&gt;[1] Zou Z, Shi Z, Guo Y, et al. Object detection in 20 years: A survey[J]. arXiv preprint arXiv:1905.05055, 2019.&lt;/p&gt;
+
+&lt;p&gt;[2] https://blog.csdn.net/clover_my/article/details/92794719&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Paper" /><category term="Reading" /><summary type="html">参考文献 [1] Zou Z, Shi Z, Guo Y, et al. Object detection in 20 years: A survey[J]. arXiv preprint arXiv:1905.05055, 2019. [2] https://blog.csdn.net/clover_my/article/details/92794719</summary></entry><entry><title type="html">论文词典</title><link href="/2021/04/10/paper-dictionary.html" rel="alternate" type="text/html" title="论文词典" /><published>2021-04-10T00:00:00+00:00</published><updated>2021-04-10T00:00:00+00:00</updated><id>/2021/04/10/paper-dictionary</id><content type="html" xml:base="/2021/04/10/paper-dictionary.html">&lt;h2 id=&quot;名词&quot;&gt;名词&lt;/h2&gt;
+
+&lt;p&gt;Preliminaries&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;预备章节 类似于 Ralated work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;动词&quot;&gt;动词&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;D&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;demonstrate&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;证明，证实&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;形容词&quot;&gt;形容词&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;C&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;consecutive&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;连贯的、连续的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;fine-graind&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;细粒度的、详细的、深度的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;groundbreaking&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;开创性的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;holistic&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;整体的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;integrated&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;综合的、完整的、协调的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;prevalent&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;流行的、普遍的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;sophisticated&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;复杂的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;词组&quot;&gt;词组&lt;/h2&gt;
+
+&lt;p&gt;shed light on&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;阐释、说明&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Paper" /><category term="Writting" /><summary type="html">名词 Preliminaries 预备章节 类似于 Ralated work 动词 D demonstrate 证明，证实 形容词 C consecutive 连贯的、连续的 fine-graind 细粒度的、详细的、深度的 groundbreaking 开创性的 holistic 整体的 integrated 综合的、完整的、协调的 prevalent 流行的、普遍的 sophisticated 复杂的 词组 shed light on 阐释、说明</summary></entry><entry><title type="html">Useful Tools &amp;amp; Tips</title><link href="/2021/02/06/tool-tip.html" rel="alternate" type="text/html" title="Useful Tools &amp;amp; Tips" /><published>2021-02-06T00:00:00+00:00</published><updated>2021-02-06T00:00:00+00:00</updated><id>/2021/02/06/tool-tip</id><content type="html" xml:base="/2021/02/06/tool-tip.html">&lt;h2 id=&quot;websites&quot;&gt;Websites&lt;/h2&gt;
 
 &lt;h3 id=&quot;获取小额捐助&quot;&gt;获取小额捐助&lt;/h3&gt;
 
@@ -35,6 +137,16 @@
 
 &lt;p&gt;齐全度⭐⭐⭐：&lt;a href=&quot;https://magazinelib.com/&quot;&gt;Magazinelib&lt;/a&gt;&lt;/p&gt;
 
+&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
+
+&lt;h3 id=&quot;跨端文件传输-qrcp&quot;&gt;跨端文件传输 QRCP&lt;/h3&gt;
+
+&lt;p&gt;手机和电脑间相互传输文件不是很方便，Github上一个开源项目，支持同一局域网下电脑发送/接受不同设备的文件，其他设备可以通过扫描二维码的方式打开&lt;/p&gt;
+
+&lt;p&gt;项目地址: &lt;a href=&quot;https://github.com/claudiodangelis/qrcp&quot;&gt;QRCP&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在&lt;a href=&quot;https://github.com/claudiodangelis/qrcp/releases&quot;&gt;release&lt;/a&gt;中下载对应的版本，并在对应目录下执行 &lt;code&gt;qrcp send/receive &apos;file path&apos;&lt;/code&gt;即可得到传输地址并自动生成二维码&lt;/p&gt;
+
 &lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
 
 &lt;h3 id=&quot;download-single-file-floder-from-github&quot;&gt;Download Single File Floder from Github&lt;/h3&gt;
@@ -47,7 +159,7 @@
 
 &lt;div&gt;&lt;iframe class=&quot;extensions extensions--audio&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=1840192925&amp;amp;auto=1&amp;amp;height=66&quot; frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot;&gt;
 &lt;/iframe&gt;
-&lt;/div&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Tool" /><summary type="html">Websites 获取小额捐助 Fund your creative work. Buy Me a Coffee Emoji Search for Emoji. Homepage Pdf2docx 两个转换较好的网站，也支持其他格式相互转换。 准确度⭐⭐⭐⭐：Online2pdf 准确度⭐⭐⭐：Pdf2docx Caj2pdf caj阅读器十分不友好，转换成pdf阅读吧！Caj2pdf Latex公式 方便书写Latex公式，同时支持粘贴到Word 支持多种格式转化：Latexlive 支持图片识别，但有时服务器会开小差：Mathf 下载英文杂志 齐全度⭐⭐⭐⭐：Freemagazines 齐全度⭐⭐⭐：Magazinelib Tips Download Single File Floder from Github Download by SVN, replace tree/master with trunk in the file path. How to Install SVN？ mac → https://www.jianshu.com/p/b3fd26cbef46</summary></entry><entry><title type="html">Template for Taking Notes on Research Articles</title><link href="/2021/02/05/note-template.html" rel="alternate" type="text/html" title="Template for Taking Notes on Research Articles" /><published>2021-02-05T00:00:00+00:00</published><updated>2021-02-05T00:00:00+00:00</updated><id>/2021/02/05/note-template</id><content type="html" xml:base="/2021/02/05/note-template.html">&lt;blockquote&gt;
+&lt;/div&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Tool" /><summary type="html">Websites 获取小额捐助 Fund your creative work. Buy Me a Coffee Emoji Search for Emoji. Homepage Pdf2docx 两个转换较好的网站，也支持其他格式相互转换。 准确度⭐⭐⭐⭐：Online2pdf 准确度⭐⭐⭐：Pdf2docx Caj2pdf caj阅读器十分不友好，转换成pdf阅读吧！Caj2pdf Latex公式 方便书写Latex公式，同时支持粘贴到Word 支持多种格式转化：Latexlive 支持图片识别，但有时服务器会开小差：Mathf 下载英文杂志 齐全度⭐⭐⭐⭐：Freemagazines 齐全度⭐⭐⭐：Magazinelib Tools 跨端文件传输 QRCP 手机和电脑间相互传输文件不是很方便，Github上一个开源项目，支持同一局域网下电脑发送/接受不同设备的文件，其他设备可以通过扫描二维码的方式打开 项目地址: QRCP 在release中下载对应的版本，并在对应目录下执行 qrcp send/receive &apos;file path&apos;即可得到传输地址并自动生成二维码 Tips Download Single File Floder from Github Download by SVN, replace tree/master with trunk in the file path. How to Install SVN？ mac → https://www.jianshu.com/p/b3fd26cbef46</summary></entry><entry><title type="html">Template for Taking Notes on Research Articles</title><link href="/2021/02/05/note-template.html" rel="alternate" type="text/html" title="Template for Taking Notes on Research Articles" /><published>2021-02-05T00:00:00+00:00</published><updated>2021-02-05T00:00:00+00:00</updated><id>/2021/02/05/note-template</id><content type="html" xml:base="/2021/02/05/note-template.html">&lt;blockquote&gt;
   &lt;p&gt;研究论文笔记模版，来自 Rice University&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -90,8 +202,8 @@
 &lt;h4 id=&quot;本地环境及预览&quot;&gt;本地环境及预览&lt;/h4&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;安装 Ruby 依赖包: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install --path vendor/bundle&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;本地预览: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;安装 Ruby 依赖包: &lt;code&gt;bundle install --path vendor/bundle&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;本地预览: &lt;code&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;布局&quot;&gt;布局&lt;/h3&gt;
@@ -122,7 +234,7 @@
   &lt;p&gt;参考 https://mmistakes.github.io/minimal-mistakes/&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Designed to compliment the &lt;a href=&quot;/docs/layouts/#splash-page-layout&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;splash&lt;/code&gt;&lt;/a&gt; page layout as a way of arranging and aligning “feature blocks” containing text or image.&lt;/p&gt;
+&lt;p&gt;Designed to compliment the &lt;a href=&quot;/docs/layouts/#splash-page-layout&quot;&gt;&lt;code&gt;splash&lt;/code&gt;&lt;/a&gt; page layout as a way of arranging and aligning “feature blocks” containing text or image.&lt;/p&gt;
 
 &lt;p&gt;To add a feature row containing three content blocks with text and image, add the following YAML Front Matter&lt;/p&gt;
 
@@ -139,7 +251,7 @@
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;image_path&lt;/strong&gt;&lt;/td&gt;
       &lt;td&gt;&lt;strong&gt;Required&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Full path to image eg: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/assets/images/filename.jpg&lt;/code&gt;. Use absolute URLS for those hosted externally.&lt;/td&gt;
+      &lt;td&gt;Full path to image eg: &lt;code&gt;/assets/images/filename.jpg&lt;/code&gt;. Use absolute URLS for those hosted externally.&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -176,33 +288,33 @@
       &lt;td&gt;&lt;strong&gt;btn_label&lt;/strong&gt;&lt;/td&gt;
       &lt;td&gt;Optional&lt;/td&gt;
       &lt;td&gt;Button text label.&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;more_label&lt;/code&gt; in UI Text data file.&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;more_label&lt;/code&gt; in UI Text data file.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;btn_class&lt;/strong&gt;&lt;/td&gt;
       &lt;td&gt;Optional&lt;/td&gt;
       &lt;td&gt;Button style. See &lt;a href=&quot;/docs/utility-classes/#buttons&quot;&gt;utility classes&lt;/a&gt; for options.&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;btn&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;btn&lt;/code&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;feature_row&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-1-th.jpg&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;1&quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;1&quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;excerpt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;This&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;some&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;goes&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;here&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;**Markdown**&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;formatting.&quot;&lt;/span&gt;
-  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-2-th.jpg&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;2&quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;2&quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;excerpt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;This&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;some&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;goes&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;here&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;**Markdown**&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;formatting.&quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;#test-link&quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;btn_label&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Read&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;More&quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;btn_class&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;btn--inverse&quot;&lt;/span&gt;
-  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-3-th.jpg&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3&quot;&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;excerpt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;This&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;some&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;goes&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;here&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;**Markdown**&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;formatting.&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;feature_row:
+  - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+    alt: &quot;placeholder image 1&quot;
+    title: &quot;Placeholder 1&quot;
+    excerpt: &quot;This is some sample content that goes here with **Markdown** formatting.&quot;
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: &quot;placeholder image 2&quot;
+    title: &quot;Placeholder 2&quot;
+    excerpt: &quot;This is some sample content that goes here with **Markdown** formatting.&quot;
+    url: &quot;#test-link&quot;
+    btn_label: &quot;Read More&quot;
+    btn_class: &quot;btn--inverse&quot;
+  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    title: &quot;Placeholder 3&quot;
+    excerpt: &quot;This is some sample content that goes here with **Markdown** formatting.&quot;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;And then drop-in the feature row include in the body where you’d like it to appear.&lt;/p&gt;
 
@@ -219,20 +331,20 @@
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;id&lt;/strong&gt;&lt;/td&gt;
       &lt;td&gt;Optional&lt;/td&gt;
-      &lt;td&gt;To add multiple rows to a document uniquely name them in the YAML Front Matter and reference in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% include feature_row id=&quot;row2&quot; %}&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feature_row&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;To add multiple rows to a document uniquely name them in the YAML Front Matter and reference in &lt;code&gt;{% include feature_row id=&quot;row2&quot; %}&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;feature_row&lt;/code&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;strong&gt;type&lt;/strong&gt;&lt;/td&gt;
       &lt;td&gt;Optional&lt;/td&gt;
-      &lt;td&gt;Alignment of the featured blocks in the row. Options include: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;left&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;center&lt;/code&gt;, or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;right&lt;/code&gt; aligned.&lt;/td&gt;
+      &lt;td&gt;Alignment of the featured blocks in the row. Options include: &lt;code&gt;left&lt;/code&gt;, &lt;code&gt;center&lt;/code&gt;, or &lt;code&gt;right&lt;/code&gt; aligned.&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;feature_row.html&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&quot;language-liquid&quot;&gt;{% include feature_row.html %}
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;div class=&quot;feature__wrapper&quot;&gt;
   

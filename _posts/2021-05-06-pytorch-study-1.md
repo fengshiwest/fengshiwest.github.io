@@ -1,6 +1,6 @@
 ---
 title: Pytorch学习(1)
-tags: 
+tags: Pytorch
 key: key_6
 pageview: true
 ---

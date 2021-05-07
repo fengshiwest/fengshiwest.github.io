@@ -1,4 +1,4 @@
-I"�&<blockquote>
+I"<blockquote>
   <p>此篇博客作为 Fengshiwest’s Homepage 的第一篇正式文章，用于记录搭建该网站的步骤。</p>
 </blockquote>
 
@@ -9,8 +9,8 @@
 <h4 id="本地环境及预览">本地环境及预览</h4>
 
 <ol>
-  <li>安装 Ruby 依赖包: <code class="language-plaintext highlighter-rouge">bundle install --path vendor/bundle</code></li>
-  <li>本地预览: <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code></li>
+  <li>安装 Ruby 依赖包: <code>bundle install --path vendor/bundle</code></li>
+  <li>本地预览: <code>bundle exec jekyll serve</code></li>
 </ol>
 
 <h3 id="布局">布局</h3>
@@ -41,7 +41,7 @@
   <p>参考 https://mmistakes.github.io/minimal-mistakes/</p>
 </blockquote>
 
-<p>Designed to compliment the <a href="/docs/layouts/#splash-page-layout"><code class="language-plaintext highlighter-rouge">splash</code></a> page layout as a way of arranging and aligning “feature blocks” containing text or image.</p>
+<p>Designed to compliment the <a href="/docs/layouts/#splash-page-layout"><code>splash</code></a> page layout as a way of arranging and aligning “feature blocks” containing text or image.</p>
 
 <p>To add a feature row containing three content blocks with text and image, add the following YAML Front Matter</p>
 
@@ -58,7 +58,7 @@
     <tr>
       <td><strong>image_path</strong></td>
       <td><strong>Required</strong></td>
-      <td>Full path to image eg: <code class="language-plaintext highlighter-rouge">/assets/images/filename.jpg</code>. Use absolute URLS for those hosted externally.</td>
+      <td>Full path to image eg: <code>/assets/images/filename.jpg</code>. Use absolute URLS for those hosted externally.</td>
       <td> </td>
     </tr>
     <tr>
@@ -95,33 +95,33 @@
       <td><strong>btn_label</strong></td>
       <td>Optional</td>
       <td>Button text label.</td>
-      <td><code class="language-plaintext highlighter-rouge">more_label</code> in UI Text data file.</td>
+      <td><code>more_label</code> in UI Text data file.</td>
     </tr>
     <tr>
       <td><strong>btn_class</strong></td>
       <td>Optional</td>
       <td>Button style. See <a href="/docs/utility-classes/#buttons">utility classes</a> for options.</td>
-      <td><code class="language-plaintext highlighter-rouge">btn</code></td>
+      <td><code>btn</code></td>
     </tr>
   </tbody>
 </table>
 
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">feature_row</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="na">image_path</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-1-th.jpg</span>
-    <span class="na">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">placeholder</span><span class="nv"> </span><span class="s">image</span><span class="nv"> </span><span class="s">1"</span>
-    <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Placeholder</span><span class="nv"> </span><span class="s">1"</span>
-    <span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">This</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">some</span><span class="nv"> </span><span class="s">sample</span><span class="nv"> </span><span class="s">content</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">goes</span><span class="nv"> </span><span class="s">here</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">**Markdown**</span><span class="nv"> </span><span class="s">formatting."</span>
-  <span class="pi">-</span> <span class="na">image_path</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-2-th.jpg</span>
-    <span class="na">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">placeholder</span><span class="nv"> </span><span class="s">image</span><span class="nv"> </span><span class="s">2"</span>
-    <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Placeholder</span><span class="nv"> </span><span class="s">2"</span>
-    <span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">This</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">some</span><span class="nv"> </span><span class="s">sample</span><span class="nv"> </span><span class="s">content</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">goes</span><span class="nv"> </span><span class="s">here</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">**Markdown**</span><span class="nv"> </span><span class="s">formatting."</span>
-    <span class="na">url</span><span class="pi">:</span> <span class="s2">"</span><span class="s">#test-link"</span>
-    <span class="na">btn_label</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Read</span><span class="nv"> </span><span class="s">More"</span>
-    <span class="na">btn_class</span><span class="pi">:</span> <span class="s2">"</span><span class="s">btn--inverse"</span>
-  <span class="pi">-</span> <span class="na">image_path</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-3-th.jpg</span>
-    <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Placeholder</span><span class="nv"> </span><span class="s">3"</span>
-    <span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">This</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">some</span><span class="nv"> </span><span class="s">sample</span><span class="nv"> </span><span class="s">content</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">goes</span><span class="nv"> </span><span class="s">here</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">**Markdown**</span><span class="nv"> </span><span class="s">formatting."</span>
-</code></pre></div></div>
+<pre><code class="language-yaml">feature_row:
+  - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "placeholder image 1"
+    title: "Placeholder 1"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder 2"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    title: "Placeholder 3"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+</code></pre>
 
 <p>And then drop-in the feature row include in the body where you’d like it to appear.</p>
 
@@ -138,20 +138,20 @@
     <tr>
       <td><strong>id</strong></td>
       <td>Optional</td>
-      <td>To add multiple rows to a document uniquely name them in the YAML Front Matter and reference in <code class="language-plaintext highlighter-rouge">{% include feature_row id="row2" %}</code></td>
-      <td><code class="language-plaintext highlighter-rouge">feature_row</code></td>
+      <td>To add multiple rows to a document uniquely name them in the YAML Front Matter and reference in <code>{% include feature_row id="row2" %}</code></td>
+      <td><code>feature_row</code></td>
     </tr>
     <tr>
       <td><strong>type</strong></td>
       <td>Optional</td>
-      <td>Alignment of the featured blocks in the row. Options include: <code class="language-plaintext highlighter-rouge">left</code>, <code class="language-plaintext highlighter-rouge">center</code>, or <code class="language-plaintext highlighter-rouge">right</code> aligned.</td>
+      <td>Alignment of the featured blocks in the row. Options include: <code>left</code>, <code>center</code>, or <code>right</code> aligned.</td>
       <td> </td>
     </tr>
   </tbody>
 </table>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>feature_row.html<span class="w"> </span><span class="p">%}</span>
-</code></pre></div></div>
+<pre><code class="language-liquid">{% include feature_row.html %}
+</code></pre>
 
 <div class="feature__wrapper">
   
