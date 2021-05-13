@@ -1,6 +1,6 @@
 ---
 title: 论文笔记-Object Detection in 20 Years A Survey
-tags: Paper Reading
+tags: Paper-reading
 key: key_5
 pageview: true
 ---

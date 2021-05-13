@@ -1,5 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-05-11T09:36:47+00:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
-</subtitle><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><entry><title type="html">李宏毅机器学习笔记（1）</title><link href="/2021/05/11/ml-study-1.html" rel="alternate" type="text/html" title="李宏毅机器学习笔记（1）" /><published>2021-05-11T00:00:00+00:00</published><updated>2021-05-11T00:00:00+00:00</updated><id>/2021/05/11/ml-study-1</id><content type="html" xml:base="/2021/05/11/ml-study-1.html"></content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="ML" /><summary type="html"></summary></entry><entry><title type="html">Python使用技巧</title><link href="/2021/05/10/python-study-1.html" rel="alternate" type="text/html" title="Python使用技巧" /><published>2021-05-10T00:00:00+00:00</published><updated>2021-05-10T00:00:00+00:00</updated><id>/2021/05/10/python-study-1</id><content type="html" xml:base="/2021/05/10/python-study-1.html">&lt;h2 id=&quot;conda-创建liunx虚拟环境&quot;&gt;Conda 创建Liunx虚拟环境&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-05-13T14:33:06+00:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
+</subtitle><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><entry><title type="html">论文笔记-Involution Inverting the Inherence of Convolution for Visual Recognition</title><link href="/2021/05/13/involution.html" rel="alternate" type="text/html" title="论文笔记-Involution Inverting the Inherence of Convolution for Visual Recognition" /><published>2021-05-13T00:00:00+00:00</published><updated>2021-05-13T00:00:00+00:00</updated><id>/2021/05/13/involution</id><content type="html" xml:base="/2021/05/13/involution.html">&lt;h2 id=&quot;论文贡献&quot;&gt;论文贡献&lt;/h2&gt;
+
+&lt;p&gt;1、提出新的网络算子Involution&lt;/p&gt;
+
+&lt;p&gt;2、从Involution角度统一Convolution和Attention&lt;/p&gt;
+
+&lt;h2 id=&quot;convolution的两大特性&quot;&gt;Convolution的两大特性&lt;/h2&gt;
+
+&lt;p&gt;1、空间不变性(Spatial-agnostic)&lt;/p&gt;
+
+&lt;p&gt;在H×W的像素空间共享相同的kernel&lt;/p&gt;
+
+&lt;p&gt;2、通道特异性(channel-specific)&lt;/p&gt;
+
+&lt;p&gt;每个通道独享对应的kernel&lt;/p&gt;
+
+&lt;h2 id=&quot;involution特性&quot;&gt;Involution特性&lt;/h2&gt;
+
+&lt;p&gt;在通道维度共享kernel，在空间维度采用空间特异的kernel进行建模&lt;/p&gt;
+
+&lt;p&gt;involution kernel 大小: H × W × K × K × G.&lt;/p&gt;
+
+&lt;p&gt;其中，G « C，表示所有通道共享kernel的数量。&lt;/p&gt;
+
+&lt;h2 id=&quot;伪代码&quot;&gt;伪代码&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/involution_pseudo_code.png&quot; alt=&quot;pseudo code&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;参考文献&quot;&gt;参考文献&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/pdf/2103.06255.pdf&quot;&gt;Involution: Inverting the Inherence of Convolution for Visual Recognition&lt;/a&gt;&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Paper-reading" /><summary type="html">论文贡献 1、提出新的网络算子Involution 2、从Involution角度统一Convolution和Attention Convolution的两大特性 1、空间不变性(Spatial-agnostic) 在H×W的像素空间共享相同的kernel 2、通道特异性(channel-specific) 每个通道独享对应的kernel Involution特性 在通道维度共享kernel，在空间维度采用空间特异的kernel进行建模 involution kernel 大小: H × W × K × K × G. 其中，G « C，表示所有通道共享kernel的数量。 伪代码 参考文献 Involution: Inverting the Inherence of Convolution for Visual Recognition</summary></entry><entry><title type="html">李宏毅机器学习笔记（1）</title><link href="/2021/05/11/ml-study-1.html" rel="alternate" type="text/html" title="李宏毅机器学习笔记（1）" /><published>2021-05-11T00:00:00+00:00</published><updated>2021-05-11T00:00:00+00:00</updated><id>/2021/05/11/ml-study-1</id><content type="html" xml:base="/2021/05/11/ml-study-1.html">&lt;h2 id=&quot;optimization&quot;&gt;Optimization&lt;/h2&gt;
+
+&lt;p&gt;Adam&lt;/p&gt;
+
+&lt;h2 id=&quot;batch-normalization&quot;&gt;Batch Normalization&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1805.11604&quot;&gt;How Does Batch Normalization Help Optimization?&lt;/a&gt;&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="ML" /><summary type="html">Optimization Adam Batch Normalization How Does Batch Normalization Help Optimization?</summary></entry><entry><title type="html">Python使用技巧</title><link href="/2021/05/10/python-study-1.html" rel="alternate" type="text/html" title="Python使用技巧" /><published>2021-05-10T00:00:00+00:00</published><updated>2021-05-10T00:00:00+00:00</updated><id>/2021/05/10/python-study-1</id><content type="html" xml:base="/2021/05/10/python-study-1.html">&lt;h2 id=&quot;conda-创建liunx虚拟环境&quot;&gt;Conda 创建Liunx虚拟环境&lt;/h2&gt;
 
 &lt;p&gt;1、查看当前存在的虚拟环境&lt;/p&gt;
 
@@ -136,7 +172,7 @@
 
 &lt;p&gt;[2] &lt;a href=&quot;https://blog.csdn.net/clover_my/article/details/92794719&quot;&gt;CSDN: 论文笔记-2019-Object Detection in 20 Years: A Survey&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;[3] &lt;a href=&quot;https://zhuanlan.zhihu.com/p/76494575&quot;&gt;知乎: 目标检测 Object Detection in 20 Years 综述&lt;/a&gt;&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Paper" /><category term="Reading" /><summary type="html">参考文献 [1] Zou Z, Shi Z, Guo Y, et al. Object detection in 20 years: A survey[J]. arXiv preprint arXiv:1905.05055, 2019. [2] CSDN: 论文笔记-2019-Object Detection in 20 Years: A Survey [3] 知乎: 目标检测 Object Detection in 20 Years 综述</summary></entry><entry><title type="html">论文词典</title><link href="/2021/04/10/paper-dictionary.html" rel="alternate" type="text/html" title="论文词典" /><published>2021-04-10T00:00:00+00:00</published><updated>2021-04-10T00:00:00+00:00</updated><id>/2021/04/10/paper-dictionary</id><content type="html" xml:base="/2021/04/10/paper-dictionary.html">&lt;h2 id=&quot;名词&quot;&gt;名词&lt;/h2&gt;
+&lt;p&gt;[3] &lt;a href=&quot;https://zhuanlan.zhihu.com/p/76494575&quot;&gt;知乎: 目标检测 Object Detection in 20 Years 综述&lt;/a&gt;&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Paper-reading" /><summary type="html">参考文献 [1] Zou Z, Shi Z, Guo Y, et al. Object detection in 20 years: A survey[J]. arXiv preprint arXiv:1905.05055, 2019. [2] CSDN: 论文笔记-2019-Object Detection in 20 Years: A Survey [3] 知乎: 目标检测 Object Detection in 20 Years 综述</summary></entry><entry><title type="html">论文词典</title><link href="/2021/04/10/paper-dictionary.html" rel="alternate" type="text/html" title="论文词典" /><published>2021-04-10T00:00:00+00:00</published><updated>2021-04-10T00:00:00+00:00</updated><id>/2021/04/10/paper-dictionary</id><content type="html" xml:base="/2021/04/10/paper-dictionary.html">&lt;h2 id=&quot;名词&quot;&gt;名词&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;G&lt;/p&gt;
@@ -312,68 +348,4 @@
 
 &lt;ul&gt;
   &lt;li&gt;反复试验&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Paper" /><category term="Writting" /><summary type="html">名词 G generalization 泛化 P preliminaries 预备章节 类似于 Ralated work 动词 D demonstrate 证明、证实 O outperform 胜过、超过 形容词 C consecutive 连贯的、连续的 F fine-graind 细粒度的、详细的、深度的 G groundbreaking 开创性的 H holistic 整体的 I integrated 综合的、完整的、协调的 O optimal -最优的 P prevalent 流行的、普遍的 S sophisticated 复杂的 副词 C convincingly 有说服力地 N notably 显著地、尤其 词组 A ablation study/experiment 消融实验 S shed light on 阐释、说明 T trial and error 反复试验</summary></entry><entry><title type="html">Useful Tools &amp;amp; Tips</title><link href="/2021/02/06/tool-tip.html" rel="alternate" type="text/html" title="Useful Tools &amp;amp; Tips" /><published>2021-02-06T00:00:00+00:00</published><updated>2021-02-06T00:00:00+00:00</updated><id>/2021/02/06/tool-tip</id><content type="html" xml:base="/2021/02/06/tool-tip.html">&lt;h2 id=&quot;websites&quot;&gt;Websites&lt;/h2&gt;
-
-&lt;h3 id=&quot;获取小额捐助&quot;&gt;获取小额捐助&lt;/h3&gt;
-
-&lt;p&gt;Fund your creative work. &lt;a href=&quot;https://www.buymeacoffee.com/&quot;&gt;Buy Me a Coffee&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;emoji&quot;&gt;Emoji&lt;/h3&gt;
-
-&lt;p&gt;Search for Emoji. &lt;a href=&quot;https://emojipedia.org/&quot;&gt;Homepage&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;pdf2docx&quot;&gt;Pdf2docx&lt;/h3&gt;
-
-&lt;p&gt;两个转换较好的网站，也支持其他格式相互转换。&lt;/p&gt;
-
-&lt;p&gt;准确度⭐⭐⭐⭐：&lt;a href=&quot;https://online2pdf.com/pdf2docx&quot;&gt;Online2pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;准确度⭐⭐⭐：&lt;a href=&quot;https://pdf2docx.com/&quot;&gt;Pdf2docx&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;caj2pdf&quot;&gt;Caj2pdf&lt;/h3&gt;
-
-&lt;p&gt;caj阅读器十分不友好，转换成pdf阅读吧！&lt;a href=&quot;https://www.easeconvert.com/caj-to-pdf/&quot;&gt;Caj2pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;latex公式&quot;&gt;Latex公式&lt;/h3&gt;
-
-&lt;p&gt;方便书写Latex公式，同时支持粘贴到Word&lt;/p&gt;
-
-&lt;p&gt;支持多种格式转化：&lt;a href=&quot;https://www.latexlive.com/&quot;&gt;Latexlive&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;支持图片识别，但有时服务器会开小差：&lt;a href=&quot;https://mathf.itewqq.cn/&quot;&gt;Mathf&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;下载英文杂志&quot;&gt;下载英文杂志&lt;/h3&gt;
-
-&lt;p&gt;齐全度⭐⭐⭐⭐：&lt;a href=&quot;https://freemagazines.top/&quot;&gt;Freemagazines&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;齐全度⭐⭐⭐：&lt;a href=&quot;https://magazinelib.com/&quot;&gt;Magazinelib&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;cv论文汇总&quot;&gt;CV论文汇总&lt;/h3&gt;
-
-&lt;p&gt;包含2013至今每年CVPR、ICCV、ECCV会议的论文：&lt;a href=&quot;https://openaccess.thecvf.com/menu&quot;&gt;The CVF&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Arxiv：&lt;a href=&quot;https://arxiv.org/list/cs.CV/new&quot;&gt;new&lt;/a&gt;、&lt;a href=&quot;https://arxiv.org/list/cs.CV/recent&quot;&gt;recent&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
-
-&lt;h3 id=&quot;跨端文件传输-qrcp&quot;&gt;跨端文件传输 QRCP&lt;/h3&gt;
-
-&lt;p&gt;手机和电脑间相互传输文件不是很方便，Github上一个开源项目，支持同一局域网下电脑发送/接受不同设备的文件，其他设备可以通过扫描二维码的方式打开&lt;/p&gt;
-
-&lt;p&gt;项目地址: &lt;a href=&quot;https://github.com/claudiodangelis/qrcp&quot;&gt;QRCP&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;在&lt;a href=&quot;https://github.com/claudiodangelis/qrcp/releases&quot;&gt;release&lt;/a&gt;中下载对应的版本，并在对应目录下执行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;qrcp send/receive &apos;file path&apos;&lt;/code&gt;即可得到传输地址并自动生成二维码&lt;/p&gt;
-
-&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
-
-&lt;h3 id=&quot;download-single-file-floder-from-github&quot;&gt;Download Single File Floder from Github&lt;/h3&gt;
-
-&lt;p&gt;Download by SVN, replace &lt;strong&gt;tree/master&lt;/strong&gt; with &lt;strong&gt;trunk&lt;/strong&gt; in the file path.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How to Install SVN？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;mac → &lt;a href=&quot;https://www.jianshu.com/p/b3fd26cbef46&quot;&gt;https://www.jianshu.com/p/b3fd26cbef46&lt;/a&gt;&lt;/p&gt;
-
-&lt;div&gt;&lt;iframe class=&quot;extensions extensions--audio&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=1840192925&amp;amp;auto=1&amp;amp;height=66&quot; frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Tool" /><summary type="html">Websites 获取小额捐助 Fund your creative work. Buy Me a Coffee Emoji Search for Emoji. Homepage Pdf2docx 两个转换较好的网站，也支持其他格式相互转换。 准确度⭐⭐⭐⭐：Online2pdf 准确度⭐⭐⭐：Pdf2docx Caj2pdf caj阅读器十分不友好，转换成pdf阅读吧！Caj2pdf Latex公式 方便书写Latex公式，同时支持粘贴到Word 支持多种格式转化：Latexlive 支持图片识别，但有时服务器会开小差：Mathf 下载英文杂志 齐全度⭐⭐⭐⭐：Freemagazines 齐全度⭐⭐⭐：Magazinelib CV论文汇总 包含2013至今每年CVPR、ICCV、ECCV会议的论文：The CVF Arxiv：new、recent Tools 跨端文件传输 QRCP 手机和电脑间相互传输文件不是很方便，Github上一个开源项目，支持同一局域网下电脑发送/接受不同设备的文件，其他设备可以通过扫描二维码的方式打开 项目地址: QRCP 在release中下载对应的版本，并在对应目录下执行 qrcp send/receive &apos;file path&apos;即可得到传输地址并自动生成二维码 Tips Download Single File Floder from Github Download by SVN, replace tree/master with trunk in the file path. How to Install SVN？ mac → https://www.jianshu.com/p/b3fd26cbef46</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Paper" /><category term="Writting" /><summary type="html">名词 G generalization 泛化 P preliminaries 预备章节 类似于 Ralated work 动词 D demonstrate 证明、证实 O outperform 胜过、超过 形容词 C consecutive 连贯的、连续的 F fine-graind 细粒度的、详细的、深度的 G groundbreaking 开创性的 H holistic 整体的 I integrated 综合的、完整的、协调的 O optimal -最优的 P prevalent 流行的、普遍的 S sophisticated 复杂的 副词 C convincingly 有说服力地 N notably 显著地、尤其 词组 A ablation study/experiment 消融实验 S shed light on 阐释、说明 T trial and error 反复试验</summary></entry></feed>
