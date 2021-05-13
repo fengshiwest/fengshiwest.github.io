@@ -1,5 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-05-07T09:03:08+00:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
-</subtitle><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><entry><title type="html">CNN可视化</title><link href="/2021/05/07/CNN-Visualization.html" rel="alternate" type="text/html" title="CNN可视化" /><published>2021-05-07T00:00:00+00:00</published><updated>2021-05-07T00:00:00+00:00</updated><id>/2021/05/07/CNN-Visualization</id><content type="html" xml:base="/2021/05/07/CNN-Visualization.html">&lt;h2 id=&quot;cnn-explainer&quot;&gt;CNN Explainer&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-05-11T09:36:47+00:00</updated><id>/feed.xml</id><title type="html">Fengshiwest’s Homepage</title><subtitle>A student &amp; coder.
+</subtitle><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><entry><title type="html">李宏毅机器学习笔记（1）</title><link href="/2021/05/11/ml-study-1.html" rel="alternate" type="text/html" title="李宏毅机器学习笔记（1）" /><published>2021-05-11T00:00:00+00:00</published><updated>2021-05-11T00:00:00+00:00</updated><id>/2021/05/11/ml-study-1</id><content type="html" xml:base="/2021/05/11/ml-study-1.html"></content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="ML" /><summary type="html"></summary></entry><entry><title type="html">Python使用技巧</title><link href="/2021/05/10/python-study-1.html" rel="alternate" type="text/html" title="Python使用技巧" /><published>2021-05-10T00:00:00+00:00</published><updated>2021-05-10T00:00:00+00:00</updated><id>/2021/05/10/python-study-1</id><content type="html" xml:base="/2021/05/10/python-study-1.html">&lt;h2 id=&quot;conda-创建liunx虚拟环境&quot;&gt;Conda 创建Liunx虚拟环境&lt;/h2&gt;
+
+&lt;p&gt;1、查看当前存在的虚拟环境&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda env list&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;2、创建虚拟环境&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda create -n env_name python=x.x&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;3、激活虚拟环境&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda activate env_name&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;4、关闭虚拟环境&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda deactivate&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;5、删除虚拟环境&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda remove -n env_name --all&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;超算长时间占用计算节点&quot;&gt;超算长时间占用计算节点&lt;/h2&gt;
+
+&lt;p&gt;1、设置账户、计算资源类型、时间&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;salloc -A account -p gpu --gres=gpu:1 -t 1-00:00:00&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;2、新建会话&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux new -t session&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;3、分离会话&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux detach&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;参考文献&quot;&gt;参考文献&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ruanyifeng.com/blog/2019/10/tmux.html&quot;&gt;阮一峰：Tmux使用教程&lt;/a&gt;&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Python" /><summary type="html">Conda 创建Liunx虚拟环境 1、查看当前存在的虚拟环境 conda env list 2、创建虚拟环境 conda create -n env_name python=x.x 3、激活虚拟环境 conda activate env_name 4、关闭虚拟环境 conda deactivate 5、删除虚拟环境 conda remove -n env_name --all 超算长时间占用计算节点 1、设置账户、计算资源类型、时间 salloc -A account -p gpu --gres=gpu:1 -t 1-00:00:00 2、新建会话 tmux new -t session 3、分离会话 tmux detach 参考文献 阮一峰：Tmux使用教程</summary></entry><entry><title type="html">深度学习可解释性</title><link href="/2021/05/09/Explainable-AI.html" rel="alternate" type="text/html" title="深度学习可解释性" /><published>2021-05-09T00:00:00+00:00</published><updated>2021-05-09T00:00:00+00:00</updated><id>/2021/05/09/Explainable-AI</id><content type="html" xml:base="/2021/05/09/Explainable-AI.html">&lt;h3 id=&quot;explainable-vs-interpretable&quot;&gt;Explainable VS Interpretable&lt;/h3&gt;
+
+&lt;p&gt;Explainable：本来是“黑箱”，赋予其可解释性的含义。&lt;/p&gt;
+
+&lt;p&gt;Interpretable：本来就不是“黑箱”，获取其解释性的含义。&lt;/p&gt;
+
+&lt;h3 id=&quot;local-explanation&quot;&gt;Local Explanation&lt;/h3&gt;
+
+&lt;p&gt;Explain the decision&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="深度学习" /><summary type="html">Explainable VS Interpretable Explainable：本来是“黑箱”，赋予其可解释性的含义。 Interpretable：本来就不是“黑箱”，获取其解释性的含义。 Local Explanation Explain the decision</summary></entry><entry><title type="html">Latex排版(1)</title><link href="/2021/05/08/Latex-1.html" rel="alternate" type="text/html" title="Latex排版(1)" /><published>2021-05-08T00:00:00+00:00</published><updated>2021-05-08T00:00:00+00:00</updated><id>/2021/05/08/Latex-1</id><content type="html" xml:base="/2021/05/08/Latex-1.html">&lt;h2 id=&quot;图片并排&quot;&gt;图片并排&lt;/h2&gt;
+
+&lt;p&gt;使用floatrow包&lt;/p&gt;
+
+&lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[captionskip=0.5cm]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;floatrow&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\newfloatcommand&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;capbtabbox&lt;span class=&quot;p&quot;&gt;}{&lt;/span&gt;table&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;[][&lt;span class=&quot;k&quot;&gt;\FBwidth&lt;/span&gt;]
+
+&lt;span class=&quot;nt&quot;&gt;\begin{figure}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;\begin{floatrow}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;\ffigbox&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[\FBwidth]&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\includegraphics&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[width=1\linewidth]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;figs/fig1.jpg&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\caption&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;caption1&lt;span class=&quot;k&quot;&gt;\label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;label1&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;\ffigbox&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[\Xhsize]&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\includegraphics&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[width=1\linewidth]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;figs/fig3.jpg&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\caption&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;caption2&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;label2&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;\end{floatrow}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;\end{figure}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;表格并排&quot;&gt;表格并排&lt;/h2&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Latex" /><summary type="html">图片并排 使用floatrow包 \usepackage[captionskip=0.5cm]{floatrow} \newfloatcommand{capbtabbox}{table}[][\FBwidth] \begin{figure} \begin{floatrow} \ffigbox[\FBwidth] {\includegraphics[width=1\linewidth]{figs/fig1.jpg}} {\caption{caption1\label{label1}} \ffigbox[\Xhsize] {\includegraphics[width=1\linewidth]{figs/fig3.jpg}} {\caption{caption2}\label{label2}} \end{floatrow} \end{figure} 表格并排</summary></entry><entry><title type="html">Inception</title><link href="/2021/05/08/inception.html" rel="alternate" type="text/html" title="Inception" /><published>2021-05-08T00:00:00+00:00</published><updated>2021-05-08T00:00:00+00:00</updated><id>/2021/05/08/inception</id><content type="html" xml:base="/2021/05/08/inception.html"></content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">CNN可视化</title><link href="/2021/05/07/CNN-Visualization.html" rel="alternate" type="text/html" title="CNN可视化" /><published>2021-05-07T00:00:00+00:00</published><updated>2021-05-07T00:00:00+00:00</updated><id>/2021/05/07/CNN-Visualization</id><content type="html" xml:base="/2021/05/07/CNN-Visualization.html">&lt;h2 id=&quot;论文笔记-visualizing-and-understanding-convolutional-networks&quot;&gt;论文笔记: Visualizing and Understanding Convolutional Networks&lt;/h2&gt;
+
+&lt;h3 id=&quot;本文贡献&quot;&gt;本文贡献&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;介绍了一种可视化技术，揭示了在模型的任意层激发单独特征映射的输入促进因素。&lt;/li&gt;
+  &lt;li&gt;在训练过程中观察特征的演变，并诊断模型的潜在问题。我们提出的可视化技术使用多层反卷积网络(deconvnet)将特征激活投影回输入像素空间。&lt;/li&gt;
+  &lt;li&gt;对分类器输出进行灵敏度分析，通过遮挡输入图像的部分，揭示场景的哪些部分对分类是重要的。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;论文笔记deep-inside-convolutional-networks-visualising-image-classification-models-and-saliency-maps&quot;&gt;论文笔记：Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps&lt;/h2&gt;
+
+&lt;h3 id=&quot;本文贡献-1&quot;&gt;本文贡献&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;提出显著性图(Saliency Maps)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;显著性图原理&quot;&gt;显著性图原理&lt;/h3&gt;
+
+&lt;p&gt;计算每一个像素点的导数，表示该点的微小改变对于结果的影响程度，从而看可以得知该像素点对于图像分类结果的影响。&lt;/p&gt;
+
+&lt;h3 id=&quot;代码实现&quot;&gt;代码实现&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/wmn7/ML_Practice/blob/master/2019_07_08/Saliency%20Maps/Saliency%20Maps%20Picture.ipynb&quot;&gt;Saliency Maps ipynb&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;cnn-explainer&quot;&gt;CNN Explainer&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://poloclub.github.io/cnn-explainer/&quot;&gt;演示地址&lt;/a&gt;&lt;/p&gt;
 
@@ -23,13 +114,45 @@
 
 &lt;h3 id=&quot;激活函数&quot;&gt;激活函数&lt;/h3&gt;
 
-&lt;p&gt;ReLU:&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><summary type="html">CNN Explainer 演示地址 Github 对CNN各层作用的理解 输入层 对于RGB图像，输入层有R、G、B三个通道；对于灰度图像，输入层只有单通道。 卷积层 参数： Padding: 补充图像的边缘部分，一般补0 Kernel Size: 卷积核大小 Stride: 卷积核滑动步长 激活函数 ReLU:</summary></entry><entry><title type="html">Pytorch学习(1)</title><link href="/2021/05/06/pytorch-study-1.html" rel="alternate" type="text/html" title="Pytorch学习(1)" /><published>2021-05-06T00:00:00+00:00</published><updated>2021-05-06T00:00:00+00:00</updated><id>/2021/05/06/pytorch-study-1</id><content type="html" xml:base="/2021/05/06/pytorch-study-1.html"></content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Pytorch" /><summary type="html"></summary></entry><entry><title type="html">论文笔记-Object Detection in 20 Years A Survey</title><link href="/2021/04/28/object-detection.html" rel="alternate" type="text/html" title="论文笔记-Object Detection in 20 Years A Survey" /><published>2021-04-28T00:00:00+00:00</published><updated>2021-04-28T00:00:00+00:00</updated><id>/2021/04/28/object-detection</id><content type="html" xml:base="/2021/04/28/object-detection.html">&lt;h2 id=&quot;参考文献&quot;&gt;参考文献&lt;/h2&gt;
+&lt;p&gt;ReLU: 增加模型的非线性&lt;/p&gt;
+
+&lt;p&gt;（什么是非线性？一阶导数非常数，虽然ReLU在大于0和小于0部分均为线性，但是组合起来为非线性。）&lt;/p&gt;
+
+&lt;p&gt;Softmax: 使CNN的输出之和为1&lt;/p&gt;
+
+&lt;h3 id=&quot;池化层&quot;&gt;池化层&lt;/h3&gt;
+
+&lt;p&gt;减少网络空间范围，从而降低网络的参数和计算量&lt;/p&gt;
+
+&lt;h2 id=&quot;激活层可视化&quot;&gt;激活层可视化&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://yosinski.com/deepvis&quot;&gt;项目地址&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;参考文献&quot;&gt;参考文献&lt;/h2&gt;
+
+&lt;p&gt;[1] Jason Yosinski, Jeff Clune, Anh Nguyen, Thomas Fuchs, and Hod Lipson. Understanding neural networks through deep visualization. Presented at the Deep Learning Workshop, International Conference on Machine Learning (ICML), 2015.&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><summary type="html">论文笔记: Visualizing and Understanding Convolutional Networks 本文贡献 介绍了一种可视化技术，揭示了在模型的任意层激发单独特征映射的输入促进因素。 在训练过程中观察特征的演变，并诊断模型的潜在问题。我们提出的可视化技术使用多层反卷积网络(deconvnet)将特征激活投影回输入像素空间。 对分类器输出进行灵敏度分析，通过遮挡输入图像的部分，揭示场景的哪些部分对分类是重要的。 论文笔记：Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps 本文贡献 提出显著性图(Saliency Maps) 显著性图原理 计算每一个像素点的导数，表示该点的微小改变对于结果的影响程度，从而看可以得知该像素点对于图像分类结果的影响。 代码实现 Saliency Maps ipynb CNN Explainer 演示地址 Github 对CNN各层作用的理解 输入层 对于RGB图像，输入层有R、G、B三个通道；对于灰度图像，输入层只有单通道。 卷积层 参数： Padding: 补充图像的边缘部分，一般补0 Kernel Size: 卷积核大小 Stride: 卷积核滑动步长 激活函数 ReLU: 增加模型的非线性 （什么是非线性？一阶导数非常数，虽然ReLU在大于0和小于0部分均为线性，但是组合起来为非线性。） Softmax: 使CNN的输出之和为1 池化层 减少网络空间范围，从而降低网络的参数和计算量 激活层可视化 项目地址 参考文献 [1] Jason Yosinski, Jeff Clune, Anh Nguyen, Thomas Fuchs, and Hod Lipson. Understanding neural networks through deep visualization. Presented at the Deep Learning Workshop, International Conference on Machine Learning (ICML), 2015.</summary></entry><entry><title type="html">Pytorch学习(1)</title><link href="/2021/05/06/pytorch-study-1.html" rel="alternate" type="text/html" title="Pytorch学习(1)" /><published>2021-05-06T00:00:00+00:00</published><updated>2021-05-06T00:00:00+00:00</updated><id>/2021/05/06/pytorch-study-1</id><content type="html" xml:base="/2021/05/06/pytorch-study-1.html"></content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Pytorch" /><summary type="html"></summary></entry><entry><title type="html">论文笔记-Object Detection in 20 Years A Survey</title><link href="/2021/04/28/object-detection.html" rel="alternate" type="text/html" title="论文笔记-Object Detection in 20 Years A Survey" /><published>2021-04-28T00:00:00+00:00</published><updated>2021-04-28T00:00:00+00:00</updated><id>/2021/04/28/object-detection</id><content type="html" xml:base="/2021/04/28/object-detection.html">&lt;h2 id=&quot;参考文献&quot;&gt;参考文献&lt;/h2&gt;
 
 &lt;p&gt;[1] Zou Z, Shi Z, Guo Y, et al. Object detection in 20 years: A survey[J]. arXiv preprint arXiv:1905.05055, 2019.&lt;/p&gt;
 
-&lt;p&gt;[2] https://blog.csdn.net/clover_my/article/details/92794719&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Paper" /><category term="Reading" /><summary type="html">参考文献 [1] Zou Z, Shi Z, Guo Y, et al. Object detection in 20 years: A survey[J]. arXiv preprint arXiv:1905.05055, 2019. [2] https://blog.csdn.net/clover_my/article/details/92794719</summary></entry><entry><title type="html">论文词典</title><link href="/2021/04/10/paper-dictionary.html" rel="alternate" type="text/html" title="论文词典" /><published>2021-04-10T00:00:00+00:00</published><updated>2021-04-10T00:00:00+00:00</updated><id>/2021/04/10/paper-dictionary</id><content type="html" xml:base="/2021/04/10/paper-dictionary.html">&lt;h2 id=&quot;名词&quot;&gt;名词&lt;/h2&gt;
+&lt;p&gt;[2] &lt;a href=&quot;https://blog.csdn.net/clover_my/article/details/92794719&quot;&gt;CSDN: 论文笔记-2019-Object Detection in 20 Years: A Survey&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Preliminaries&lt;/p&gt;
+&lt;p&gt;[3] &lt;a href=&quot;https://zhuanlan.zhihu.com/p/76494575&quot;&gt;知乎: 目标检测 Object Detection in 20 Years 综述&lt;/a&gt;&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Paper" /><category term="Reading" /><summary type="html">参考文献 [1] Zou Z, Shi Z, Guo Y, et al. Object detection in 20 years: A survey[J]. arXiv preprint arXiv:1905.05055, 2019. [2] CSDN: 论文笔记-2019-Object Detection in 20 Years: A Survey [3] 知乎: 目标检测 Object Detection in 20 Years 综述</summary></entry><entry><title type="html">论文词典</title><link href="/2021/04/10/paper-dictionary.html" rel="alternate" type="text/html" title="论文词典" /><published>2021-04-10T00:00:00+00:00</published><updated>2021-04-10T00:00:00+00:00</updated><id>/2021/04/10/paper-dictionary</id><content type="html" xml:base="/2021/04/10/paper-dictionary.html">&lt;h2 id=&quot;名词&quot;&gt;名词&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;G&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;generalization&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;泛化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;P&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;preliminaries&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;预备章节 类似于 Ralated work&lt;/li&gt;
@@ -44,7 +167,17 @@
 &lt;p&gt;demonstrate&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;证明，证实&lt;/li&gt;
+  &lt;li&gt;证明、证实&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;O&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;outperform&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;胜过、超过&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;形容词&quot;&gt;形容词&lt;/h2&gt;
@@ -59,11 +192,19 @@
   &lt;li&gt;连贯的、连续的&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;F&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;fine-graind&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;细粒度的、详细的、深度的&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;G&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;groundbreaking&lt;/p&gt;
 
@@ -71,11 +212,19 @@
   &lt;li&gt;开创性的&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;H&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;holistic&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;整体的&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;integrated&lt;/p&gt;
 
@@ -83,11 +232,27 @@
   &lt;li&gt;综合的、完整的、协调的&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;O&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;optimal&lt;/p&gt;
+
+&lt;p&gt;-最优的&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;P&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;prevalent&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;流行的、普遍的&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;S&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;sophisticated&lt;/p&gt;
 
@@ -95,13 +260,59 @@
   &lt;li&gt;复杂的&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;副词&quot;&gt;副词&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;C&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;convincingly&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;有说服力地&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;N&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;notably&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;显著地、尤其&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&quot;词组&quot;&gt;词组&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ablation study/experiment&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;消融实验&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;S&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;shed light on&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;阐释、说明&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Paper" /><category term="Writting" /><summary type="html">名词 Preliminaries 预备章节 类似于 Ralated work 动词 D demonstrate 证明，证实 形容词 C consecutive 连贯的、连续的 fine-graind 细粒度的、详细的、深度的 groundbreaking 开创性的 holistic 整体的 integrated 综合的、完整的、协调的 prevalent 流行的、普遍的 sophisticated 复杂的 词组 shed light on 阐释、说明</summary></entry><entry><title type="html">Useful Tools &amp;amp; Tips</title><link href="/2021/02/06/tool-tip.html" rel="alternate" type="text/html" title="Useful Tools &amp;amp; Tips" /><published>2021-02-06T00:00:00+00:00</published><updated>2021-02-06T00:00:00+00:00</updated><id>/2021/02/06/tool-tip</id><content type="html" xml:base="/2021/02/06/tool-tip.html">&lt;h2 id=&quot;websites&quot;&gt;Websites&lt;/h2&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;T&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;trial and error&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;反复试验&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Paper" /><category term="Writting" /><summary type="html">名词 G generalization 泛化 P preliminaries 预备章节 类似于 Ralated work 动词 D demonstrate 证明、证实 O outperform 胜过、超过 形容词 C consecutive 连贯的、连续的 F fine-graind 细粒度的、详细的、深度的 G groundbreaking 开创性的 H holistic 整体的 I integrated 综合的、完整的、协调的 O optimal -最优的 P prevalent 流行的、普遍的 S sophisticated 复杂的 副词 C convincingly 有说服力地 N notably 显著地、尤其 词组 A ablation study/experiment 消融实验 S shed light on 阐释、说明 T trial and error 反复试验</summary></entry><entry><title type="html">Useful Tools &amp;amp; Tips</title><link href="/2021/02/06/tool-tip.html" rel="alternate" type="text/html" title="Useful Tools &amp;amp; Tips" /><published>2021-02-06T00:00:00+00:00</published><updated>2021-02-06T00:00:00+00:00</updated><id>/2021/02/06/tool-tip</id><content type="html" xml:base="/2021/02/06/tool-tip.html">&lt;h2 id=&quot;websites&quot;&gt;Websites&lt;/h2&gt;
 
 &lt;h3 id=&quot;获取小额捐助&quot;&gt;获取小额捐助&lt;/h3&gt;
 
@@ -137,6 +348,12 @@
 
 &lt;p&gt;齐全度⭐⭐⭐：&lt;a href=&quot;https://magazinelib.com/&quot;&gt;Magazinelib&lt;/a&gt;&lt;/p&gt;
 
+&lt;h3 id=&quot;cv论文汇总&quot;&gt;CV论文汇总&lt;/h3&gt;
+
+&lt;p&gt;包含2013至今每年CVPR、ICCV、ECCV会议的论文：&lt;a href=&quot;https://openaccess.thecvf.com/menu&quot;&gt;The CVF&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Arxiv：&lt;a href=&quot;https://arxiv.org/list/cs.CV/new&quot;&gt;new&lt;/a&gt;、&lt;a href=&quot;https://arxiv.org/list/cs.CV/recent&quot;&gt;recent&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
 
 &lt;h3 id=&quot;跨端文件传输-qrcp&quot;&gt;跨端文件传输 QRCP&lt;/h3&gt;
@@ -145,7 +362,7 @@
 
 &lt;p&gt;项目地址: &lt;a href=&quot;https://github.com/claudiodangelis/qrcp&quot;&gt;QRCP&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;在&lt;a href=&quot;https://github.com/claudiodangelis/qrcp/releases&quot;&gt;release&lt;/a&gt;中下载对应的版本，并在对应目录下执行 &lt;code&gt;qrcp send/receive &apos;file path&apos;&lt;/code&gt;即可得到传输地址并自动生成二维码&lt;/p&gt;
+&lt;p&gt;在&lt;a href=&quot;https://github.com/claudiodangelis/qrcp/releases&quot;&gt;release&lt;/a&gt;中下载对应的版本，并在对应目录下执行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;qrcp send/receive &apos;file path&apos;&lt;/code&gt;即可得到传输地址并自动生成二维码&lt;/p&gt;
 
 &lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
 
@@ -159,218 +376,4 @@
 
 &lt;div&gt;&lt;iframe class=&quot;extensions extensions--audio&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=1840192925&amp;amp;auto=1&amp;amp;height=66&quot; frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot;&gt;
 &lt;/iframe&gt;
-&lt;/div&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Tool" /><summary type="html">Websites 获取小额捐助 Fund your creative work. Buy Me a Coffee Emoji Search for Emoji. Homepage Pdf2docx 两个转换较好的网站，也支持其他格式相互转换。 准确度⭐⭐⭐⭐：Online2pdf 准确度⭐⭐⭐：Pdf2docx Caj2pdf caj阅读器十分不友好，转换成pdf阅读吧！Caj2pdf Latex公式 方便书写Latex公式，同时支持粘贴到Word 支持多种格式转化：Latexlive 支持图片识别，但有时服务器会开小差：Mathf 下载英文杂志 齐全度⭐⭐⭐⭐：Freemagazines 齐全度⭐⭐⭐：Magazinelib Tools 跨端文件传输 QRCP 手机和电脑间相互传输文件不是很方便，Github上一个开源项目，支持同一局域网下电脑发送/接受不同设备的文件，其他设备可以通过扫描二维码的方式打开 项目地址: QRCP 在release中下载对应的版本，并在对应目录下执行 qrcp send/receive &apos;file path&apos;即可得到传输地址并自动生成二维码 Tips Download Single File Floder from Github Download by SVN, replace tree/master with trunk in the file path. How to Install SVN？ mac → https://www.jianshu.com/p/b3fd26cbef46</summary></entry><entry><title type="html">Template for Taking Notes on Research Articles</title><link href="/2021/02/05/note-template.html" rel="alternate" type="text/html" title="Template for Taking Notes on Research Articles" /><published>2021-02-05T00:00:00+00:00</published><updated>2021-02-05T00:00:00+00:00</updated><id>/2021/02/05/note-template</id><content type="html" xml:base="/2021/02/05/note-template.html">&lt;blockquote&gt;
-  &lt;p&gt;研究论文笔记模版，来自 Rice University&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Whenever you read an article, pertinent book chapter, or research on the web, use the following format (or something similar) to make an electronic record of your notes for later easy access. Put quotation marks around any exact wording you write down so that you can avoid accidental plagiarism when you later cite the article.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Complete citation/完整引文信息&lt;/strong&gt;: Author(s), Date of publication, Title (book or article), Journal, Volume #, Issue #, pages:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;If web access&lt;/strong&gt;: url; date accessed&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Key words/关键词&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;General subject/一般主题&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Specific subject/特定主题&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hypothesis/假设&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Methodology/方法&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Result(s)/结果&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Summary of key points/要点总结&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Context/背景&lt;/strong&gt; (how this article relates to other work in the field; how it ties in with key issues and findings by others, including yourself):&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Significance/意义&lt;/strong&gt; (to the field; in relation to your own work):&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Important Figures and Tables/重要图表&lt;/strong&gt; (brief description; page number):&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cited References to follow up on/引用的可供你跟进的参考文献&lt;/strong&gt; (cite those obviously related to your topic and any papers frequently cited by others because those works may well prove to be essential as you develop your own work):&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Other Comments/其他评论&lt;/strong&gt;:&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Research" /><summary type="html">研究论文笔记模版，来自 Rice University Whenever you read an article, pertinent book chapter, or research on the web, use the following format (or something similar) to make an electronic record of your notes for later easy access. Put quotation marks around any exact wording you write down so that you can avoid accidental plagiarism when you later cite the article. Complete citation/完整引文信息: Author(s), Date of publication, Title (book or article), Journal, Volume #, Issue #, pages: If web access: url; date accessed Key words/关键词: General subject/一般主题: Specific subject/特定主题: Hypothesis/假设: Methodology/方法: Result(s)/结果: Summary of key points/要点总结: Context/背景 (how this article relates to other work in the field; how it ties in with key issues and findings by others, including yourself): Significance/意义 (to the field; in relation to your own work): Important Figures and Tables/重要图表 (brief description; page number): Cited References to follow up on/引用的可供你跟进的参考文献 (cite those obviously related to your topic and any papers frequently cited by others because those works may well prove to be essential as you develop your own work): Other Comments/其他评论:</summary></entry><entry><title type="html">Get Start</title><link href="/2021/02/03/get-start.html" rel="alternate" type="text/html" title="Get Start" /><published>2021-02-03T00:00:00+00:00</published><updated>2021-02-03T00:00:00+00:00</updated><id>/2021/02/03/get-start</id><content type="html" xml:base="/2021/02/03/get-start.html">&lt;blockquote&gt;
-  &lt;p&gt;此篇博客作为 Fengshiwest’s Homepage 的第一篇正式文章，用于记录搭建该网站的步骤。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;模版&quot;&gt;模版&lt;/h3&gt;
-
-&lt;p&gt;博客模版基于 &lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme&quot;&gt;jekyll-TeXt-theme&lt;/a&gt;，在该模版的基础上做一些改动，模版 &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/test/&quot;&gt;Demo 演示地址&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h4 id=&quot;本地环境及预览&quot;&gt;本地环境及预览&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;安装 Ruby 依赖包: &lt;code&gt;bundle install --path vendor/bundle&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;本地预览: &lt;code&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;布局&quot;&gt;布局&lt;/h3&gt;
-
-&lt;p&gt;Homepage 主要分为以下模块:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Blog: 记录技术方面的文章、实践等。&lt;/li&gt;
-  &lt;li&gt;Book: 记录想读、正在读、已读过的书籍，以及读后感和摘录。&lt;/li&gt;
-  &lt;li&gt;Movie: 同上，想看的、看过的影视。&lt;/li&gt;
-  &lt;li&gt;Archive: 博客的归档。&lt;/li&gt;
-  &lt;li&gt;About: 自我介绍和个人简历。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;todo&quot;&gt;TODO&lt;/h3&gt;
-
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;支持中英文切换，且英文作为主要语言。&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Book、Movie 板块改造，支持格式化。&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;样式更加自定义一些。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;change-log&quot;&gt;Change Log&lt;/h3&gt;
-
-&lt;h4 id=&quot;1-增加-feature_row&quot;&gt;1. 增加 feature_row&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;参考 https://mmistakes.github.io/minimal-mistakes/&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Designed to compliment the &lt;a href=&quot;/docs/layouts/#splash-page-layout&quot;&gt;&lt;code&gt;splash&lt;/code&gt;&lt;/a&gt; page layout as a way of arranging and aligning “feature blocks” containing text or image.&lt;/p&gt;
-
-&lt;p&gt;To add a feature row containing three content blocks with text and image, add the following YAML Front Matter&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Name&lt;/th&gt;
-      &lt;th&gt;Required&lt;/th&gt;
-      &lt;th&gt;Description&lt;/th&gt;
-      &lt;th&gt;Default&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;image_path&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Required&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Full path to image eg: &lt;code&gt;/assets/images/filename.jpg&lt;/code&gt;. Use absolute URLS for those hosted externally.&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;image_caption&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Optional&lt;/td&gt;
-      &lt;td&gt;Caption for image, Markdown is supported eg: `“Image from &lt;a href=&quot;https://unsplash.com&quot;&gt;Unsplash&lt;/a&gt;”&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;alt&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Optional&lt;/td&gt;
-      &lt;td&gt;Alternate text for image.&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;title&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Optional&lt;/td&gt;
-      &lt;td&gt;Content block title.&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;excerpt&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Optional&lt;/td&gt;
-      &lt;td&gt;Content block excerpt text. Markdown is allowed.&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;url&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Optional&lt;/td&gt;
-      &lt;td&gt;URL that the button should link to.&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;btn_label&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Optional&lt;/td&gt;
-      &lt;td&gt;Button text label.&lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;more_label&lt;/code&gt; in UI Text data file.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;btn_class&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Optional&lt;/td&gt;
-      &lt;td&gt;Button style. See &lt;a href=&quot;/docs/utility-classes/#buttons&quot;&gt;utility classes&lt;/a&gt; for options.&lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;btn&lt;/code&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;feature_row:
-  - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
-    alt: &quot;placeholder image 1&quot;
-    title: &quot;Placeholder 1&quot;
-    excerpt: &quot;This is some sample content that goes here with **Markdown** formatting.&quot;
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: &quot;placeholder image 2&quot;
-    title: &quot;Placeholder 2&quot;
-    excerpt: &quot;This is some sample content that goes here with **Markdown** formatting.&quot;
-    url: &quot;#test-link&quot;
-    btn_label: &quot;Read More&quot;
-    btn_class: &quot;btn--inverse&quot;
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: &quot;Placeholder 3&quot;
-    excerpt: &quot;This is some sample content that goes here with **Markdown** formatting.&quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And then drop-in the feature row include in the body where you’d like it to appear.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Include Parameter&lt;/th&gt;
-      &lt;th&gt;Required&lt;/th&gt;
-      &lt;th&gt;Description&lt;/th&gt;
-      &lt;th&gt;Default&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;id&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Optional&lt;/td&gt;
-      &lt;td&gt;To add multiple rows to a document uniquely name them in the YAML Front Matter and reference in &lt;code&gt;{% include feature_row id=&quot;row2&quot; %}&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code&gt;feature_row&lt;/code&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;type&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Optional&lt;/td&gt;
-      &lt;td&gt;Alignment of the featured blocks in the row. Options include: &lt;code&gt;left&lt;/code&gt;, &lt;code&gt;center&lt;/code&gt;, or &lt;code&gt;right&lt;/code&gt; aligned.&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-liquid&quot;&gt;{% include feature_row.html %}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&quot;feature__wrapper&quot;&gt;
-  
-
-&lt;/div&gt;
-
-&lt;style&gt;
-  .feature__wrapper {
-    display: grid;
-    grid-template-columns: minmax(90px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr); 
-  }
-  .feature__item {
-    margin: 20px;
-    /* flex: 1; */
-  }
-
-  .archive__item-teaser {
-    max-width: 950px;
-    margin: 0 auto;
-  }
-
-  .archive__item-teaser img {
-    width: 100%;
-    height: 100%;
-  }
-
-&lt;/style&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;More Feature Row Goodness:&lt;/strong&gt; A &lt;a href=&quot;/splash-page/&quot;&gt;few more examples&lt;/a&gt; and &lt;a href=&quot;https://github.com/fengshiwest/fengshiwest.github.io/blob/master/docs/\_pages/splash-page.md&quot;&gt;source code&lt;/a&gt; can be seen in the demo site.&lt;/p&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Homepage" /><summary type="html">此篇博客作为 Fengshiwest’s Homepage 的第一篇正式文章，用于记录搭建该网站的步骤。 模版 博客模版基于 jekyll-TeXt-theme，在该模版的基础上做一些改动，模版 Demo 演示地址。 本地环境及预览 安装 Ruby 依赖包: bundle install --path vendor/bundle 本地预览: bundle exec jekyll serve 布局 Homepage 主要分为以下模块: Blog: 记录技术方面的文章、实践等。 Book: 记录想读、正在读、已读过的书籍，以及读后感和摘录。 Movie: 同上，想看的、看过的影视。 Archive: 博客的归档。 About: 自我介绍和个人简历。 TODO 支持中英文切换，且英文作为主要语言。 Book、Movie 板块改造，支持格式化。 样式更加自定义一些。 Change Log 1. 增加 feature_row 参考 https://mmistakes.github.io/minimal-mistakes/ Designed to compliment the splash page layout as a way of arranging and aligning “feature blocks” containing text or image. To add a feature row containing three content blocks with text and image, add the following YAML Front Matter Name Required Description Default image_path Required Full path to image eg: /assets/images/filename.jpg. Use absolute URLS for those hosted externally.   image_caption Optional Caption for image, Markdown is supported eg: `“Image from Unsplash”   alt Optional Alternate text for image.   title Optional Content block title.   excerpt Optional Content block excerpt text. Markdown is allowed.   url Optional URL that the button should link to.   btn_label Optional Button text label. more_label in UI Text data file. btn_class Optional Button style. See utility classes for options. btn feature_row: - image_path: /assets/images/unsplash-gallery-image-1-th.jpg alt: &quot;placeholder image 1&quot; title: &quot;Placeholder 1&quot; excerpt: &quot;This is some sample content that goes here with **Markdown** formatting.&quot; - image_path: /assets/images/unsplash-gallery-image-2-th.jpg alt: &quot;placeholder image 2&quot; title: &quot;Placeholder 2&quot; excerpt: &quot;This is some sample content that goes here with **Markdown** formatting.&quot; url: &quot;#test-link&quot; btn_label: &quot;Read More&quot; btn_class: &quot;btn--inverse&quot; - image_path: /assets/images/unsplash-gallery-image-3-th.jpg title: &quot;Placeholder 3&quot; excerpt: &quot;This is some sample content that goes here with **Markdown** formatting.&quot; And then drop-in the feature row include in the body where you’d like it to appear. Include Parameter Required Description Default id Optional To add multiple rows to a document uniquely name them in the YAML Front Matter and reference in {% include feature_row id=&quot;row2&quot; %} feature_row type Optional Alignment of the featured blocks in the row. Options include: left, center, or right aligned.   {% include feature_row.html %} More Feature Row Goodness: A few more examples and source code can be seen in the demo site.</summary></entry></feed>
+&lt;/div&gt;</content><author><name>Wan Yu</name><email>fengshiwest@gmail.com</email></author><category term="Tool" /><summary type="html">Websites 获取小额捐助 Fund your creative work. Buy Me a Coffee Emoji Search for Emoji. Homepage Pdf2docx 两个转换较好的网站，也支持其他格式相互转换。 准确度⭐⭐⭐⭐：Online2pdf 准确度⭐⭐⭐：Pdf2docx Caj2pdf caj阅读器十分不友好，转换成pdf阅读吧！Caj2pdf Latex公式 方便书写Latex公式，同时支持粘贴到Word 支持多种格式转化：Latexlive 支持图片识别，但有时服务器会开小差：Mathf 下载英文杂志 齐全度⭐⭐⭐⭐：Freemagazines 齐全度⭐⭐⭐：Magazinelib CV论文汇总 包含2013至今每年CVPR、ICCV、ECCV会议的论文：The CVF Arxiv：new、recent Tools 跨端文件传输 QRCP 手机和电脑间相互传输文件不是很方便，Github上一个开源项目，支持同一局域网下电脑发送/接受不同设备的文件，其他设备可以通过扫描二维码的方式打开 项目地址: QRCP 在release中下载对应的版本，并在对应目录下执行 qrcp send/receive &apos;file path&apos;即可得到传输地址并自动生成二维码 Tips Download Single File Floder from Github Download by SVN, replace tree/master with trunk in the file path. How to Install SVN？ mac → https://www.jianshu.com/p/b3fd26cbef46</summary></entry></feed>

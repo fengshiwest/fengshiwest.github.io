@@ -1,10 +1,10 @@
 <!DOCTYPE html><html lang="en">
   <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>论文笔记-Object Detection in 20 Years A Survey - Fengshiwest's Homepage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Latex排版(1) - Fengshiwest's Homepage</title>
 
-<meta name="description" content="参考文献[1] Zou Z, Shi Z, Guo Y, et al. Object detection in 20 years: A survey[J]. arXiv preprint arXiv:1905.05055, 2019.[2] CSDN: 论文笔记-2019-Object Detection in ...">
-<link rel="canonical" href="/2021/04/28/object-detection.html"><link rel="alternate" type="application/rss+xml" title="Fengshiwest's Homepage" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
+<meta name="description" content="图片并排使用floatrow包\usepackage[captionskip=0.5cm]{floatrow}\newfloatcommand{capbtabbox}{table}[][\FBwidth]\begin{figure}  \begin{floatrow}    \ffigbox[\FBwidth] ...">
+<link rel="canonical" href="/2021/05/08/Latex-1.html"><link rel="alternate" type="application/rss+xml" title="Fengshiwest's Homepage" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
 
 <meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/assets/browserconfig.xml">
 
@@ -3309,29 +3309,40 @@ MDhfMThfWzBdajFegwAAAABJRU5ErkJggg==" ></image>
               <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
 
 <!-- end custom main top snippet -->
-<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>论文笔记-Object Detection in 20 Years A Survey</h1></header><span class="split-space">&nbsp;</span>
+<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>Latex排版(1)</h1></header><span class="split-space">&nbsp;</span>
           <a class="edit-on-github"
             title="Edit on Github"
-            href="https://github.com/fengshiwest/fengshiwest.github.io/tree/master/_posts/2021-04-28-object-detection.md">
-            <i class="far fa-edit"></i></a></div><meta itemprop="headline" content="论文笔记-Object Detection in 20 Years A Survey"><div class="article__info clearfix"><ul class="left-col menu"><li>
+            href="https://github.com/fengshiwest/fengshiwest.github.io/tree/master/_posts/2021-05-08-Latex-1.md">
+            <i class="far fa-edit"></i></a></div><meta itemprop="headline" content="Latex排版(1)"><div class="article__info clearfix"><ul class="left-col menu"><li>
               <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=Paper">Paper</a>
-            </li><li>
-              <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=Reading">Reading</a>
-            </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Apr 28, 2021</span>
-            </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_5">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-04-28T00:00:00+00:00">
-    <meta itemprop="keywords" content="Paper,Reading"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
+                href="/archive.html?tag=Latex">Latex</a>
+            </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>May 08, 2021</span>
+            </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_9">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-05-08T00:00:00+00:00">
+    <meta itemprop="keywords" content="Latex"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
 <!-- end custom article top snippet -->
-<div class="article__content" itemprop="articleBody"><h2 id="参考文献">参考文献</h2>
+<div class="article__content" itemprop="articleBody"><h2 id="图片并排">图片并排</h2>
 
-<p>[1] Zou Z, Shi Z, Guo Y, et al. Object detection in 20 years: A survey[J]. arXiv preprint arXiv:1905.05055, 2019.</p>
+<p>使用floatrow包</p>
 
-<p>[2] <a href="https://blog.csdn.net/clover_my/article/details/92794719">CSDN: 论文笔记-2019-Object Detection in 20 Years: A Survey</a></p>
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\usepackage</span><span class="na">[captionskip=0.5cm]</span><span class="p">{</span>floatrow<span class="p">}</span>
+<span class="k">\newfloatcommand</span><span class="p">{</span>capbtabbox<span class="p">}{</span>table<span class="p">}</span>[][<span class="k">\FBwidth</span>]
 
-<p>[3] <a href="https://zhuanlan.zhihu.com/p/76494575">知乎: 目标检测 Object Detection in 20 Years 综述</a></p>
-</div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2021-04-28T00:00:00+00:00"><!-- start custom article footer snippet -->
+<span class="nt">\begin{figure}</span>
+  <span class="nt">\begin{floatrow}</span>
+    <span class="k">\ffigbox</span><span class="na">[\FBwidth]</span>
+      <span class="p">{</span><span class="k">\includegraphics</span><span class="na">[width=1\linewidth]</span><span class="p">{</span>figs/fig1.jpg<span class="p">}}</span>
+      <span class="p">{</span><span class="k">\caption</span><span class="p">{</span>caption1<span class="k">\label</span><span class="p">{</span>label1<span class="p">}}</span>
+    <span class="k">\ffigbox</span><span class="na">[\Xhsize]</span>
+      <span class="p">{</span><span class="k">\includegraphics</span><span class="na">[width=1\linewidth]</span><span class="p">{</span>figs/fig3.jpg<span class="p">}}</span>
+      <span class="p">{</span><span class="k">\caption</span><span class="p">{</span>caption2<span class="p">}</span><span class="k">\label</span><span class="p">{</span>label2<span class="p">}}</span>
+  <span class="nt">\end{floatrow}</span>
+<span class="nt">\end{figure}</span>
+</code></pre></div></div>
+
+<h2 id="表格并排">表格并排</h2>
+
+</div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2021-05-08T00:00:00+00:00"><!-- start custom article footer snippet -->
 
 <!-- end custom article footer snippet -->
 <div class="article__subscribe"><div class="subscribe"><i class="fas fa-rss"></i> <a type="application/rss+xml" href="/feed.xml">Subscribe</a></div>
@@ -3342,7 +3353,7 @@ MDhfMThfWzBdajFegwAAAABJRU5ErkJggg==" ></image>
       </a>
     </p>
   </div></div></footer>
-<div class="article__section-navigator clearfix"><div class="previous"><span>PREVIOUS</span><a href="/2021/04/10/paper-dictionary.html">论文词典</a></div><div class="next"><span>NEXT</span><a href="/2021/05/06/pytorch-study-1.html">Pytorch学习(1)</a></div></div></div>
+<div class="article__section-navigator clearfix"><div class="previous"><span>PREVIOUS</span><a href="/2021/05/07/CNN-Visualization.html">CNN可视化</a></div><div class="next"><span>NEXT</span><a href="/2021/05/08/inception.html">Inception</a></div></div></div>
 
 </div>
 

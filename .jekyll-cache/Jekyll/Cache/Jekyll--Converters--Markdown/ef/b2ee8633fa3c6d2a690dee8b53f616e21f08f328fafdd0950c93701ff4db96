@@ -1,0 +1,40 @@
+I"<h2 id="conda-创建liunx虚拟环境">Conda 创建Liunx虚拟环境</h2>
+
+<p>1、查看当前存在的虚拟环境</p>
+
+<p><code class="language-plaintext highlighter-rouge">conda env list</code></p>
+
+<p>2、创建虚拟环境</p>
+
+<p><code class="language-plaintext highlighter-rouge">conda create -n env_name python=x.x</code></p>
+
+<p>3、激活虚拟环境</p>
+
+<p><code class="language-plaintext highlighter-rouge">conda activate env_name</code></p>
+
+<p>4、关闭虚拟环境</p>
+
+<p><code class="language-plaintext highlighter-rouge">conda deactivate</code></p>
+
+<p>5、删除虚拟环境</p>
+
+<p><code class="language-plaintext highlighter-rouge">conda remove -n env_name --all</code></p>
+
+<h2 id="超算长时间占用计算节点">超算长时间占用计算节点</h2>
+
+<p>1、设置账户、计算资源类型、时间</p>
+
+<p><code class="language-plaintext highlighter-rouge">salloc -A account -p gpu --gres=gpu:1 -t 1-00:00:00</code></p>
+
+<p>2、新建会话</p>
+
+<p><code class="language-plaintext highlighter-rouge">tmux new -t session</code></p>
+
+<p>3、分离会话</p>
+
+<p><code class="language-plaintext highlighter-rouge">tmux detach</code></p>
+
+<h2 id="参考文献">参考文献</h2>
+
+<p><a href="http://www.ruanyifeng.com/blog/2019/10/tmux.html">阮一峰：Tmux使用教程</a></p>
+:ET

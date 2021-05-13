@@ -1,0 +1,22 @@
+I"<h2 id="图片并排">图片并排</h2>
+
+<p>使用floatrow包</p>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\usepackage</span><span class="na">[captionskip=0.5cm]</span><span class="p">{</span>floatrow<span class="p">}</span>
+<span class="k">\newfloatcommand</span><span class="p">{</span>capbtabbox<span class="p">}{</span>table<span class="p">}</span>[][<span class="k">\FBwidth</span>]
+
+<span class="nt">\begin{figure}</span>
+  <span class="nt">\begin{floatrow}</span>
+    <span class="k">\ffigbox</span><span class="na">[\FBwidth]</span>
+      <span class="p">{</span><span class="k">\includegraphics</span><span class="na">[width=1\linewidth]</span><span class="p">{</span>figs/fig1.jpg<span class="p">}}</span>
+      <span class="p">{</span><span class="k">\caption</span><span class="p">{</span>caption1<span class="k">\label</span><span class="p">{</span>label1<span class="p">}}</span>
+    <span class="k">\ffigbox</span><span class="na">[\Xhsize]</span>
+      <span class="p">{</span><span class="k">\includegraphics</span><span class="na">[width=1\linewidth]</span><span class="p">{</span>figs/fig3.jpg<span class="p">}}</span>
+      <span class="p">{</span><span class="k">\caption</span><span class="p">{</span>caption2<span class="p">}</span><span class="k">\label</span><span class="p">{</span>label2<span class="p">}}</span>
+  <span class="nt">\end{floatrow}</span>
+<span class="nt">\end{figure}</span>
+</code></pre></div></div>
+
+<h2 id="表格并排">表格并排</h2>
+
+:ET

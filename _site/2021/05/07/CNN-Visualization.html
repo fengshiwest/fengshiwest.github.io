@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>CNN可视化 - Fengshiwest's Homepage</title>
 
-<meta name="description" content="CNN Explainer演示地址Github对CNN各层作用的理解输入层对于RGB图像，输入层有R、G、B三个通道；对于灰度图像，输入层只有单通道。卷积层参数：Padding: 补充图像的边缘部分，一般补0Kernel Size: 卷积核大小Stride: 卷积核滑动步长激活函数ReLU:">
+<meta name="description" content="论文笔记: Visualizing and Understanding Convolutional Networks本文贡献  介绍了一种可视化技术，揭示了在模型的任意层激发单独特征映射的输入促进因素。  在训练过程中观察特征的演变，并诊断模型的潜在问题。我们提出的可视化技术使用多层反卷积网络(deconvnet...">
 <link rel="canonical" href="/2021/05/07/CNN-Visualization.html"><link rel="alternate" type="application/rss+xml" title="Fengshiwest's Homepage" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
 
 <meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/assets/browserconfig.xml">
@@ -3317,7 +3317,33 @@ MDhfMThfWzBdajFegwAAAABJRU5ErkJggg==" ></image>
             </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_7">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-05-07T00:00:00+00:00"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
 <!-- end custom article top snippet -->
-<div class="article__content" itemprop="articleBody"><h2 id="cnn-explainer">CNN Explainer</h2>
+<div class="article__content" itemprop="articleBody"><h2 id="论文笔记-visualizing-and-understanding-convolutional-networks">论文笔记: Visualizing and Understanding Convolutional Networks</h2>
+
+<h3 id="本文贡献">本文贡献</h3>
+
+<ol>
+  <li>介绍了一种可视化技术，揭示了在模型的任意层激发单独特征映射的输入促进因素。</li>
+  <li>在训练过程中观察特征的演变，并诊断模型的潜在问题。我们提出的可视化技术使用多层反卷积网络(deconvnet)将特征激活投影回输入像素空间。</li>
+  <li>对分类器输出进行灵敏度分析，通过遮挡输入图像的部分，揭示场景的哪些部分对分类是重要的。</li>
+</ol>
+
+<h2 id="论文笔记deep-inside-convolutional-networks-visualising-image-classification-models-and-saliency-maps">论文笔记：Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps</h2>
+
+<h3 id="本文贡献-1">本文贡献</h3>
+
+<ol>
+  <li>提出显著性图(Saliency Maps)</li>
+</ol>
+
+<h3 id="显著性图原理">显著性图原理</h3>
+
+<p>计算每一个像素点的导数，表示该点的微小改变对于结果的影响程度，从而看可以得知该像素点对于图像分类结果的影响。</p>
+
+<h3 id="代码实现">代码实现</h3>
+
+<p><a href="https://github.com/wmn7/ML_Practice/blob/master/2019_07_08/Saliency%20Maps/Saliency%20Maps%20Picture.ipynb">Saliency Maps ipynb</a></p>
+
+<h2 id="cnn-explainer">CNN Explainer</h2>
 
 <p><a href="https://poloclub.github.io/cnn-explainer/">演示地址</a></p>
 
@@ -3341,7 +3367,23 @@ MDhfMThfWzBdajFegwAAAABJRU5ErkJggg==" ></image>
 
 <h3 id="激活函数">激活函数</h3>
 
-<p>ReLU:</p>
+<p>ReLU: 增加模型的非线性</p>
+
+<p>（什么是非线性？一阶导数非常数，虽然ReLU在大于0和小于0部分均为线性，但是组合起来为非线性。）</p>
+
+<p>Softmax: 使CNN的输出之和为1</p>
+
+<h3 id="池化层">池化层</h3>
+
+<p>减少网络空间范围，从而降低网络的参数和计算量</p>
+
+<h2 id="激活层可视化">激活层可视化</h2>
+
+<p><a href="https://yosinski.com/deepvis">项目地址</a></p>
+
+<h2 id="参考文献">参考文献</h2>
+
+<p>[1] Jason Yosinski, Jeff Clune, Anh Nguyen, Thomas Fuchs, and Hod Lipson. Understanding neural networks through deep visualization. Presented at the Deep Learning Workshop, International Conference on Machine Learning (ICML), 2015.</p>
 </div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2021-05-07T00:00:00+00:00"><!-- start custom article footer snippet -->
 
 <!-- end custom article footer snippet -->
@@ -3353,7 +3395,7 @@ MDhfMThfWzBdajFegwAAAABJRU5ErkJggg==" ></image>
       </a>
     </p>
   </div></div></footer>
-<div class="article__section-navigator clearfix"><div class="previous"><span>PREVIOUS</span><a href="/2021/05/06/pytorch-study-1.html">Pytorch学习(1)</a></div></div></div>
+<div class="article__section-navigator clearfix"><div class="previous"><span>PREVIOUS</span><a href="/2021/05/06/pytorch-study-1.html">Pytorch学习(1)</a></div><div class="next"><span>NEXT</span><a href="/2021/05/08/Latex-1.html">Latex排版(1)</a></div></div></div>
 
 </div>
 

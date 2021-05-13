@@ -1,0 +1,11 @@
+I"><h3 id="explainable-vs-interpretable">Explainable VS Interpretable</h3>
+
+<p>Explainable：本来是“黑箱”，赋予其可解释性的含义。</p>
+
+<p>Interpretable：本来就不是“黑箱”，获取其解释性的含义。</p>
+
+<h3 id="local-explanation">Local Explanation</h3>
+
+<p>Explain the decision</p>
+
+:ET

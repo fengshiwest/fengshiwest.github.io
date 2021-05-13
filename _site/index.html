@@ -3310,32 +3310,119 @@ MDhfMThfWzBdajFegwAAAABJRU5ErkJggg==" ></image>
 
 <!-- end custom main top snippet -->
 <article itemscope itemtype="http://schema.org/WebPage"><header style="display:none;"><h1>Home</h1></header><meta itemprop="headline" content="Home"><meta itemprop="author" content="Wan Yu"/><div class="js-article-content"><div class="layout--articles"><div class="article-list items items--divided"><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
+          <header><a href="/2021/05/11/ml-study-1.html"><h2 itemprop="headline" class="item__header">李宏毅机器学习笔记（1）</h2></a></header>
+          <div class="item__description"><div class="article__content" itemprop="description articleBody"></div><p><a href="/2021/05/11/ml-study-1.html">Read more</a></p></div><div class="article__info clearfix"><ul class="left-col menu"><li>
+              <a class="button button--secondary button--pill button--sm"
+                href="/archive.html?tag=ML">ML</a>
+            </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>May 11, 2021</span>
+            </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_12">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-05-11T00:00:00+00:00">
+    <meta itemprop="keywords" content="ML"></div>
+      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
+          <header><a href="/2021/05/10/python-study-1.html"><h2 itemprop="headline" class="item__header">Python使用技巧</h2></a></header>
+          <div class="item__description"><div class="article__content" itemprop="description articleBody">Conda 创建Liunx虚拟环境
+
+1、查看当前存在的虚拟环境
+
+conda env list
+
+2、创建虚拟环境
+
+conda create -n env_name python=x.x
+
+3、激活虚拟环境
+
+conda activate env_name
+
+4、关闭虚拟环境
+
+conda deactivate
+
+5、删除虚拟环境
+
+conda remove -n env_name --all
+
+超算长时间占用计算节点
+
+1、设置账户、计算资源类型、时间
+
+salloc -A account -p gpu --gres=gpu:1 -t 1-00:00:00
+
+2、新建会话
+
+tmux new -t session
+
+3、分离会话
+
+tmux detach
+
+参考文献
+
+阮一峰：T...</div><p><a href="/2021/05/10/python-study-1.html">Read more</a></p></div><div class="article__info clearfix"><ul class="left-col menu"><li>
+              <a class="button button--secondary button--pill button--sm"
+                href="/archive.html?tag=Python">Python</a>
+            </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>May 10, 2021</span>
+            </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_11">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-05-10T00:00:00+00:00">
+    <meta itemprop="keywords" content="Python"></div>
+      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
+          <header><a href="/2021/05/09/Explainable-AI.html"><h2 itemprop="headline" class="item__header">深度学习可解释性</h2></a></header>
+          <div class="item__description"><div class="article__content" itemprop="description articleBody">Explainable VS Interpretable
+
+Explainable：本来是“黑箱”，赋予其可解释性的含义。
+
+Interpretable：本来就不是“黑箱”，获取其解释性的含义。
+
+Local Explanation
+
+Explain the decision</div><p><a href="/2021/05/09/Explainable-AI.html">Read more</a></p></div><div class="article__info clearfix"><ul class="left-col menu"><li>
+              <a class="button button--secondary button--pill button--sm"
+                href="/archive.html?tag=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0">深度学习</a>
+            </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>May 09, 2021</span>
+            </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_10">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-05-09T00:00:00+00:00">
+    <meta itemprop="keywords" content="深度学习"></div>
+      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
+          <header><a href="/2021/05/08/inception.html"><h2 itemprop="headline" class="item__header">Inception</h2></a></header>
+          <div class="item__description"><div class="article__content" itemprop="description articleBody"></div><p><a href="/2021/05/08/inception.html">Read more</a></p></div><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>May 08, 2021</span>
+            </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_8">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-05-08T00:00:00+00:00"></div>
+      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
+          <header><a href="/2021/05/08/Latex-1.html"><h2 itemprop="headline" class="item__header">Latex排版(1)</h2></a></header>
+          <div class="item__description"><div class="article__content" itemprop="description articleBody">图片并排
+
+使用floatrow包
+
+\usepackage[captionskip=0.5cm]{floatrow}
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+
+\begin{figure}
+  \begin{floatrow}
+    \ffigbox[\FBwidth]
+      {\includegraphics[width=1\linewidth]{figs/fig1.jpg}}
+      {\caption{caption1\label{label1}}
+    \ffigbox[\Xhsize]
+      {\includegraphics[width=1\linewidth]{figs/fig3.jpg}}
+ ...</div><p><a href="/2021/05/08/Latex-1.html">Read more</a></p></div><div class="article__info clearfix"><ul class="left-col menu"><li>
+              <a class="button button--secondary button--pill button--sm"
+                href="/archive.html?tag=Latex">Latex</a>
+            </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>May 08, 2021</span>
+            </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_9">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-05-08T00:00:00+00:00">
+    <meta itemprop="keywords" content="Latex"></div>
+      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
           <header><a href="/2021/05/07/CNN-Visualization.html"><h2 itemprop="headline" class="item__header">CNN可视化</h2></a></header>
-          <div class="item__description"><div class="article__content" itemprop="description articleBody">CNN Explainer
+          <div class="item__description"><div class="article__content" itemprop="description articleBody">论文笔记: Visualizing and Understanding Convolutional Networks
 
-演示地址
+本文贡献
 
-Github
 
-对CNN各层作用的理解
+  介绍了一种可视化技术，揭示了在模型的任意层激发单独特征映射的输入促进因素。
+  在训练过程中观察特征的演变，并诊断模型的潜在问题。我们提出的可视化技术使用多层反卷积网络(deconvnet)将特征激活投影回输入像素空间。
+  对分类器输出进行灵敏度分析，通过遮挡输入图像的部分，揭示场景的哪些部分对分类是重要的。
 
-输入层
 
-对于RGB图像，输入层有R、G、B三个通道；对于灰度图像，输入层只有单通道。
+论文笔记：Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps
 
-卷积层
+本文贡献
 
-参数：
 
-Padding: 补充图像的边缘部分，一般补0
-
-Kernel Size: 卷积核大小
-
-Stride: 卷积核滑动步长
-
-激活函数
-
-ReLU:</div><p><a href="/2021/05/07/CNN-Visualization.html">Read more</a></p></div><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>May 07, 2021</span>
+  提出显著性图(Sal...</div><p><a href="/2021/05/07/CNN-Visualization.html">Read more</a></p></div><div class="article__info clearfix"><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>May 07, 2021</span>
             </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_7">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-05-07T00:00:00+00:00"></div>
       </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
           <header><a href="/2021/05/06/pytorch-study-1.html"><h2 itemprop="headline" class="item__header">Pytorch学习(1)</h2></a></header>
@@ -3351,7 +3438,9 @@ ReLU:</div><p><a href="/2021/05/07/CNN-Visualization.html">Read more</a></p></di
 
 [1] Zou Z, Shi Z, Guo Y, et al. Object detection in 20 years: A survey[J]. arXiv preprint arXiv:1905.05055, 2019.
 
-[2] https://blog.csdn.net/clover_my/article/details/92794719</div><p><a href="/2021/04/28/object-detection.html">Read more</a></p></div><div class="article__info clearfix"><ul class="left-col menu"><li>
+[2] CSDN: 论文笔记-2019-Object Detection in 20 Years: A Survey
+
+[3] 知乎: 目标检测 Object Detection in 20 Years 综述</div><p><a href="/2021/04/28/object-detection.html">Read more</a></p></div><div class="article__info clearfix"><ul class="left-col menu"><li>
               <a class="button button--secondary button--pill button--sm"
                 href="/archive.html?tag=Paper">Paper</a>
             </li><li>
@@ -3360,180 +3449,20 @@ ReLU:</div><p><a href="/2021/05/07/CNN-Visualization.html">Read more</a></p></di
             </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Apr 28, 2021</span>
             </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_5">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-04-28T00:00:00+00:00">
     <meta itemprop="keywords" content="Paper,Reading"></div>
-      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
-          <header><a href="/2021/04/10/paper-dictionary.html"><h2 itemprop="headline" class="item__header">论文词典</h2></a></header>
-          <div class="item__description"><div class="article__content" itemprop="description articleBody">名词
-
-Preliminaries
-
-
-  预备章节 类似于 Ralated work
-
-
-动词
-
-
-  D
-
-
-demonstrate
-
-
-  证明，证实
-
-
-形容词
-
-
-  C
-
-
-consecutive
-
-
-  连贯的、连续的
-
-
-fine-graind
-
-
-  细粒度的、详细的、深度的
-
-
-groundbreaking
-
-
-  开创性的
-
-
-holistic
-
-
-  整体的
-
-
-integrated
-
-
-  综合的、完整的、协调的
-
-
-prevalent
-
-
-  流行的、普遍的
-
-
-sophisticated
-
-
-  复杂的
-
-
-词组
-
-shed light on
-
-
-  阐释、说明</div><p><a href="/2021/04/10/paper-dictionary.html">Read more</a></p></div><div class="article__info clearfix"><ul class="left-col menu"><li>
-              <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=Paper">Paper</a>
-            </li><li>
-              <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=Writting">Writting</a>
-            </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Apr 10, 2021</span>
-            </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_4">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-04-10T00:00:00+00:00">
-    <meta itemprop="keywords" content="Paper,Writting"></div>
-      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
-          <header><a href="/2021/02/06/tool-tip.html"><h2 itemprop="headline" class="item__header">Useful Tools & Tips</h2></a></header>
-          <div class="item__description"><div class="article__content" itemprop="description articleBody">Websites
-
-获取小额捐助
-
-Fund your creative work. Buy Me a Coffee
-
-Emoji
-
-Search for Emoji. Homepage
-
-Pdf2docx
-
-两个转换较好的网站，也支持其他格式相互转换。
-
-准确度⭐⭐⭐⭐：Online2pdf
-
-准确度⭐⭐⭐：Pdf2docx
-
-Caj2pdf
-
-caj阅读器十分不友好，转换成pdf阅读吧！Caj2pdf
-
-Latex公式
-
-方便书写Latex公式，同时支持粘贴到Word
-
-支持多种格式转化：Latexlive
-
-支持图片识别，但有时服务器会开小差：Mathf
-
-下载英文杂志
-
-齐全度⭐⭐⭐⭐：Freemagazines
-
-齐全度⭐⭐⭐：Magazinelib
-
-Tools
-
-跨端文件...</div><p><a href="/2021/02/06/tool-tip.html">Read more</a></p></div><div class="article__info clearfix"><ul class="left-col menu"><li>
-              <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=Tool">Tool</a>
-            </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Feb 06, 2021</span>
-            </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_3">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-02-06T00:00:00+00:00">
-    <meta itemprop="keywords" content="Tool"></div>
-      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
-          <header><a href="/2021/02/05/note-template.html"><h2 itemprop="headline" class="item__header">Template for Taking Notes on Research Articles</h2></a></header>
-          <div class="item__description"><div class="article__content" itemprop="description articleBody">研究论文笔记模版，来自 Rice University
-
-
-Whenever you read an article, pertinent book chapter, or research on the web, use the following format (or something similar) to make an electronic record of your notes for later easy access. Put quotation marks around any exact wording you write down so that you can avoid accidental plagiarism when you later cite t...</div><p><a href="/2021/02/05/note-template.html">Read more</a></p></div><div class="article__info clearfix"><ul class="left-col menu"><li>
-              <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=Research">Research</a>
-            </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Feb 05, 2021</span>
-            </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_2">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-02-05T00:00:00+00:00">
-    <meta itemprop="keywords" content="Research"></div>
-      </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
-          <header><a href="/2021/02/03/get-start.html"><h2 itemprop="headline" class="item__header">Get Start</h2></a></header>
-          <div class="item__description"><div class="article__content" itemprop="description articleBody">此篇博客作为 Fengshiwest’s Homepage 的第一篇正式文章，用于记录搭建该网站的步骤。
-
-
-模版
-
-博客模版基于 jekyll-TeXt-theme，在该模版的基础上做一些改动，模版 Demo 演示地址。
-
-本地环境及预览
-
-
-  安装 Ruby 依赖包: bundle install --path vendor/bundle
-  本地预览: bundle exec jekyll serve
-
-
-布局
-
-Homepage 主要分为以下模块:
-
-
-  Blog: 记录技术方面的文章、实践等。
-  Book: 记录想读、正在读、已读过的书籍，以及读后感和摘录。
-  Movie: 同上，想看的、看过的影视。
-  Archive: 博客的归档。
-  About: 自我介绍和个...</div><p><a href="/2021/02/03/get-start.html">Read more</a></p></div><div class="article__info clearfix"><ul class="left-col menu"><li>
-              <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=Homepage">Homepage</a>
-            </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>Feb 03, 2021</span>
-            </li><li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="key_1">0</span> views</li></ul></div><meta itemprop="author" content="Wan Yu"/><meta itemprop="datePublished" content="2021-02-03T00:00:00+00:00">
-    <meta itemprop="keywords" content="Homepage"></div>
       </article></div>
-</div><div class="layout--home"></div>
+</div><div class="layout--home"><div class="pagination"><p>12 post articles, 2 pages.</p>
+    <div class="pagination__menu">
+      <ul class="menu menu--nowrap"><li><div class="button button--secondary button--circle disabled">
+            <i class="fas fa-angle-left"></i>
+          </div></li><li>
+              <div class="button button--primary button--circle focus"><span>1</span></div>
+            </li><li>
+                <a class="button button--secondary button--circle" href="/page2"><span>2</span></a>
+              </li><li><a class="button button--secondary button--circle" href="/page2">
+            <i class="fas fa-angle-right"></i>
+          </a></li></ul>
+    </div>
+  </div></div>
 <script>/*(function () {
 
 })();*/
