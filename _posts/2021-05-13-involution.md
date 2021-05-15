@@ -11,7 +11,6 @@ pageview: true
 
 2、从Involution角度统一Convolution和Attention
 
-
 ## Convolution的两大特性
 
 1、空间不变性(Spatial-agnostic)
