@@ -41,6 +41,10 @@ consecutive
 
 - 连贯的、连续的
 
+consequential
+
+- 结果的、重要的、随之发生的、推论的
+
 > F
 
 fine-graind
@@ -110,6 +114,10 @@ ablation study/experiment
 shed light on
 
 - 阐释、说明
+
+since sliced bread
+
+- 有史以来
 
 > T
 
