@@ -83,6 +83,10 @@ prevalent
 
 > S
 
+scarce
+
+- 缺乏的
+
 sophisticated
 
 - 复杂的

@@ -27,6 +27,33 @@ pageview: true
 
 `conda remove -n env_name --all`
 
+## 包含venv目录时激活与推出环境
+
+
+1、激活虚拟环境
+
+Linux:
+
+`cd venv`
+
+`source ./bin/activate`
+
+Windows:
+
+`cd venv`
+
+`.\Scripts\activate.bat`
+
+2、退出环境
+
+Linux:
+
+`deactive`
+
+Windows:
+
+`.\Scripts\deactivate.bat`
+
 ## 超算长时间占用计算节点
 
 1、设置账户、计算资源类型、时间
