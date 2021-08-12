@@ -1,6 +1,6 @@
 ---
-title: Paper Writting
-tags: writting
+title: Paper Writing
+tags: writing
 key: key_21
 pageview: true
 ---
