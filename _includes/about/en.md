@@ -10,13 +10,9 @@ Research Directions: Deep Learning, Computer Vision, Object Detection
 
 ### Wuhan University Master 2021.9 - Present
 
-Remote Sensing Information Engineering College
-
 Pattern Recognition and Intelligent System
 
 ### Wuhan University Bachelor 2017.9 - 2021.6
-
-School of Computer Science
 
 Software Engineering
 
