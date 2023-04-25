@@ -7,20 +7,57 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 ### Education
 
 
-### Wuhan University Master 2021.9 - Present
-
-Remote Sensing Information Engineering College
-
-
-### Wuhan University Bachelor 2017.9 - 2021.6
-
-School of Computer Science
+<div align="left">
+<table rules="none">
+<tr>
+<td>
+<img src="assets/images/about/whu.png"  width=50px/>
+</td>
+<td>
+<p>Wuhan University, Master, 2021.9 - Present</p>
+<p>Pattern Recognition and Intelligent System</p>
+</td>
+</tr>
+</table>    
+</div>
 
 <div align="left">
 <table rules="none">
 <tr>
 <td>
-<img src="grsl.png" width=100px/>
+<img src="assets/images/about/whu.png" width=50px/>
+</td>
+<td>
+<p>Wuhan University, Bachelor, 2017.9 - 2021.6</p>
+<p>Software Engineering</p>
+</td>
+</tr>
+</table>    
+</div>
+
+
+### Publications
+
+<div align="left">
+<table rules="none">
+<tr>
+<td>
+<img src="assets/images/about/tgrs.png" width=100px/>
+</td>
+<td>
+<p><b>Few-shot scene classification of optical remote sensing images leveraging calibrated pretext tasks.</b></p>
+<p>Ji, H., Gao, Z., Zhang, Y., <b>Wan, Y.</b>, Li, C., & Mei, T. </p>
+<p>IEEE Transactions on Geoscience and Remote Sensing, 2022, 60: 1-13.</p>
+</td>
+</tr>
+</table>    
+</div>
+
+<div align="left">
+<table rules="none">
+<tr>
+<td>
+<img src="assets/images/about/grsl.png" width=100px/>
 </td>
 <td>
 <p><b>Few-Shot Scene Classification Using Auxiliary Objectives and Transductive Inference. </b></p>
@@ -39,7 +76,7 @@ School of Computer Science
 <table rules="none">
 <tr>
 <td>
-<img src="bytedance.png"  width=90px/>
+<img src="assets/images/about/bytedance.png"  width=90px/>
 </td>
 <td>
 <p>ByteDance, Software Development Engineer, 2020.12 - 2021.03</p>
@@ -53,7 +90,7 @@ School of Computer Science
 <table rules="none">
 <tr>
 <td>
-<img src="ke.png"  width=90px/>
+<img src="assets/images/about/ke.png"  width=90px/>
 </td>
 <td>
 <p>KE Holdings, Front-end Development Engineer, 2020.06 - 2020.11</p>
