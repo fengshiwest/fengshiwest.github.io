@@ -8,12 +8,12 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 
 
 <div align="left">
-<table rules="none">
+<table>
 <tr>
-<td>
-<img src="assets/images/about/whu.png"  width=50px/>
+<td border="none">
+<img src="assets/images/about/whu.png"  width=100px/>
 </td>
-<td>
+<td border="none">
 <p>Wuhan University, Master, 2021.9 - Present</p>
 <p>Pattern Recognition and Intelligent System</p>
 </td>
@@ -24,10 +24,10 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 <div align="left">
 <table rules="none">
 <tr>
-<td>
-<img src="assets/images/about/whu.png" width=50px/>
+<td border="none">
+<img src="assets/images/about/whu.png" width=100px/>
 </td>
-<td>
+<td border="none">
 <p>Wuhan University, Bachelor, 2017.9 - 2021.6</p>
 <p>Software Engineering</p>
 </td>
@@ -41,10 +41,10 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 <div align="left">
 <table rules="none">
 <tr>
-<td>
-<img src="assets/images/about/tgrs.png" width=100px/>
+<td border="none">
+<img src="assets/images/about/tgrs.png" width=200px/>
 </td>
-<td>
+<td border="none">
 <p><b>Few-shot scene classification of optical remote sensing images leveraging calibrated pretext tasks.</b></p>
 <p>Ji, H., Gao, Z., Zhang, Y., <b>Wan, Y.</b>, Li, C., & Mei, T. </p>
 <p>IEEE Transactions on Geoscience and Remote Sensing, 2022, 60: 1-13.</p>
@@ -56,10 +56,10 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 <div align="left">
 <table rules="none">
 <tr>
-<td>
-<img src="assets/images/about/grsl.png" width=100px/>
+<td border="none">
+<img src="assets/images/about/grsl.png" width=200px/>
 </td>
-<td>
+<td border="none">
 <p><b>Few-Shot Scene Classification Using Auxiliary Objectives and Transductive Inference. </b></p>
 <p>JJi, H., Yang, H., Gao, Z., Li, C., <b>Wan, Y.</b>, & Cui, J.</p>
 <p>IEEE Geoscience and Remote Sensing Letters, 2022, 19, 1-5.</p>
@@ -75,10 +75,10 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 <div align="left">
 <table rules="none">
 <tr>
-<td>
-<img src="assets/images/about/bytedance.png"  width=90px/>
+<td border="none">
+<img src="assets/images/about/bytedance.png"  width=10px/>
 </td>
-<td>
+<td border="none">
 <p>ByteDance, Software Development Engineer, 2020.12 - 2021.03</p>
 <p>Participate in building and developing component library of commercial department</p>
 </td>
@@ -89,10 +89,10 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 <div align="left">
 <table rules="none">
 <tr>
-<td>
-<img src="assets/images/about/ke.png"  width=90px/>
+<td border="none">
+<img src="assets/images/about/ke.png"  width=10px/>
 </td>
-<td>
+<td border="none">
 <p>KE Holdings, Front-end Development Engineer, 2020.06 - 2020.11</p>
 <p>Participated in the development of the online signing system for the trading business of the department</p>
 </td>
