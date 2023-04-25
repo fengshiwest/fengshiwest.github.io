@@ -7,51 +7,14 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 ### Education
 
 
-<div align="left">
-<table rules="none">
-<tr>
-<td>
-<img src="whu.png"  width=50px/>
-</td>
-<td>
-<p>Wuhan University, Master, 2021.9 - Present</p>
-<p>Pattern Recognition and Intelligent System</p>
-</td>
-</tr>
-</table>    
-</div>
+### Wuhan University Master 2021.9 - Present
 
-<div align="left">
-<table rules="none">
-<tr>
-<td>
-<img src="whu.png" width=50px/>
-</td>
-<td>
-<p>Wuhan University, Bachelor, 2017.9 - 2021.6</p>
-<p>Software Engineering</p>
-</td>
-</tr>
-</table>    
-</div>
+Remote Sensing Information Engineering College
 
 
-### Publications
+### Wuhan University Bachelor 2017.9 - 2021.6
 
-<div align="left">
-<table rules="none">
-<tr>
-<td>
-<img src="tgrs.png" width=100px/>
-</td>
-<td>
-<p><b>Few-shot scene classification of optical remote sensing images leveraging calibrated pretext tasks.</b></p>
-<p>Ji, H., Gao, Z., Zhang, Y., <b>Wan, Y.</b>, Li, C., & Mei, T. </p>
-<p>IEEE Transactions on Geoscience and Remote Sensing, 2022, 60: 1-13.</p>
-</td>
-</tr>
-</table>    
-</div>
+School of Computer Science
 
 <div align="left">
 <table rules="none">
