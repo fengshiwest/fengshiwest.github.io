@@ -7,5 +7,5 @@ pageview: true
 
 ### 系列产品及关系
 
-
+![overview](assets\images\blog\mindspore_overview.png)
 

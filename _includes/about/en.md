@@ -1,62 +1,107 @@
-## Basic Infomation
+### Biography
 
-Education: Master
+Hello! I am Yu Wan, currently a master student in the Wuhan University. Previously, I received my bachelor degree (Software Engineering) from [School of Computer Science](https://cs.whu.edu.cn/) of Wuhan University. 
 
-Major: Pattern Recognition and Intelligent Systems
+My research interests include Computer Vision and MultiModal Learning, with a focus on 2D/3D object detection, and few-show learning. 
 
-Research Directions: Deep Learning, Computer Vision, Object Detection
+### Education
 
-## Education Experience
 
-### Wuhan University Master 2021.9 - Present
+<div align="left">
+<table rules="none">
+<tr>
+<td>
+<img src="whu.png"  width=50px/>
+</td>
+<td>
+<p>Wuhan University, Master, 2021.9 - Present</p>
+<p>Pattern Recognition and Intelligent System</p>
+</td>
+</tr>
+</table>    
+</div>
 
-Remote Sensing Information Engineering College
+<div align="left">
+<table rules="none">
+<tr>
+<td>
+<img src="whu.png" width=50px/>
+</td>
+<td>
+<p>Wuhan University, Bachelor, 2017.9 - 2021.6</p>
+<p>Software Engineering</p>
+</td>
+</tr>
+</table>    
+</div>
 
-Pattern Recognition and Intelligent System
 
-### Wuhan University Bachelor 2017.9 - 2021.6
+### Publications
 
-School of Computer Science
+<div align="left">
+<table rules="none">
+<tr>
+<td>
+<img src="tgrs.png" width=100px/>
+</td>
+<td>
+<p><b>Few-shot scene classification of optical remote sensing images leveraging calibrated pretext tasks.</b></p>
+<p>Ji, H., Gao, Z., Zhang, Y., <b>Wan, Y.</b>, Li, C., & Mei, T. </p>
+<p>IEEE Transactions on Geoscience and Remote Sensing, 2022, 60: 1-13.</p>
+</td>
+</tr>
+</table>    
+</div>
 
-Software Engineering
+<div align="left">
+<table rules="none">
+<tr>
+<td>
+<img src="grsl.png" width=100px/>
+</td>
+<td>
+<p><b>Few-Shot Scene Classification Using Auxiliary Objectives and Transductive Inference. </b></p>
+<p>JJi, H., Yang, H., Gao, Z., Li, C., <b>Wan, Y.</b>, & Cui, J.</p>
+<p>IEEE Geoscience and Remote Sensing Letters, 2022, 19, 1-5.</p>
 
-## Project & Research
+</td>
+</tr>
+</table>    
+</div>
 
-### HelloSlide - Intelligent Slide
+### Internship
 
-- Based on NLP and OCR automatic slide generation and layout of iOS applications
 
-- Won the Silver Award of Hubei Province in the 6th "Internet +" Innovation and Entrepreneurship Competition
+<div align="left">
+<table rules="none">
+<tr>
+<td>
+<img src="bytedance.png"  width=90px/>
+</td>
+<td>
+<p>ByteDance, Software Development Engineer, 2020.12 - 2021.03</p>
+<p>Participate in building and developing component library of commercial department</p>
+</td>
+</tr>
+</table>    
+</div>
 
-### FinBot - Conversation Robot
+<div align="left">
+<table rules="none">
+<tr>
+<td>
+<img src="ke.png"  width=90px/>
+</td>
+<td>
+<p>KE Holdings, Front-end Development Engineer, 2020.06 - 2020.11</p>
+<p>Participated in the development of the online signing system for the trading business of the department</p>
+</td>
+</tr>
+</table>    
+</div>
 
-- Automatic robot of financial system
 
-- Won the Wonderful Prize of "Citi Cup" Financial Application Innovation Competition
-
-## Papers
-
-Waiting...
-
-## Internship Experience
-
-### ByteDance 2020.12 - 2021.02
-
-- Department: Data & Commercialization
-
-- Position: Software development engineer
-
-- Participate in building and developing component library of commercial department
-
-### KE Holdings 2020.06 - 2020.11
-
-- Department: Trade Platform
-
-- Position: front-end development engineer
-
-- Participated in the development of the online signing system for the trading business of the department
-
-## Honors & Awards
+### Honors & Awards
 
 - First-class Scholarship for Wuhan University Outstanding Undergraduate Students
 
