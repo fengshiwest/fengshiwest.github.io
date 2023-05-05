@@ -76,7 +76,7 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 <table rules="none">
 <tr>
 <td border="none">
-<img src="assets/images/about/bytedance.png"  width=10px/>
+<img src="assets/images/about/bytedance.png"  width=100px/>
 </td>
 <td border="none">
 <p>ByteDance, Software Development Engineer, 2020.12 - 2021.03</p>
@@ -90,7 +90,7 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 <table rules="none">
 <tr>
 <td border="none">
-<img src="assets/images/about/ke.png"  width=10px/>
+<img src="assets/images/about/ke.png"  width=100px/>
 </td>
 <td border="none">
 <p>KE Holdings, Front-end Development Engineer, 2020.06 - 2020.11</p>
