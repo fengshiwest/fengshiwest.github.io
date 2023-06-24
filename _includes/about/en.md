@@ -4,6 +4,8 @@ Hello! I am Yu Wan, currently a master student in the Wuhan University. Previous
 
 My research interests include Computer Vision and MultiModal Learning, with a focus on 2D/3D object detection, and few-show learning. 
 
+I'm looking for internships and job opportunities, here's my **[CV](https://github.com/fengshiwest/fengshiwest.github.io/raw/master/_includes/about/resume_en.pdf)**, look forward to hearing from you!
+
 ### Education
 
 
@@ -116,5 +118,3 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 - Honorable Mention of Mathematical Contest in Modeling(MCM)
 
 - Third prize of "Mathorcup" Mathematical Modeling Challenge
-
-**My CV**: [EN](https://github.com/fengshiwest/fengshiwest.github.io/raw/master/_includes/about/resume_en.pdf) or [CN](https://github.com/fengshiwest/fengshiwest.github.io/raw/master/_includes/about/resume_cn.pdf)
