@@ -26,10 +26,10 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 <div align="left">
 <table>
 <tr>
-<td style="border:none" width="20%">
+<td style="border:none" width="15%">
 <img src="assets/images/about/whu.png"/>
 </td>
-<td style="border:none" width="80%">
+<td style="border:none" width="85%">
 <p>Wuhan University, Master, 2021.9 - Present</p>
 <p>Pattern Recognition and Intelligent System</p>
 </td>
@@ -40,10 +40,10 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 <div align="left">
 <table rules="none">
 <tr>
-<td style="border:none"  width="20%">
+<td style="border:none"  width="15%">
 <img src="assets/images/about/whu.png"/>
 </td>
-<td style="border:none" width="80%">
+<td style="border:none" width="85%">
 <p>Wuhan University, Bachelor, 2017.9 - 2021.6</p>
 <p>Software Engineering</p>
 </td>
@@ -91,10 +91,10 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 <div align="left">
 <table rules="none">
 <tr>
-<td style="border:none" width="20%">
+<td style="border:none" width="15%">
 <img src="assets/images/about/bytedance.png"/>
 </td>
-<td style="border:none"  width="80%">
+<td style="border:none"  width="85%">
 <p>ByteDance, Software Development Engineer, 2020.12 - 2021.03</p>
 <p>Participate in building and developing component library of commercial department</p>
 </td>
@@ -105,10 +105,10 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 <div align="left">
 <table rules="none">
 <tr>
-<td style="border:none" width="20%">
+<td style="border:none" width="15%">
 <img src="assets/images/about/ke.png"/>
 </td>
-<td style="border:none" width="80%">
+<td style="border:none" width="85%">
 <p>KE Holdings, Front-end Development Engineer, 2020.06 - 2020.11</p>
 <p>Participated in the development of the online signing system for the trading business of the department</p>
 </td>
