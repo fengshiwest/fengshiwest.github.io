@@ -1,8 +1,22 @@
 ### Biography
 
-Hello! I am Yu Wan, currently a master student in the Wuhan University. Previously, I received my bachelor degree (Software Engineering) from [School of Computer Science](https://cs.whu.edu.cn/) of Wuhan University. 
+<div align="left">
+<table>
+<tr>
 
-My research interests include Computer Vision and MultiModal Learning, with a focus on 2D/3D object detection, and few-show learning. 
+<td style="border:none" width="70%">
+<p>Hello! I am Yu Wan, currently a master student in the Wuhan University. Previously, I received my bachelor degree (Software Engineering) from School of Computer Science of Wuhan University. </p>
+<p>My research interests include Computer Vision and MultiModal Learning, with a focus on 2D/3D object detection, and few-show learning.</p>
+</td>
+
+<td style="border:none" width="30%">
+<img src="assets/images/about/myself.png"/>
+</td>
+
+</tr>
+</table>    
+</div>
+ 
 
 I'm looking for internships and job opportunities, here's my **[CV](https://github.com/fengshiwest/fengshiwest.github.io/raw/master/_includes/about/resume_en.pdf)**, look forward to hearing from you!
 
@@ -12,8 +26,8 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 <div align="left">
 <table>
 <tr>
-<td style="border:none">
-<img src="assets/images/about/whu.png" width="20%"/>
+<td style="border:none" width="20%">
+<img src="assets/images/about/whu.png"/>
 </td>
 <td style="border:none" width="80%">
 <p>Wuhan University, Master, 2021.9 - Present</p>
@@ -26,8 +40,8 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 <div align="left">
 <table rules="none">
 <tr>
-<td style="border:none">
-<img src="assets/images/about/whu.png" width="20%"/>
+<td style="border:none"  width="20%">
+<img src="assets/images/about/whu.png"/>
 </td>
 <td style="border:none" width="80%">
 <p>Wuhan University, Bachelor, 2017.9 - 2021.6</p>
@@ -92,7 +106,7 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 <table rules="none">
 <tr>
 <td style="border:none" width="20%">
-<img src="assets/images/about/ke.png"  width=100px/>
+<img src="assets/images/about/ke.png"/>
 </td>
 <td style="border:none" width="80%">
 <p>KE Holdings, Front-end Development Engineer, 2020.06 - 2020.11</p>
