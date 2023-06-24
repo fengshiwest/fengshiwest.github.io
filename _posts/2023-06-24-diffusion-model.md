@@ -119,15 +119,15 @@ $$
 现在的问题是：加噪声逆操作的均值和方差是什么？如果给定训练集的输入$$\mathbf{x}_0$$，加噪声逆操作的分布可以通过贝叶斯公式计算得到：
 
 $$
-q(\mathbf{x}_{t-1}|\mathbf{x}_t,\mathbf{x}_0) = q(\mathbf{x}_t|\mathbf{x}_{t-1},\mathbf{x}_0)\frac{q(\mathbf{x}_{t-1}|\mathbf{x}_0)}{q(\mathbf{x}_t|\mathbf{x}_0)}
+q(\mathbf{x}_{t-1}\mid \mathbf{x}_t,\mathbf{x}_0) = q(\mathbf{x}_t\mid \mathbf{x}_{t-1},\mathbf{x}_0)\frac{q(\mathbf{x}_{t-1}\mid \mathbf{x}_0)}{q(\mathbf{x}_t\mid \mathbf{x}_0)}
 $$
 
-等式左边表示加噪声的逆操作，表示已知$$\mathbf{x}_t$$和$$\mathbf{x}_0$$情况下下$$\mathbf{x}_{t-1}$$的概率分布，它的均值和方差都是待求的。右边是加噪声的分布。由于$$\mathbf{x}_0$$已知，$$q(\mathbf{x}_{t-1}|\mathbf{x}_0)$$和$$q(\mathbf{x}_t|\mathbf{x}_0)$$两项可以根据前面的公式$$\mathbf{x}_t = \sqrt{\bar\alpha_t}\mathbf{x}_0 + \sqrt{1-\bar\alpha_t}\epsilon_t$$得到：
+等式左边表示加噪声的逆操作，表示已知$$\mathbf{x}_t$$和$$\mathbf{x}_0$$情况下下$$\mathbf{x}_{t-1}$$的概率分布，它的均值和方差都是待求的。右边是加噪声的分布。由于$$\mathbf{x}_0$$已知，$$q(\mathbf{x}_{t-1}\mid \mathbf{x}_0)$$和$$q(\mathbf{x}_t\mid \mathbf{x}_0)$$两项可以根据前面的公式$$\mathbf{x}_t = \sqrt{\bar\alpha_t}\mathbf{x}_0 + \sqrt{1-\bar\alpha_t}\epsilon_t$$得到：
 
 $$
 \begin{aligned}
-q(\mathbf{x_t}|\mathbf{x_0}) &= \mathcal{N}(\mathbf{x}_t; \sqrt{\bar\alpha_t}\mathbf{x}_0,(1-\bar\alpha_t)\mathbf{I}) \\
-q(\mathbf{x_{t-1}}|\mathbf{x_0}) &= \mathcal{N}(\mathbf{x}_{t-1}; \sqrt{\bar\alpha_{t-1}}\mathbf{x}_0,(1-\bar\alpha_{t-1})\mathbf{I}) \\
+q(\mathbf{x_t}\mid \mathbf{x_0}) &= \mathcal{N}(\mathbf{x}_t; \sqrt{\bar\alpha_t}\mathbf{x}_0,(1-\bar\alpha_t)\mathbf{I}) \\
+q(\mathbf{x_{t-1}}\mid \mathbf{x_0}) &= \mathcal{N}(\mathbf{x}_{t-1}; \sqrt{\bar\alpha_{t-1}}\mathbf{x}_0,(1-\bar\alpha_{t-1})\mathbf{I}) \\
 \end{aligned}
 $$
 
@@ -135,7 +135,7 @@ $$
 
 $$
 \begin{aligned}
-q(\mathbf{x_{t-1}}|\mathbf{x_t},\mathbf{x_0}) = &\frac{1}{\beta_t\sqrt{2\pi}} exp(-\frac{(\mathbf{x}_t-\sqrt{1-\beta_t}\mathbf{x}_{t-1})^2}{2\beta_t})\cdot{} \\
+q(\mathbf{x_{t-1}}\mid \mathbf{x_t},\mathbf{x_0}) = &\frac{1}{\beta_t\sqrt{2\pi}} exp(-\frac{(\mathbf{x}_t-\sqrt{1-\beta_t}\mathbf{x}_{t-1})^2}{2\beta_t})\cdot{} \\
 &\frac{1}{(1-\bar\alpha_{t-1})\sqrt{2\pi}}exp(-\frac{(\mathbf{x}_{t-1}-\sqrt{\bar\alpha_{t-1}}\mathbf{x}_0)^2}{2(1-\bar\alpha_{t-1})})\cdot{} \\
 &(\frac{1}{(1-\bar\alpha_{t})\sqrt{2\pi}}exp(-\frac{(\mathbf{x}_{t-1}-\sqrt{\bar\alpha_{t}}\mathbf{x}_0)^2}{2(1-\bar\alpha_{t})}))^{-1} \\
 \end{aligned}
@@ -145,11 +145,11 @@ $$
 
 $$
 \begin{aligned}
-q(\mathbf{x_{t-1}}|\mathbf{x_t},\mathbf{x_0}) = \frac{1}{\tilde{\beta}_t \sqrt{2\pi}}exp(-\frac{(\mathbf{x}_{t-1}-\tilde\mu)^2}{2\tilde\beta_t}) 
+q(\mathbf{x_{t-1}}\mid\mathbf{x_t},\mathbf{x_0}) = \frac{1}{\tilde{\beta}_t \sqrt{2\pi}}exp(-\frac{(\mathbf{x}_{t-1}-\tilde\mu)^2}{2\tilde\beta_t}) 
 \end{aligned}
 $$
 
-所以现在求$$q(\mathbf{x_{t-1}}|\mathbf{x_t},\mathbf{x_0}) = \mathcal{N}(\mathbf{x}_{t-1};\tilde\mu_t,\tilde\beta_t\mathbf{I})$$的均值和方差：
+所以现在求$$q(\mathbf{x_{t-1}}\mid\mathbf{x_t},\mathbf{x_0}) = \mathcal{N}(\mathbf{x}_{t-1};\tilde\mu_t,\tilde\beta_t\mathbf{I})$$的均值和方差：
 
 方差可以通过指数函数的系数得到，系数为：
 
@@ -171,6 +171,7 @@ $$
 接下来关注指数部分，指数部分是关于$$\mathbf{x}_{t-1}$$的二次函数，只需要化简成$$(\mathbf{x}_{t-1}-C)^2$$的形式，再除以$$-2$$倍方差，就可以得到均值。
 
 指数部分为：
+
 $$
 \begin{aligned}
 -\frac{1}{2}(\frac{(\mathbf{x}_t-\sqrt{1-\beta_t}\mathbf{x}_{t-1})^2}{\beta_t}
@@ -206,7 +207,7 @@ $$
 
 又由计算均值的公式可得，式中只有一个未知量$$\epsilon_t$$，因此预测均值等同于预测噪声$$\epsilon_\theta(\mathbf{x}_t,t)$$，其中$$\theta$$为可学习参数，让它与生成$$\mathbf{x}_t$$的噪声$$\epsilon_t$$的均方误差最小即可，所以最终的误差函数可以写成
 $$
-L = ||\epsilon_t - \epsilon_\theta(\mathbf{x}_t,t)||^2
+L = \parallel \epsilon_t - \epsilon_\theta(\mathbf{x}_t,t)\parallel ^2
 $$
 
 总结：反向过程中，神经网络应该让$$T$$个去噪声操作拟合对应的$$T$$个加噪声逆操作，每步加噪声逆操作符合正态分布，且在给定的某个输入时，该正态分布的均值和方差可以用解释式表达。因此，神经网络的学习目标是让其输出的去噪声分布和理论计算的加噪声逆操作分布一致，并经过推导简化，问题转换为拟合生成$$\mathbf{x}_t$$时用到的随机噪声$$\epsilon_t$$。
