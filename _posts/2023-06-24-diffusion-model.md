@@ -39,7 +39,7 @@ pageview: true
 
 ### 前向过程
 
-“加噪声”并不是给上一时刻的图像加上噪声值，而是从一个均值与上一时刻图像相关的生态分布中采样出一个新的图像。如下公式所示，$\mathbf{x}_{t-1}$是上一时刻的图像，$\mathbf{x}_t$是这一时刻的图像，$\mathbf{x}_t$是从一个均值与$\mathbf{x}_{t-1}$有关的正态分布中采样得到的。因为$\mathbf{x}_t$只有$\mathbf{x}_{t-1}$决定，因此前向过程是一个马尔可夫过程。
+“加噪声”并不是给上一时刻的图像加上噪声值，而是从一个均值与上一时刻图像相关的生态分布中采样出一个新的图像。如下公式所示，其中$\mathbf{x}_{t-1}$是上一时刻的图像，$\mathbf{x}_t$是这一时刻的图像，而$\mathbf{x}_t$是从一个均值与$\mathbf{x}_{t-1}$有关的正态分布中采样得到的。因为$\mathbf{x}_t$只有$\mathbf{x}_{t-1}$决定，因此前向过程是一个马尔可夫过程。
 
 $$
 \mathbf{x}_t \sim \mathcal{N}(\mu(\mathbf{x}_{t-1}),\sigma_t^2\mathbf{I} )
@@ -55,7 +55,7 @@ $$
 
 给定$\mathbf{x}_0$，也就是从训练集中选取一幅图片，如何计算任意一个时刻$t$的噪声图像$\mathbf{x}_t$？
 
-倒推，$\mathbf{x}_t$可以通过一个标准正态分布的样本$\epsilon_{t-1}$计算：
+倒推，发现$\mathbf{x}_t$可以通过一个标准正态分布的样本$\epsilon_{t-1}$计算：
 
 $$
 \begin{aligned}
@@ -93,11 +93,11 @@ $$
 \end{aligned}
 $$
 
-由此，可以将公式一直推到$\mathbf{x}_0$，令$\alpha_t = 1 - \beta_{t}$，$\bar\alpha_t = {\textstyle \prod_{i=1}^{t}}\alpha_i $，则：
+由此，可以将公式一直推到$\mathbf{x}_{0}$，令$\alpha_t = 1 - \beta_{t}$，$\bar\alpha_t={\textstyle \prod_{i=1}^{t}}\alpha_i $，则：
 
 $\mathbf{x}_t = \sqrt{\bar\alpha_t}\mathbf{x}_0 + \sqrt{1-\bar\alpha_t}\epsilon$
 
-所以，加噪声的公式可以是$\mathbf{x}_t \sim \mathcal{N}(\sqrt{1-\beta_t}\mathbf{x}_{t-1}, \beta_t\mathbf{I})$，公式中$\beta_t$是一个小于 1 的常数，DDPM 的论文中，$\beta_t$从$\beta_1=10^{-4}$线性增长到$\beta_T=0.02$，$\beta_t$变大，$\alpha_t$越小，$\bar\alpha_t$趋于 0 的速度就越快，因此$\mathbf{x}_T = \sqrt{\bar\alpha_T}\mathbf{x}_0 + \sqrt{1-\bar\alpha_T}\epsilon$就就可以满足正态分布。
+所以，加噪声的公式可以是$\mathbf{x}_{t} \sim \mathcal{N}(\sqrt{1-\beta_t}\mathbf{x}_{t-1}, \beta_t\mathbf{I})$，公式中$\beta_t$是一个小于 1 的常数，DDPM 的论文中，设置$\beta_t$从$\beta_1=10^{-4}$线性增长到$\beta_T=0.02$，而$\beta_t$变大，也即$\alpha_t$越小，因此$\bar\alpha_t$趋于 0 的速度就越快，因此$\mathbf{x}_T = \sqrt{\bar\alpha_T}\mathbf{x}_0 + \sqrt{1-\bar\alpha_T}\epsilon$就就可以满足正态分布。
 
 上述推断可以简单描述为：加噪声公式能够从慢到快的改变原图像，使图像最终均值为 0，方差为$\mathbf{I}$。
 
@@ -121,7 +121,7 @@ $$
 q(\mathbf{x}_{t-1}|\mathbf{x}_t,\mathbf{x}_0) = q(\mathbf{x}_t|\mathbf{x}_{t-1},\mathbf{x}_0)\frac{q(\mathbf{x}_{t-1}|\mathbf{x}_0)}{q(\mathbf{x}_t|\mathbf{x}_0)}
 $$
 
-等式左边表示加噪声的逆操作，表示已知$\mathbf{x}_t$和$\mathbf{x}_0$情况下下$\mathbf{x}_{t-1}$的概率分布，它的均值和方差都是待求的。右边是加噪声的分布。由于$\mathbf{x}_0$已知，$q(\mathbf{x}_{t-1}|\mathbf{x}_0)$和$q(\mathbf{x}_t|\mathbf{x}_0)$两项可以根据前面的公式$\mathbf{x}_t = \sqrt{\bar\alpha_t}\mathbf{x}_0 + \sqrt{1-\bar\alpha_t}\epsilon_t$得到：
+等式左边表示加噪声的逆操作，表示已知$\mathbf{x}_t$和$\mathbf{x}_0$情况下下$\mathbf{x}_{t-1}$的概率分布，它的均值和方差都是待求的。右边是加噪声的分布。由于$\mathbf{x}_0$已知$q(\mathbf{x}_{t-1}|\mathbf{x}_0)$和$q(\mathbf{x}_t|\mathbf{x}_0)$两项可以根据前面的公式$\mathbf{x}_t = \sqrt{\bar\alpha_t}\mathbf{x}_0 + \sqrt{1-\bar\alpha_t}\epsilon_t$得到：
 
 $$
 \begin{aligned}
@@ -200,7 +200,7 @@ $$
 \tilde\mu = \frac{1}{\sqrt{\alpha_t}}(\mathbf{x}_t - \frac{1-\alpha_t}{\sqrt{1-\bar\alpha_t}}\epsilon_t)
 $$
 
-注意，$\beta_t$是加噪声的方差，是一个常量，所以加噪声逆操作的方差$\tilde\beta_t$也是一个常量，因此在训练去噪网络时，神经网络只用拟合$T$个均值，而不用拟合方差。
+注意，因为$\beta_t$是加噪声的方差，是一个常量，所以加噪声逆操作的方差$\tilde\beta_t$也是一个常量，因此在训练去噪网络时，神经网络只用拟合$T$个均值，而不用拟合方差。
 
 训练神经网络的最后一步是如何设置训练的损失函数，加噪声逆操作和去噪声操作都是正态分布，网络训练目标是让每对正态分布更加接近，也就是让两个正态分布的均值和方差都尽可能接近，而方差是常量，只用让均值尽可能接近就可以了。
 
