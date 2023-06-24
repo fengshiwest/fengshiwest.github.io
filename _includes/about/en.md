@@ -10,10 +10,10 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 <div align="left">
 <table>
 <tr>
-<td border="none">
-<img src="assets/images/about/whu.png"  width=100px/>
+<td style="border:none">
+<img src="assets/images/about/whu.png" width="20%"/>
 </td>
-<td border="none">
+<td style="border:none" width="80%">
 <p>Wuhan University, Master, 2021.9 - Present</p>
 <p>Pattern Recognition and Intelligent System</p>
 </td>
@@ -24,10 +24,10 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 <div align="left">
 <table rules="none">
 <tr>
-<td border="none">
-<img src="assets/images/about/whu.png" width=100px/>
+<td style="border:none">
+<img src="assets/images/about/whu.png" width="20%"/>
 </td>
-<td border="none">
+<td style="border:none" width="80%">
 <p>Wuhan University, Bachelor, 2017.9 - 2021.6</p>
 <p>Software Engineering</p>
 </td>
@@ -41,10 +41,10 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 <div align="left">
 <table rules="none">
 <tr>
-<td border="none">
-<img src="assets/images/about/tgrs.png" width=200px/>
+<td style="border:none" width="30%">
+<img src="assets/images/about/tgrs.png"/>
 </td>
-<td border="none">
+<td style="border:none"  width="70%">
 <p><b>Few-shot scene classification of optical remote sensing images leveraging calibrated pretext tasks.</b></p>
 <p>Ji, H., Gao, Z., Zhang, Y., <b>Wan, Y.</b>, Li, C., & Mei, T. </p>
 <p>IEEE Transactions on Geoscience and Remote Sensing, 2022, 60: 1-13.</p>
@@ -56,10 +56,10 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 <div align="left">
 <table rules="none">
 <tr>
-<td border="none">
+<td style="border:none"  width="30%">
 <img src="assets/images/about/grsl.png" width=200px/>
 </td>
-<td border="none">
+<td style="border:none"  width="70%">
 <p><b>Few-Shot Scene Classification Using Auxiliary Objectives and Transductive Inference. </b></p>
 <p>JJi, H., Yang, H., Gao, Z., Li, C., <b>Wan, Y.</b>, & Cui, J.</p>
 <p>IEEE Geoscience and Remote Sensing Letters, 2022, 19, 1-5.</p>
@@ -75,10 +75,10 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 <div align="left">
 <table rules="none">
 <tr>
-<td border="none">
-<img src="assets/images/about/bytedance.png"  width=100px/>
+<td style="border:none" width="20%">
+<img src="assets/images/about/bytedance.png"/>
 </td>
-<td border="none">
+<td style="border:none"  width="80%">
 <p>ByteDance, Software Development Engineer, 2020.12 - 2021.03</p>
 <p>Participate in building and developing component library of commercial department</p>
 </td>
@@ -89,10 +89,10 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 <div align="left">
 <table rules="none">
 <tr>
-<td border="none">
+<td style="border:none" width="20%">
 <img src="assets/images/about/ke.png"  width=100px/>
 </td>
-<td border="none">
+<td style="border:none" width="80%">
 <p>KE Holdings, Front-end Development Engineer, 2020.06 - 2020.11</p>
 <p>Participated in the development of the online signing system for the trading business of the department</p>
 </td>
@@ -117,4 +117,4 @@ My research interests include Computer Vision and MultiModal Learning, with a fo
 
 - Third prize of "Mathorcup" Mathematical Modeling Challenge
 
-[My Resume](https://github.com/fengshiwest/fengshiwest.github.io/raw/master/_includes/about/resume_en.pdf)
+**My CV**: [EN](https://github.com/fengshiwest/fengshiwest.github.io/raw/master/_includes/about/resume_en.pdf) or [CN](https://github.com/fengshiwest/fengshiwest.github.io/raw/master/_includes/about/resume_cn.pdf)

@@ -3,8 +3,8 @@ default:
   highlight_theme: default
   lang: en
   paths:
-    root: /
-    home: /
+    root: /about.html
+    home: /about.html
     archive:  /archive.html
     rss:  /feed.xml
   mathjax: false
