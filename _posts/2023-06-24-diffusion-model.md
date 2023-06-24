@@ -5,7 +5,7 @@ key: key_35
 pageview: true
 ---
 
-# 图像生成任务的几种架构
+## 图像生成任务的几种架构
 
 图像生成任务的困难在于：缺乏有效的指导，生成任务没有一个标准答案。
 
@@ -13,17 +13,17 @@ pageview: true
 
 1. 生成对抗模型 GAN
 
-额外训练一个判别器用于判别生成图像是否和训练集中图片一样。
+    额外训练一个判别器用于判别生成图像是否和训练集中图片一样。
 
-![](static/DDf1brUmvoPSNqx9xX6cwhQKnxh.png)
+    ![img](/assets/images/blog/DDf1brUmvoPSNqx9xX6cwhQKnxh.png)
 
-1. 变分自编码器 VAE
+2. 变分自编码器 VAE
 
-学习向量生成图像的同时，也学习图像生成向量。图像变成向量，再用该向量生成图像，就应该能得到和原图一模一样的图像，每个向量的生成结果有了一个标准答案，从而可以指导网络训练。
+    学习向量生成图像的同时，也学习图像生成向量。图像变成向量，再用该向量生成图像，就应该能得到和原图一模一样的图像，每个向量的生成结果有了一个标准答案，从而可以指导网络训练。
 
-![](static/LYOwbFYuboPQ8NxVGQ1cJ6JAn8g.png)
+    ![img](/assets/images/blog/LYOwbFYuboPQ8NxVGQ1cJ6JAn8g.png)
 
-1. 扩散模型 Diffsion Model
+3. 扩散模型 Diffsion Model
 
 一种特殊的 VAE，区别在于：
 
@@ -33,11 +33,11 @@ pageview: true
 
 具体而言，扩散模型由正向过程和反向过程两部分组成，正向过程中，输入$\mathbf{x}_0$不断混入高斯噪声，经过$T$次加噪声操作后，图像$\mathbf{x}_T$会变成一幅符合标准正态分布的纯噪声图像；反向过程中，希望训练出一个神经网络，该网络能够学会$T$个去噪声操作，把$\mathbf{x}_T$还原为$\mathbf{x}_0$。网络的学习目标是让$T$个去噪声操作正好抵消掉加噪声操作。训练完毕后，只需要从标准正态分布中随机采样出一个噪声，再利用反向过程中的神经网络将该噪声恢复成一幅图像，就可以生成一幅图片。
 
-![](static/LU58bcfW4oJmxAxSvLscfZJinim.png)
+![img](/assets/images/blog/LU58bcfW4oJmxAxSvLscfZJinim.png)
 
-# 扩散模型的具体算法
+## 扩散模型的具体算法
 
-## 前向过程
+### 前向过程
 
 “加噪声”并不是给上一时刻的图像加上噪声值，而是从一个均值与上一时刻图像相关的生态分布中采样出一个新的图像。如下公式所示，$\mathbf{x}_{t-1}$是上一时刻的图像，$\mathbf{x}_t$是这一时刻的图像，$\mathbf{x}_t$是从一个均值与$\mathbf{x}_{t-1}$有关的正态分布中采样得到的。因为$\mathbf{x}_t$只有$\mathbf{x}_{t-1}$决定，因此前向过程是一个马尔可夫过程。
 
@@ -101,7 +101,7 @@ $\mathbf{x}_t = \sqrt{\bar\alpha_t}\mathbf{x}_0 + \sqrt{1-\bar\alpha_t}\epsi
 
 上述推断可以简单描述为：加噪声公式能够从慢到快的改变原图像，使图像最终均值为 0，方差为$\mathbf{I}$。
 
-## 反向过程
+### 反向过程
 
 反向过程中，我们希望能够倒过来取消每一步加噪声的操作，让一幅纯噪声图像变回数据集中的图像。利用这个去噪声的过程，从而可以把任意一个从标准正态分布中采样出来的噪声图像变成一幅和训练数据差不多的图像，从而达到图像生成的目的。
 
@@ -144,7 +144,7 @@ $$
 
 $$
 \begin{aligned}
-q(\mathbf{x_{t-1}}|\mathbf{x_t},\mathbf{x_0}) = \frac{1}{\tilde{\beta}_t \sqrt{2\pi}}exp(-\frac{(\mathbf{x}_{t-1}-\tilde\mu)^2}{2\tilde\beta_t}) 
+q(\mathbf{x_{t-1}}|\mathbf{x_t},\mathbf{x_0}) = \frac{1}{\tilde{\beta}_t \sqrt{2\pi}}exp(-\frac{(\mathbf{x}_{t-1}-\tilde\mu)^2}{2\tilde\beta_t})
 \end{aligned}
 $$
 
@@ -155,7 +155,7 @@ $$
 $$
 \begin{aligned}
 &\frac{1}{\beta_t\sqrt{2\pi}} \cdot \frac{1}{(1-\bar\alpha_{t-1})\sqrt{2\pi}} \cdot (\frac{1}{(1-\bar\alpha_{t})\sqrt{2\pi}})^{-1} \\
-= &\frac{(1-\bar\alpha_t)}{\beta_t(1-\bar\alpha_{t-1})\sqrt{2\pi}} 
+= &\frac{(1-\bar\alpha_t)}{\beta_t(1-\bar\alpha_{t-1})\sqrt{2\pi}}
 \end{aligned}
 $$
 
@@ -212,11 +212,11 @@ $$
 
 总结：反向过程中，神经网络应该让$T$个去噪声操作拟合对应的$T$个加噪声逆操作，每步加噪声逆操作符合正态分布，且在给定的某个输入时，该正态分布的均值和方差可以用解释式表达。因此，神经网络的学习目标是让其输出的去噪声分布和理论计算的加噪声逆操作分布一致，并经过推导简化，问题转换为拟合生成$\mathbf{x}_t$时用到的随机噪声$\epsilon_t$。
 
-## 训练算法和采样算法
+### 训练算法和采样算法
 
 以下为 DDPM 论文中的训练算法：
 
-![](static/XHA8bMoVRohHeIxcm3dce8IKngg.png)
+![img](/assets/images/blog/XHA8bMoVRohHeIxcm3dce8IKngg.png)
 
 第二行：从训练集中取一个数据$\mathbf{x}_0$
 
@@ -228,7 +228,7 @@ $$
 
 采样算法：
 
-![](static/DTZybs7tqoLuD7xBEwXcDldQnTf.png)
+![img](/assets/images/blog/DTZybs7tqoLuD7xBEwXcDldQnTf.png)
 
 第一行：从标准正态分布中随机采样的输入噪声$\mathbf{x}_T$
 
