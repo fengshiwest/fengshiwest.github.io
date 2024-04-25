@@ -5,8 +5,11 @@
 <tr>
 
 <td style="border:none" width="80%">
-<p>Hello! I am Yu Wan, currently a master student in the Wuhan University. Previously, I received my bachelor degree (Software Engineering) from School of Computer Science of Wuhan University. </p>
-<p>My research interests include Computer Vision and MultiModal Learning, with a focus on 2D/3D object detection, and few-show learning.</p>
+<p>武大本硕</p>
+
+<p>深度学习炼丹师</p>
+
+<p>研究方向：计算机视觉，目标检测，小样本学习</p>
 </td>
 
 <td style="border:none" width="20%">
@@ -16,9 +19,6 @@
 </tr>
 </table>
 </div>
- 
-
-I'm looking for internships and job opportunities, here's my **[CV](https://github.com/fengshiwest/fengshiwest.github.io/raw/master/_includes/about/resume_en.pdf)**, look forward to hearing from you!
 
 ### 教育经历
 
@@ -55,32 +55,53 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 
 <div align="left">
 <table rules="none">
+
 <tr>
-<td style="border:none" width="30%">
-<img src="assets/images/about/tgrs.png"/>
+<td style="border:none"  width="30%">
+<img src="assets/images/about/icca.png" width=200px/>
 </td>
 <td style="border:none"  width="70%">
-<p><b>Few-shot scene classification of optical remote sensing images leveraging calibrated pretext tasks.</b></p>
-<p>Ji, H., Gao, Z., Zhang, Y., <b>Wan, Y.</b>, Li, C., & Mei, T. </p>
-<p>IEEE Transactions on Geoscience and Remote Sensing, 2022, 60: 1-13.</p>
+<p><b>Small Object Detection in Unmanned Aerial Vehicle Images Leveraging Density-Aware Scale Adaptation and Knowledge Distillation</b></p>
+<p><font color="#0000dd"><b>Yu Wan</b></font>, Zekai Luan, Jianqiu Hu, Hong Ji, Weiwei Song, Zhi Gao</p>
+<p>IEEE 18th International Conference on Control & Automation, 2024</p>
 </td>
 </tr>
-</table>
-</div>
 
-<div align="left">
-<table rules="none">
+<tr>
+<td style="border:none"  width="30%">
+<img src="assets/images/about/photogrammetric_record.png" width=200px/>
+</td>
+<td style="border:none"  width="70%">
+<p><b>Small object detection leveraging density-aware scale adaptation</b></p>
+
+<p><font color="#0000dd"><b>Yu Wan</b></font>, Zhaohong Liao, Jia Liu, Weiwei Song, Hong Ji, Zhi Gao</p>
+<p>The Photogrammetric Record, 2023</p>
+</td>
+</tr>
+
 <tr>
 <td style="border:none"  width="30%">
 <img src="assets/images/about/grsl.png" width=200px/>
 </td>
 <td style="border:none"  width="70%">
-<p><b>Few-Shot Scene Classification Using Auxiliary Objectives and Transductive Inference. </b></p>
-<p>JJi, H., Yang, H., Gao, Z., Li, C., <b>Wan, Y.</b>, & Cui, J.</p>
-<p>IEEE Geoscience and Remote Sensing Letters, 2022, 19, 1-5.</p>
-
+<p><b>Few-Shot Scene Classification Using Auxiliary Objectives and Transductive Inference</b></p>
+<p>Hong Ji, Hong Yang, Zhi Gao, Can Li, <font color="#0000dd"><b>Yu Wan</b></font>, Jinqiang Cui</p>
+<p>IEEE Geoscience and Remote Sensing Letters, 2022</p>
 </td>
 </tr>
+
+<tr>
+<td style="border:none" width="30%">
+<img src="assets/images/about/tgrs.png"/>
+</td>
+<td style="border:none"  width="70%">
+<p><b>Few-shot scene classification of optical remote sensing images leveraging calibrated pretext tasks</b></p>
+<p>Hong Ji, Zhi Gao, Yongjun Zhang, <font color="#0000dd"><b>Yu Wan</b></font>, Can Li, Tiancan Mei</p>
+<p>IEEE Transactions on Geoscience and Remote Sensing, 2022</p>
+</td>
+</tr>
+
+
 </table>
 </div>
 
@@ -131,4 +152,4 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 
 - MathorCup高校数学建模挑战赛三等奖
 
-[获取简历](https://github.com/fengshiwest/fengshiwest.github.io/raw/master/_includes/about/resume_zh.pdf)
+[简历](https://github.com/fengshiwest/fengshiwest.github.io/raw/master/_includes/about/resume_zh.pdf)

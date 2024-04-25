@@ -33,6 +33,8 @@ article_header:
 
 ---
 
+{% include multilingual-sel.html %}
+
 <div class="zh post-container">
   {% capture photo_zh %}{% include photo/zh.md %}{% endcapture %}
   {{ photo_zh | markdownify }}

@@ -1,7 +1,6 @@
-### Time
+### Time ⏲️
 
 <div class="post-container" style="padding-top: 10px;">
-  <h4>时刻</h4>
   <div style="text-align: center;">
 
     <div style="margin: 10px;">
@@ -24,8 +23,8 @@
 
   </div>
 
-  
-  <h4>地点</h4>
+### Place 📍
+
   <div style="text-align: center;">
 
     <div style="margin: 10px;">
