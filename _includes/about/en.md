@@ -113,7 +113,7 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 <p>Participated in the development of the online signing system for the trading business of the department</p>
 </td>
 </tr>
-</table>    
+</table>
 </div>
 
 
