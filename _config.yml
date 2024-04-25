@@ -62,8 +62,8 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root    : /about.html # title link url, "/" (default)
-  home    : /about.html # home layout url, "/" (default)
+  root    : / # title link url, "/" (default)
+  home    : / # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
@@ -151,9 +151,9 @@ pageview:
 
   ## Leancloud
   leancloud:
-    app_id    : H8OEdj9njBUNWW9A8IB9Fb8W-gzGzoHsz # LeanCloud App id
-    app_key   : rwQ2gYYMOeG7HebgVA4Ad1xv # LeanCloud App key
-    app_class : GithubPage # LeanCloud App class
+    app_id    : xGDPphcAMQQVRKioUgs4HY4f-gzGzoHsz # LeanCloud App id
+    app_key   : BWV5FIqanmRnR5Ckl1hVGoJL # LeanCloud App key
+    app_class : fengshiwest.github.io # LeanCloud App class
 
 
 ## => Search
