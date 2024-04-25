@@ -4,12 +4,12 @@
 <table>
 <tr>
 
-<td style="border:none" width="70%">
+<td style="border:none" width="80%">
 <p>Hello! I am Yu Wan, currently a master student in the Wuhan University. Previously, I received my bachelor degree (Software Engineering) from School of Computer Science of Wuhan University. </p>
 <p>My research interests include Computer Vision and MultiModal Learning, with a focus on 2D/3D object detection, and few-show learning.</p>
 </td>
 
-<td style="border:none" width="30%">
+<td style="border:none" width="20%">
 <img src="assets/images/about/myself.png"/>
 </td>
 
