@@ -14,10 +14,9 @@
 </td>
 
 </tr>
-</table>    
+</table>
 </div>
  
-
 I'm looking for internships and job opportunities, here's my **[CV](https://github.com/fengshiwest/fengshiwest.github.io/raw/master/_includes/about/resume_en.pdf)**, look forward to hearing from you!
 
 ### Education
