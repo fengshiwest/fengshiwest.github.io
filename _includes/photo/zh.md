@@ -1,6 +1,6 @@
----
-pageview: true
----
+<div class="article__header">
+<span class="js-pageview">
+</div>
 
 ## 地点 📍
 
