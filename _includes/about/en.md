@@ -33,11 +33,7 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 <p>Pattern Recognition and Intelligent System</p>
 </td>
 </tr>
-</table>    
-</div>
 
-<div align="left">
-<table rules="none">
 <tr>
 <td style="border:none"  width="15%">
 <img src="assets/images/about/whu.png"/>
@@ -47,7 +43,8 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 <p>Software Engineering</p>
 </td>
 </tr>
-</table>    
+
+</table>
 </div>
 
 
@@ -81,11 +78,10 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 
 </td>
 </tr>
-</table>    
+</table>
 </div>
 
 ### Internship
-
 
 <div align="left">
 <table rules="none">
@@ -98,11 +94,7 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 <p>Participate in building and developing component library of commercial department</p>
 </td>
 </tr>
-</table>    
-</div>
 
-<div align="left">
-<table rules="none">
 <tr>
 <td style="border:none" width="15%">
 <img src="assets/images/about/ke.png"/>
@@ -114,7 +106,6 @@ I'm looking for internships and job opportunities, here's my **[CV](https://gith
 </tr>
 </table>
 </div>
-
 
 ### Honors & Awards
 

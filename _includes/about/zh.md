@@ -101,7 +101,6 @@
 </td>
 </tr>
 
-
 </table>
 </div>
 
@@ -119,11 +118,7 @@
 <p>参与商业化部门组件库搭建和开发</p>
 </td>
 </tr>
-</table>
-</div>
 
-<div align="left">
-<table rules="none">
 <tr>
 <td style="border:none" width="15%">
 <img src="assets/images/about/ke.png"/>
